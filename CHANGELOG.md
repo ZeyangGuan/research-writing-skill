@@ -1,0 +1,31 @@
+# Changelog
+
+## 1.4.0 — 2026-10-12
+
+- Package the skill as a standalone public repository with an English entrypoint, English quick start, and Chinese reference guidance.
+- Retain the 30-paper corpus and all nine source-linked sentence cards.
+- Add an explicit D1–D15 definition table, L/D/S map, and per-paper observation locator index.
+- Add original before/after examples, behavioral cases, offline validation, and editable SVG artwork.
+- Separate public provenance from internal working records; distribute no source PDFs or paper figures.
+- Clarify author attribution, third-party boundaries, and MIT licensing for original content.
+- Tighten fidelity examples: preserve “score space” and distinguish “does not reduce” from “unchanged.”
+
+## 1.3.0 — 2026-10-12
+
+- Add selected abstract, introduction, and paragraph information-function tools informed by the official Nature summary guide and independently attributed community references.
+- Preserve sentence-only scope and the existing paper corpus; avoid fixed journal templates.
+
+## 1.2.0 — 2026-10-12
+
+- Organize positive sentence craft into S1–S9, with source mechanisms, fidelity checks, and keep cases.
+- Use a short entrypoint and load references only when relevant.
+
+## 1.1.0 — 2026-10-12
+
+- Add a selective final-language pass for specific redundancies.
+
+## 1.0.0 — 2026-10-12
+
+- Establish the 30-paper, two-group writing corpus and the eight-layer research-writing toolkit.
+
+Earlier entries describe the skill's development history. They do not assert that separate public Git tags or releases existed.

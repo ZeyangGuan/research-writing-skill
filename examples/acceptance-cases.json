@@ -1,0 +1,155 @@
+{
+  "schema_version": 1,
+  "status": "Behavioral test specifications; no model-quality or benchmark result is claimed.",
+  "review_method": "Evaluate scope and semantic fidelity first, then whether a reader needs fewer rereads. Multiple revisions and unchanged outputs can be valid. Do not use exact-string matching as a writing-quality measure.",
+  "cases": [
+    {
+      "id": "E01",
+      "purpose": "Sentence flow with an exact sentence-count constraint",
+      "request": "Polish this passage at sentence level. Keep exactly three sentences and preserve their order.",
+      "input": "The encoder performs the extraction of a feature map. For the scoring head, this map is the input used to assign one score to each region. During adaptation, optimization is restricted to the scoring head, while the encoder is fixed.",
+      "invariants": [
+        "Exactly three sentences, in the original order.",
+        "The encoder extracts the map.",
+        "The scoring head uses the same map to assign one score per region.",
+        "Only the scoring head is optimized during adaptation; the encoder remains fixed."
+      ],
+      "failures": [
+        "Add a threshold or supervision.",
+        "Change the map producer to the head.",
+        "Merge into two sentences."
+      ],
+      "cards": [
+        "S1",
+        "S2",
+        "S5"
+      ]
+    },
+    {
+      "id": "E02",
+      "purpose": "Keeping a well-functioning passive",
+      "request": "Edit only if there is a clear readability benefit.",
+      "input": "The encoder is frozen during adaptation. Only the region head is updated.",
+      "invariants": [
+        "Preserve the stage and only scope.",
+        "Allow an unchanged answer.",
+        "Do not infer zero computation, zero gradients, or no training from frozen."
+      ],
+      "failures": [
+        "Force We into each sentence.",
+        "Delete only."
+      ],
+      "cards": [
+        "S1",
+        "S5"
+      ]
+    },
+    {
+      "id": "E03",
+      "purpose": "Asymmetric comparison",
+      "request": "Make this comparison easier to read without changing the result.",
+      "input": "Adding text improves image accuracy, whereas for text accuracy, the addition of images produces no change.",
+      "invariants": [
+        "Text improves image accuracy.",
+        "Adding images does not change text accuracy."
+      ],
+      "failures": [
+        "Describe both modalities as mutually beneficial.",
+        "Replace accuracy with an ambiguous general performance claim."
+      ],
+      "cards": [
+        "S4"
+      ]
+    },
+    {
+      "id": "E04",
+      "purpose": "Hypothetical condition",
+      "request": "Edit grammar and flow only.",
+      "input": "Under the stated assumptions, if the residual were zero, the estimate would satisfy the conservation constraint.",
+      "invariants": [
+        "Keep the stated assumptions.",
+        "Zero residual is hypothetical.",
+        "The consequence remains conditional, not achieved."
+      ],
+      "failures": [
+        "Write that the estimate satisfies the constraint unconditionally."
+      ],
+      "cards": [
+        "S7"
+      ]
+    },
+    {
+      "id": "E05",
+      "purpose": "Unresolved referent",
+      "request": "Polish without adding experimental facts. Flag ambiguity locally.",
+      "input": "The encoder shares weights with the teacher, and the head uses a separate loss. This reduces memory use.",
+      "invariants": [
+        "Preserve both technical relations.",
+        "Do not guess which action causes the reduction.",
+        "Ask or flag the unclear referent without blocking independent editing."
+      ],
+      "failures": [
+        "Rewrite as Weight sharing reduces memory use without confirmation."
+      ],
+      "cards": [
+        "S3"
+      ]
+    },
+    {
+      "id": "E06",
+      "purpose": "Narrative order versus execution order",
+      "request": "Preserve content and improve flow only where needed.",
+      "input": "So far, the objective has been defined without reference to network parameters. We now describe a parameterized predictor for this objective.",
+      "invariants": [
+        "Now introduces the explanation of the predictor.",
+        "No algorithmic first/then stage is created.",
+        "An unchanged answer is valid."
+      ],
+      "failures": [
+        "Invent solving the objective before pretraining the predictor."
+      ],
+      "cards": [
+        "S2",
+        "S5"
+      ]
+    },
+    {
+      "id": "E07",
+      "purpose": "Front-loaded premises",
+      "request": "Improve expression. Sentence splitting is allowed; preserve all premises and the conclusion.",
+      "input": "Based on our observations that the map preserves local boundaries and that these boundaries remain visible after compression, we use the compressed map as the decoder input.",
+      "invariants": [
+        "Keep both observations as observations.",
+        "Keep the post-compression visibility condition.",
+        "Keep the stated reason for the decoder-input choice."
+      ],
+      "failures": [
+        "Delete a premise.",
+        "Claim lossless compression or proven sufficiency."
+      ],
+      "cards": [
+        "S6"
+      ]
+    },
+    {
+      "id": "E08",
+      "purpose": "Explicit paragraph permission",
+      "request": "You may reorder this paragraph. Make the purpose, result, and scope easy to follow without adding facts.",
+      "input": "The shared cache does not reduce the cost of a first request. We add the cache to avoid repeated reads of the same document. Repeated requests perform fewer reads with the cache.",
+      "invariants": [
+        "Reordering is authorized.",
+        "Preserve that first-request cost is not reduced; do not assume it is unchanged.",
+        "Preserve the repeated-read motivation and observed reduction."
+      ],
+      "failures": [
+        "Refuse all reordering because sentence-only is the default.",
+        "Invent latency numbers or a new routing strategy.",
+        "Turn does not reduce first-request cost into first-request cost is unchanged."
+      ],
+      "cards": [
+        "S8",
+        "S9"
+      ]
+    }
+  ]
+}

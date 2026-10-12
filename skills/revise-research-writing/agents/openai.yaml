@@ -1,0 +1,4 @@
+interface:
+  display_name: "Research Writing"
+  short_description: "Clear research prose with traceable writing patterns"
+  default_prompt: "Use $revise-research-writing to improve the clarity and flow of this research passage while preserving its claims and technical conditions."

@@ -1,0 +1,842 @@
+{
+  "schema_version": 2,
+  "as_of": "2026-10-12",
+  "paper_count": 30,
+  "unique_paper_count": 30,
+  "target_author_counts": {
+    "Kaiming He": 15,
+    "Saining Xie": 15
+  },
+  "window": {
+    "start": "2025-04-12",
+    "end": "2026-10-12",
+    "basis": "Formal venue/acceptance chronology, not initial preprint date; within-venue ordering does not imply exact publication order."
+  },
+  "eligibility": "First/co-first, last, or explicitly verified corresponding authors were eligible. These selected papers all meet the last-listed-author criterion. Pixel Mean Flows, Fractal Generative Models, Noise Conditioning, and PISA additionally have explicit correspondence designations on the read PDF first page. This is a bounded corpus snapshot, not proof of exhaustive worldwide coverage.",
+  "coverage_note": "Source-derived writing observations include main-text, section-level, substantive-appendix, and sentence-level readings. The observation index records page/section locators. Visual inspection is selective; it does not establish that every figure or supplementary artifact was inspected.",
+  "limitations": [
+    "Author position does not identify who wrote particular sentences.",
+    "TMLR is a peer-reviewed ML journal and is not relabeled TPAMI/IJCV.",
+    "NeurIPS 2026 entries are accepted/forthcoming as of the snapshot date.",
+    "DHN and Fractal use public author versions; inaccessible final journal PDFs are not claimed to have been read.",
+    "The ICLR 2025 boundary entries qualify by formal venue date even when first preprints predate the window.",
+    "Source PDFs and original paper passages are not included in this skill.",
+    "A separately mentioned Natural Image Pretraining supplement was not obtained; available main PDF content was studied."
+  ],
+  "papers": [
+    {
+      "id": "H01",
+      "title": "ELF: Embedded Language Flows",
+      "authors": [
+        "Keya Hu",
+        "Linlu Qiu",
+        "Yiyang Lu",
+        "Hanhong Zhao",
+        "Tianhong Li",
+        "Yoon Kim",
+        "Jacob Andreas",
+        "Kaiming He"
+      ],
+      "author_list_basis": "read version and verified author byline",
+      "target_author": "Kaiming He",
+      "verified_roles": [
+        "last"
+      ],
+      "venue": "NeurIPS 2026",
+      "status_as_of_2026_10_12": "accepted/forthcoming",
+      "venue_date_or_month": "2026-12",
+      "official_record_url": "https://neurips.cc/virtual/2026/poster/148278",
+      "read_version_url": "https://arxiv.org/pdf/2605.10938",
+      "version_note": "arXiv v2, 2026-06-26; accepted venue confirmed separately",
+      "observation_locations": "p1摘要；p4 §3.1",
+      "transferable_observation": "主句给连续空间中的主要动作，until/where从句给末步例外；具体名词回收一套关系，再引出新用途。被动语态可突出模块使用阶段。"
+    },
+    {
+      "id": "H02",
+      "title": "Generative Modeling via Drifting",
+      "authors": [
+        "Mingyang Deng",
+        "He Li",
+        "Tianhong Li",
+        "Yilun Du",
+        "Kaiming He"
+      ],
+      "author_list_basis": "read version and verified author byline",
+      "target_author": "Kaiming He",
+      "verified_roles": [
+        "last"
+      ],
+      "venue": "NeurIPS 2026",
+      "status_as_of_2026_10_12": "accepted/forthcoming",
+      "venue_date_or_month": "2026-12",
+      "official_record_url": "https://neurips.cc/virtual/2026/poster/154240",
+      "read_version_url": "https://arxiv.org/pdf/2602.04770",
+      "version_note": "arXiv v2, 2026-02-06; accepted venue confirmed separately",
+      "observation_locations": "p3 §3.1–3.2",
+      "transferable_observation": "从参数更新接到样本变化，再用已给定等式解释动作；理想要求、条件命题与已证性质各有明确语法位置。"
+    },
+    {
+      "id": "H03",
+      "title": "Natural Image Pretraining Improves Abstract Reasoning",
+      "authors": [
+        "Xiaoman Delores Ding",
+        "Keya Hu",
+        "Katelyn Gan",
+        "Victor Yin",
+        "Kaiming He"
+      ],
+      "author_list_basis": "read version and verified author byline",
+      "target_author": "Kaiming He",
+      "verified_roles": [
+        "last"
+      ],
+      "venue": "ECCV 2026",
+      "status_as_of_2026_10_12": "conference paper",
+      "venue_date_or_month": "2026-09",
+      "official_record_url": "https://eccv.ecva.net/virtual/2026/poster/5527",
+      "read_version_url": "https://media.eventhosts.cc/Conferences/ECCV2026/pdfs/11149.pdf",
+      "version_note": "Official ECCV conference-hosted PDF; 18 pages; separate supplement mentioned in text not linked on verified poster page",
+      "observation_locations": "p6 §4.1与Fig3；p9 §5.1",
+      "transferable_observation": "先说在既有流程中新增什么，再展开完整阶段；重复模块名来比较初始化、更新和冻结，比换近义词清楚。"
+    },
+    {
+      "id": "H04",
+      "title": "One-step Latent-free Image Generation with Pixel Mean Flows",
+      "authors": [
+        "Yiyang Lu",
+        "Susie Lu",
+        "Qiao Sun",
+        "Hanhong Zhao",
+        "Zhicheng Jiang",
+        "Xianbang Wang",
+        "Tianhong Li",
+        "Zhengyang Geng",
+        "Kaiming He"
+      ],
+      "author_list_basis": "read version and verified author byline",
+      "target_author": "Kaiming He",
+      "verified_roles": [
+        "last",
+        "corresponding"
+      ],
+      "venue": "ICML 2026",
+      "status_as_of_2026_10_12": "published proceedings",
+      "venue_date_or_month": "2026-07-06/2026-07-11",
+      "official_record_url": "https://proceedings.mlr.press/v306/lu26t.html",
+      "read_version_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/lu26t/lu26t.pdf",
+      "version_note": "Official PMLR volume 306, 81265–81277; PDF includes appendix",
+      "observation_locations": "p1摘要；p4 §4.2",
+      "transferable_observation": "将预测对象和损失所在空间拆成平行分句；先说两个边界，再处理一般情况，使形式推导具有阅读路线。",
+      "corresponding_author_evidence": "Read PDF p1 explicitly identifies Kaiming He for correspondence."
+    },
+    {
+      "id": "H05",
+      "title": "Bidirectional Normalizing Flow: From Data to Noise and Back",
+      "authors": [
+        "Yiyang Lu",
+        "Qiao Sun",
+        "Xianbang Wang",
+        "Zhicheng Jiang",
+        "Hanhong Zhao",
+        "Kaiming He"
+      ],
+      "author_list_basis": "read version and verified author byline",
+      "target_author": "Kaiming He",
+      "verified_roles": [
+        "last"
+      ],
+      "venue": "CVPR 2026",
+      "status_as_of_2026_10_12": "published proceedings",
+      "venue_date_or_month": "2026-06",
+      "official_record_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Lu_Bidirectional_Normalizing_Flow_From_Data_to_Noise_and_Back_CVPR_2026_paper.html",
+      "read_version_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Lu_Bidirectional_Normalizing_Flow_From_Data_to_Noise_and_Back_CVPR_2026_paper.pdf",
+      "version_note": "CVF accepted version plus official separate supplement",
+      "observation_locations": "p1摘要；p4 §4.1",
+      "transferable_observation": "冒号后的同构分句解释两个反向过程；先界定旧选择的具体限制，再让新操作解除同一限制。"
+    },
+    {
+      "id": "H06",
+      "title": "Improved Mean Flows: On the Challenges of Fastforward Generative Models",
+      "authors": [
+        "Zhengyang Geng",
+        "Yiyang Lu",
+        "Zongze Wu",
+        "Eli Shechtman",
+        "J. Zico Kolter",
+        "Kaiming He"
+      ],
+      "author_list_basis": "read version and verified author byline",
+      "target_author": "Kaiming He",
+      "verified_roles": [
+        "last"
+      ],
+      "venue": "CVPR 2026",
+      "status_as_of_2026_10_12": "published proceedings",
+      "venue_date_or_month": "2026-06",
+      "official_record_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Geng_Improved_Mean_Flows_On_the_Challenges_of_Fastforward_Generative_Models_CVPR_2026_paper.html",
+      "read_version_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Geng_Improved_Mean_Flows_On_the_Challenges_of_Fastforward_Generative_Models_CVPR_2026_paper.pdf",
+      "version_note": "CVF accepted main text; verified CVF page has no supplement link; arXiv 13-page version additionally downloaded for appendix",
+      "observation_locations": "p1摘要；p4 §4.1",
+      "transferable_observation": "问题与解法一一对应；一次改写的结果又成为下一问题的主语，使方法不是技巧清单。"
+    },
+    {
+      "id": "H07",
+      "title": "ARC Is a Vision Problem!",
+      "authors": [
+        "Keya Hu",
+        "Ali Cy",
+        "Linlu Qiu",
+        "Xiaoman Delores Ding",
+        "Runqian Wang",
+        "Yeyin Eva Zhu",
+        "Jacob Andreas",
+        "Kaiming He"
+      ],
+      "author_list_basis": "read version and verified author byline",
+      "target_author": "Kaiming He",
+      "verified_roles": [
+        "last"
+      ],
+      "venue": "CVPR 2026",
+      "status_as_of_2026_10_12": "published proceedings",
+      "venue_date_or_month": "2026-06",
+      "official_record_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Hu_ARC_Is_a_Vision_Problem_CVPR_2026_paper.html",
+      "read_version_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Hu_ARC_Is_a_Vision_Problem_CVPR_2026_paper.pdf",
+      "version_note": "CVF accepted version plus official separate supplement",
+      "observation_locations": "p3 §3.1；p4 §3.3",
+      "transferable_observation": "用已给出的任务协议作为后续训练动作的依据；局部转折只修正类比失效的部分，而非否定整个视角。"
+    },
+    {
+      "id": "H08",
+      "title": "Back to Basics: Let Denoising Generative Models Denoise",
+      "authors": [
+        "Tianhong Li",
+        "Kaiming He"
+      ],
+      "author_list_basis": "read version and verified author byline",
+      "target_author": "Kaiming He",
+      "verified_roles": [
+        "last"
+      ],
+      "venue": "CVPR 2026",
+      "status_as_of_2026_10_12": "published proceedings",
+      "venue_date_or_month": "2026-06",
+      "official_record_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Li_Back_to_Basics_Let_Denoising_Generative_Models_Denoise_CVPR_2026_paper.html",
+      "read_version_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Li_Back_to_Basics_Let_Denoising_Generative_Models_Denoise_CVPR_2026_paper.pdf",
+      "version_note": "CVF accepted version plus official separate supplement",
+      "observation_locations": "p1摘要；p4 §3.2",
+      "transferable_observation": "假设先行，然后提出设计判断；明确预测空间的术语范围，再区分可合法生成与训练效果更好。"
+    },
+    {
+      "id": "H09",
+      "title": "Denoising Hamiltonian Network for Physical Reasoning",
+      "authors": [
+        "Congyue Deng",
+        "Brandon Y. Feng",
+        "Cecilia Garraffo",
+        "Alan Garbarz",
+        "Robin Walters",
+        "William T. Freeman",
+        "Leonidas Guibas",
+        "Kaiming He"
+      ],
+      "author_list_basis": "read version and verified author byline",
+      "target_author": "Kaiming He",
+      "verified_roles": [
+        "last"
+      ],
+      "venue": "TMLR",
+      "status_as_of_2026_10_12": "accepted journal article",
+      "venue_date_or_month": "2026-02-17",
+      "official_record_url": "https://openreview.net/forum?id=KublEgx7Hv",
+      "read_version_url": "https://arxiv.org/pdf/2503.07596",
+      "version_note": "Downloaded author arXiv 12-page manuscript, NOT final TMLR text. OpenReview final PDF HTTP403. PDF metadata mentions ICML 2025 template; this is NOT venue evidence.",
+      "observation_locations": "p5 §3.5；p8 §4.3",
+      "transferable_observation": "用对称时间框架说明训练与适配阶段谁冻结、谁更新；结果先给测试条件，模型排名变化因此容易理解。"
+    },
+    {
+      "id": "H10",
+      "title": "Mean Flows for One-step Generative Modeling",
+      "authors": [
+        "Zhengyang Geng",
+        "Mingyang Deng",
+        "Xingjian Bai",
+        "J. Zico Kolter",
+        "Kaiming He"
+      ],
+      "author_list_basis": "read version and verified author byline",
+      "target_author": "Kaiming He",
+      "verified_roles": [
+        "last"
+      ],
+      "venue": "NeurIPS 2025",
+      "status_as_of_2026_10_12": "published proceedings",
+      "venue_date_or_month": "2025-12",
+      "official_record_url": "https://papers.neurips.cc/paper_files/paper/2025/hash/6d13e085b79d454da5910e4ca82a3d9d-Abstract-Conference.html",
+      "read_version_url": "https://papers.nips.cc/paper_files/paper/2025/file/6d13e085b79d454da5910e4ca82a3d9d-Paper-Conference.pdf",
+      "version_note": "Official proceedings PDF used (23 pages, includes checklist and appendix); arXiv duplicate retained separately",
+      "observation_locations": "p4–5 §4",
+      "transferable_observation": "沿同一数学对象写推理好处、训练障碍、可行改写；从推导转到参数化时，短导航句说明论述层级。"
+    },
+    {
+      "id": "H11",
+      "title": "Fractal Generative Models",
+      "authors": [
+        "Tianhong Li",
+        "Qinyi Sun",
+        "Lijie Fan",
+        "Kaiming He"
+      ],
+      "author_list_basis": "read version and verified author byline",
+      "target_author": "Kaiming He",
+      "verified_roles": [
+        "last",
+        "corresponding"
+      ],
+      "venue": "TMLR",
+      "status_as_of_2026_10_12": "published journal paper",
+      "venue_date_or_month": "2025-12",
+      "official_record_url": "https://openreview.net/forum?id=Qk9kn6lOlW",
+      "read_version_url": "https://arxiv.org/pdf/2502.17437",
+      "version_note": "Direct final OpenReview PDF returned HTTP403. Downloaded author arXiv version is 13 pages, and not claimed identical to the final TMLR version.",
+      "observation_locations": "p1摘要；p6 §4.5",
+      "transferable_observation": "先解释组合单元如何改变，再命名新概念；输入、输出、下一层的递归对象链让复杂层级可跟随。",
+      "corresponding_author_evidence": "Read PDF p1 explicitly identifies Kaiming He for correspondence."
+    },
+    {
+      "id": "H12",
+      "title": "Is Noise Conditioning Necessary for Denoising Generative Models?",
+      "authors": [
+        "Qiao Sun",
+        "Zhicheng Jiang",
+        "Hanhong Zhao",
+        "Kaiming He"
+      ],
+      "author_list_basis": "read version and verified author byline",
+      "target_author": "Kaiming He",
+      "verified_roles": [
+        "last",
+        "corresponding"
+      ],
+      "venue": "ICML 2025",
+      "status_as_of_2026_10_12": "published proceedings",
+      "venue_date_or_month": "2025-07-13/2025-07-19",
+      "official_record_url": "https://proceedings.mlr.press/v267/sun25g.html",
+      "read_version_url": "https://raw.githubusercontent.com/mlresearch/v267/main/assets/sun25g/sun25g.pdf",
+      "version_note": "Official PMLR final proceedings PDF; 34 pages including extensive appendix. PMLR volume publication date 2025-10-06; conference date used for consistency.",
+      "observation_locations": "p1摘要；p5 §4.4；p8 §6.2",
+      "transferable_observation": "连续We可以承担调查、解释、设计等不同工作；从单次误差到迭代累积误差，以系统性质作为中间桥。",
+      "corresponding_author_evidence": "Read PDF p1 explicitly identifies Kaiming He for correspondence."
+    },
+    {
+      "id": "H13",
+      "title": "Highly Compressed Tokenizer Can Generate Without Training",
+      "authors": [
+        "Lukas Lao Beyer",
+        "Tianhong Li",
+        "Xinlei Chen",
+        "Sertac Karaman",
+        "Kaiming He"
+      ],
+      "author_list_basis": "read version and verified author byline",
+      "target_author": "Kaiming He",
+      "verified_roles": [
+        "last"
+      ],
+      "venue": "ICML 2025",
+      "status_as_of_2026_10_12": "published proceedings",
+      "venue_date_or_month": "2025-07-13/2025-07-19",
+      "official_record_url": "https://proceedings.mlr.press/v267/beyer25a.html",
+      "read_version_url": "https://raw.githubusercontent.com/mlresearch/v267/main/assets/beyer25a/beyer25a.pdf",
+      "version_note": "Official PMLR final proceedings PDF; 19 pages including appendix.",
+      "observation_locations": "p4 §3.3与§4；p9 §5.6",
+      "transferable_observation": "两项已有发现引出一个新操作；长前置结构可以拆为证据→提议。资源条件把免除的额外训练与仍需的测试时过程分清。"
+    },
+    {
+      "id": "H14",
+      "title": "A Decade’s Battle on Dataset Bias: Are We There Yet?",
+      "authors": [
+        "Zhuang Liu",
+        "Kaiming He"
+      ],
+      "author_list_basis": "read version and verified author byline",
+      "target_author": "Kaiming He",
+      "verified_roles": [
+        "last"
+      ],
+      "venue": "ICLR 2025",
+      "status_as_of_2026_10_12": "published proceedings",
+      "venue_date_or_month": "2025-04-24/2025-04-26",
+      "official_record_url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/66772e6aa61e54ae16443ae1d78a7319-Abstract-Conference.html",
+      "read_version_url": "https://proceedings.iclr.cc/paper_files/paper/2025/file/66772e6aa61e54ae16443ae1d78a7319-Paper-Conference.pdf",
+      "version_note": "Official ICLR final proceedings PDF; 17 pages. Initial preprint predates the window; formal conference presentation falls inside it. Footnote star means work done at Meta/now MIT, not corresponding author.",
+      "observation_locations": "pp5–7 §4.2；pp9–10 §5.3–5.4",
+      "transferable_observation": "固定同一现象、逐项改变检查轴，重复句式有利扫描；从一种泛化进入另一种任务前，先界定此前证据范围。"
+    },
+    {
+      "id": "H15",
+      "title": "Deconstructing Denoising Diffusion Models for Self-Supervised Learning",
+      "authors": [
+        "Xinlei Chen",
+        "Zhuang Liu",
+        "Saining Xie",
+        "Kaiming He"
+      ],
+      "author_list_basis": "read version and verified author byline",
+      "target_author": "Kaiming He",
+      "verified_roles": [
+        "last"
+      ],
+      "venue": "ICLR 2025",
+      "status_as_of_2026_10_12": "published proceedings",
+      "venue_date_or_month": "2025-04-24/2025-04-26",
+      "official_record_url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/8b52c29d1a77e3fcc6c8f90fa0ac0e8e-Abstract-Conference.html",
+      "read_version_url": "https://proceedings.iclr.cc/paper_files/paper/2025/file/8b52c29d1a77e3fcc6c8f90fa0ac0e8e-Paper-Conference.pdf",
+      "version_note": "Official ICLR final proceedings PDF; 15 pages. Initial preprint predates the window; formal conference presentation falls inside it.",
+      "observation_locations": "p4 §4；pp7–8 §4.3",
+      "transferable_observation": "路线段的动词与后文步骤同序；局部性能下降、研究目的与最终采用选择是不同判断，可在连贯段落中同时说清。"
+    },
+    {
+      "id": "X01",
+      "title": "Improved Baselines with Representation Autoencoders",
+      "authors": [
+        "Jaskirat Singh",
+        "Boyang Zheng",
+        "Zongze Wu",
+        "Richard Zhang",
+        "Eli Shechtman",
+        "Saining Xie"
+      ],
+      "author_list_basis": "official venue metadata",
+      "target_author": "Saining Xie",
+      "verified_roles": [
+        "last"
+      ],
+      "venue": "NeurIPS 2026",
+      "status_as_of_2026_10_12": "accepted_upcoming",
+      "venue_date_or_month": "2026-12-06/2026-12-12",
+      "official_record_url": "https://neurips.cc/virtual/2026/poster/149740",
+      "read_version_url": "https://arxiv.org/pdf/2605.18324",
+      "version_note": "arXiv v2, 2026-06-15; author version, not camera-ready",
+      "observation_locations": "p3 Introduction；p4 Training efficiency",
+      "transferable_observation": "从旧取层默认到表示含义，再到新聚合操作；用平行分句比较同一表示的两种用途；为新的效率读数先解释它回答什么实践问题。"
+    },
+    {
+      "id": "X02",
+      "title": "RepFusion: Leveraging Multimodal Priors for Denoising in Representation Space",
+      "authors": [
+        "Xichen Pan",
+        "Aashu Singh",
+        "Satya Narayan Shukla",
+        "Xiangjun Fan",
+        "Shlok Kumar Mishra",
+        "Saining Xie"
+      ],
+      "author_list_basis": "read version and verified author byline",
+      "target_author": "Saining Xie",
+      "verified_roles": [
+        "last"
+      ],
+      "venue": "NeurIPS 2026",
+      "status_as_of_2026_10_12": "accepted_upcoming",
+      "venue_date_or_month": "2026-12-06/2026-12-12",
+      "official_record_url": "https://neurips.cc/virtual/2026/poster/153090",
+      "read_version_url": "https://arxiv.org/pdf/2606.14700",
+      "version_note": "arXiv v1, 2026-06-12; author version lists 6 authors, while official venue lists 5. Both end with Saining Xie.",
+      "observation_locations": "p1 Introduction；p5 §3.2",
+      "transferable_observation": "用具体名词回指两方分工，再解释前提如何变化；先概括条件输入差别，再落到token接口，长动态句后接短的不变约束。",
+      "official_metadata_authors": [
+        "Xichen Pan",
+        "Satya Narayan Shukla",
+        "Aashu Singh",
+        "Shlok K Mishra",
+        "Saining Xie"
+      ],
+      "version_author_difference": "Read arXiv v1 p1 has six authors including Xiangjun Fan; NeurIPS official record lists five, omits Xiangjun Fan and orders Shukla before Singh. Saining Xie last in both. Official author-list difference retained, not silently reconciled."
+    },
+    {
+      "id": "X03",
+      "title": "Cambrian-P: Pose-Grounded Video Understanding",
+      "authors": [
+        "Jihan Yang",
+        "Zifan Zhao",
+        "Xichen Pan",
+        "Shusheng Yang",
+        "Junyi Zhang",
+        "Bingyi Kang",
+        "Hu Xu",
+        "Shang-Wen Li",
+        "Saining Xie"
+      ],
+      "author_list_basis": "official venue metadata",
+      "target_author": "Saining Xie",
+      "verified_roles": [
+        "last"
+      ],
+      "venue": "ECCV 2026",
+      "status_as_of_2026_10_12": "published",
+      "venue_date_or_month": "2026-09-08/2026-09-12",
+      "official_record_url": "https://link.springer.com/chapter/10.1007/978-3-032-37252-9_18",
+      "read_version_url": "https://arxiv.org/pdf/2605.22819",
+      "version_note": "arXiv v2, 2026-07-23; author version has Bingyi Kang additional to publisher list. Both end with Saining Xie.",
+      "observation_locations": "p1摘要；p3 Introduction",
+      "transferable_observation": "短句提出关键判断，后一句用坐标关系解释其含义；简单接口与真实训练冲突分开，解决动作对应冲突。",
+      "version_author_difference": "Read arXiv v2 p1 includes Bingyi Kang (9 authors); publisher metadata lists 8 without Bingyi Kang. Saining Xie last in both.",
+      "official_metadata_authors": [
+        "Jihan Yang",
+        "Zifan Zhao",
+        "Xichen Pan",
+        "Shusheng Yang",
+        "Junyi Zhang",
+        "Hu Xu",
+        "Shang-Wen Li",
+        "Saining Xie"
+      ]
+    },
+    {
+      "id": "X04",
+      "title": "Beyond Language Modeling: An Exploration of Multimodal Pretraining",
+      "authors": [
+        "Shengbang Tong",
+        "David Fan",
+        "John Nguyen",
+        "Ellis L Brown Ii",
+        "Gaoyue Zhou",
+        "Shengyi Qian",
+        "Boyang Zheng",
+        "Théophane Vallaeys",
+        "Rob Fergus",
+        "Naila Murray",
+        "Marjan Ghazvininejad",
+        "Mike Lewis",
+        "Nicolas Ballas",
+        "Amir Bar",
+        "Michael Rabbat",
+        "Jakob Verbeek",
+        "Luke Zettlemoyer",
+        "Koustuv Sinha",
+        "Yann Lecun",
+        "Saining Xie"
+      ],
+      "author_list_basis": "official venue metadata",
+      "target_author": "Saining Xie",
+      "verified_roles": [
+        "last"
+      ],
+      "venue": "ICML 2026",
+      "status_as_of_2026_10_12": "published",
+      "venue_date_or_month": "2026-07-06/2026-07-11",
+      "official_record_url": "https://proceedings.mlr.press/v306/tong26c.html",
+      "read_version_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/tong26c/tong26c.pdf",
+      "version_note": "PMLR 306 official PDF; authors differ from arXiv/current author homepages; use publisher version.",
+      "observation_locations": "p4 §4.3及数据来源段",
+      "transferable_observation": "已知兼容性引出是否主动受益的新问题；平行语法容纳非对称结果；互补性由不同来源的具体分工支持。"
+    },
+    {
+      "id": "X05",
+      "title": "Cambrian-S: Towards Spatial Supersensing in Video",
+      "authors": [
+        "Shusheng Yang",
+        "Jihan YANG",
+        "Pinzhi Huang",
+        "Ellis Brown",
+        "Zihao Yang",
+        "Yue Yu",
+        "Shengbang Tong",
+        "Zihan Zheng",
+        "Yifan Xu",
+        "Muhan Wang",
+        "Rob Fergus",
+        "Yann LeCun",
+        "Li Fei-Fei",
+        "Saining Xie"
+      ],
+      "author_list_basis": "official venue metadata",
+      "target_author": "Saining Xie",
+      "verified_roles": [
+        "last"
+      ],
+      "venue": "ICLR 2026",
+      "status_as_of_2026_10_12": "published",
+      "venue_date_or_month": "2026-04-23/2026-04-27",
+      "official_record_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/7e3dcf772fa2e8d9087b599c7c07d4cf-Abstract-Conference.html",
+      "read_version_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/7e3dcf772fa2e8d9087b599c7c07d4cf-Paper-Conference.pdf",
+      "version_note": "ICLR official 41-page PDF; 14 authors, unlike 15-author 49-page arXiv version.",
+      "observation_locations": "p1 Introduction；p2 Second段",
+      "transferable_observation": "明确区分远景与当前初步贡献；先承认数据扩展有效，再用更严格任务的剩余困难引出下一阶段。"
+    },
+    {
+      "id": "X06",
+      "title": "Diffusion Transformers with Representation Autoencoders",
+      "authors": [
+        "Boyang Zheng",
+        "Nanye Ma",
+        "Shengbang Tong",
+        "Saining Xie"
+      ],
+      "author_list_basis": "official venue metadata",
+      "target_author": "Saining Xie",
+      "verified_roles": [
+        "last"
+      ],
+      "venue": "ICLR 2026",
+      "status_as_of_2026_10_12": "published",
+      "venue_date_or_month": "2026-04-23/2026-04-27",
+      "official_record_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/3c4141c12660ad3625eb4ae845e0a6f9-Abstract-Conference.html",
+      "read_version_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/3c4141c12660ad3625eb4ae845e0a6f9-Paper-Conference.pdf",
+      "version_note": "ICLR official 30-page PDF.",
+      "observation_locations": "pp1–2 Introduction",
+      "transferable_observation": "用一个关系名词回收两个研究方向的隔离；条件从句贴近不能拟合这一谓语；可重建与可生成分开推进。"
+    },
+    {
+      "id": "X07",
+      "title": "What matters for Representation Alignment: Global Information or Spatial Structure?",
+      "authors": [
+        "Jaskirat Singh",
+        "Xingjian Leng",
+        "Zongze Wu",
+        "Liang Zheng",
+        "Richard Zhang",
+        "Eli Shechtman",
+        "Saining Xie"
+      ],
+      "author_list_basis": "official venue metadata",
+      "target_author": "Saining Xie",
+      "verified_roles": [
+        "last"
+      ],
+      "venue": "ICLR 2026",
+      "status_as_of_2026_10_12": "published",
+      "venue_date_or_month": "2026-04-23/2026-04-27",
+      "official_record_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/3929a7785bd56f57edcff0152ab41289-Abstract-Conference.html",
+      "read_version_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/3929a7785bd56f57edcff0152ab41289-Paper-Conference.pdf",
+      "version_note": "ICLR official 39-page PDF.",
+      "observation_locations": "p1摘要；p2例子段",
+      "transferable_observation": "先定义共同对象，再问它的哪个属性有作用；反预期的数字配对引出系统检验，例子不取代全体证据。"
+    },
+    {
+      "id": "X08",
+      "title": "LiveCodeBench Pro: How Do Olympiad Medalists Judge LLMs in Competitive Programming?",
+      "authors": [
+        "Zihan Zheng",
+        "Zerui Cheng",
+        "Zeyu Shen",
+        "Shang Zhou",
+        "Kaiyuan Liu",
+        "Hansen He",
+        "Dongruixuan Li",
+        "Stanley Wei",
+        "Hangyi Hao",
+        "Jianzhu Yao",
+        "Peiyao Sheng",
+        "Zixuan Wang",
+        "Wenhao Chai",
+        "Aleksandra Korolova",
+        "Peter Henderson",
+        "Sanjeev Arora",
+        "Pramod Viswanath",
+        "Jingbo Shang",
+        "Saining Xie"
+      ],
+      "author_list_basis": "official venue metadata",
+      "target_author": "Saining Xie",
+      "verified_roles": [
+        "last"
+      ],
+      "venue": "NeurIPS 2025 (Datasets and Benchmarks Track)",
+      "status_as_of_2026_10_12": "published",
+      "venue_date_or_month": "2025-12",
+      "official_record_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/9712b78386cebdc3db7f1a48c2d20edb-Abstract-Datasets_and_Benchmarks_Track.html",
+      "read_version_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/9712b78386cebdc3db7f1a48c2d20edb-Paper-Datasets_and_Benchmarks_Track.pdf",
+      "version_note": "NeurIPS official PDF; Datasets and Benchmarks Track explicitly distinguished.",
+      "observation_locations": "p1摘要；p2 Introduction",
+      "transferable_observation": "短问句分别打开不同诊断轴；标注动作产生metadata，再成为性能切片的输入；结果条件紧邻数值。"
+    },
+    {
+      "id": "X09",
+      "title": "Scaling Language-Free Visual Representation Learning",
+      "authors": [
+        "David Fan",
+        "Shengbang Tong",
+        "Jiachen Zhu",
+        "Koustuv Sinha",
+        "Zhuang Liu",
+        "Xinlei Chen",
+        "Michael Rabbat",
+        "Nicolas Ballas",
+        "Yann LeCun",
+        "Amir Bar",
+        "Saining Xie"
+      ],
+      "author_list_basis": "official venue metadata",
+      "target_author": "Saining Xie",
+      "verified_roles": [
+        "last"
+      ],
+      "venue": "ICCV 2025",
+      "status_as_of_2026_10_12": "published",
+      "venue_date_or_month": "2025-10",
+      "official_record_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Fan_Scaling_Language-Free_Visual_Representation_Learning_ICCV_2025_paper.html",
+      "read_version_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Fan_Scaling_Language-Free_Visual_Representation_Learning_ICCV_2025_paper.pdf",
+      "version_note": "CVF official accepted main paper plus separate supplemental PDF.",
+      "observation_locations": "p1–2 Introduction与§2.1",
+      "transferable_observation": "将比较焦点从方法轴移到数据轴；平行描述两路数据安排，随后解释它控制的混杂。"
+    },
+    {
+      "id": "X10",
+      "title": "PISA Experiments: Exploring Physics Post-Training for Video Diffusion Models by Watching Stuff Drop",
+      "authors": [
+        "Chenyu Li",
+        "Oscar Michel",
+        "Xichen Pan",
+        "Sainan Liu",
+        "Mike Roberts",
+        "Saining Xie"
+      ],
+      "author_list_basis": "official venue metadata",
+      "target_author": "Saining Xie",
+      "verified_roles": [
+        "last",
+        "corresponding"
+      ],
+      "venue": "ICML 2025",
+      "status_as_of_2026_10_12": "published",
+      "venue_date_or_month": "2025-07-13/2025-07-19",
+      "official_record_url": "https://proceedings.mlr.press/v267/li25bu.html",
+      "read_version_url": "https://raw.githubusercontent.com/mlresearch/v267/main/assets/li25bu/li25bu.pdf",
+      "version_note": "PMLR 267 official PDF with appendices.",
+      "observation_locations": "p1–2 Introduction",
+      "transferable_observation": "以受控研究的理由解释任务选择；真实和模拟数据用平行主语说明分工；单轨迹可行与分布正确是两种成功标准。",
+      "corresponding_author_evidence": "Read PDF p1 explicitly identifies Saining Xie for correspondence."
+    },
+    {
+      "id": "X11",
+      "title": "Exploring the Deep Fusion of Large Language Models and Diffusion Transformers for Text-to-Image Synthesis",
+      "authors": [
+        "Bingda Tang",
+        "Boyang Zheng",
+        "Sayak Paul",
+        "Saining Xie"
+      ],
+      "author_list_basis": "official venue metadata",
+      "target_author": "Saining Xie",
+      "verified_roles": [
+        "last"
+      ],
+      "venue": "CVPR 2025",
+      "status_as_of_2026_10_12": "published",
+      "venue_date_or_month": "2025-06",
+      "official_record_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Tang_Exploring_the_Deep_Fusion_of_Large_Language_Models_and_Diffusion_CVPR_2025_paper.html",
+      "read_version_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Tang_Exploring_the_Deep_Fusion_of_Large_Language_Models_and_Diffusion_CVPR_2025_paper.pdf",
+      "version_note": "Official proceedings PDF; CVF accepted version with watermark",
+      "observation_locations": "p1摘要；pp2–3 §3.1；p3 Evaluation",
+      "transferable_observation": "诚实标明经验研究的贡献类型；两种不变状态作为短代词的明确先行词，随后推出缓存用途；评估段提前说明指标权衡的读法。"
+    },
+    {
+      "id": "X12",
+      "title": "Scaling Inference Time Compute for Diffusion Models",
+      "authors": [
+        "Nanye Ma",
+        "Shangyuan Tong",
+        "Haolin Jia",
+        "Hexiang Hu",
+        "Yu-Chuan Su",
+        "Mingda Zhang",
+        "Xuan Yang",
+        "Yandong Li",
+        "Tommi Jaakkola",
+        "Xuhui Jia",
+        "Saining Xie"
+      ],
+      "author_list_basis": "official venue metadata",
+      "target_author": "Saining Xie",
+      "verified_roles": [
+        "last"
+      ],
+      "venue": "CVPR 2025",
+      "status_as_of_2026_10_12": "published",
+      "venue_date_or_month": "2025-06",
+      "official_record_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Ma_Scaling_Inference_Time_Compute_for_Diffusion_Models_CVPR_2025_paper.html",
+      "read_version_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Ma_Scaling_Inference_Time_Compute_for_Diffusion_Models_CVPR_2025_paper.pdf",
+      "version_note": "Official proceedings PDF; CVF accepted version with watermark",
+      "observation_locations": "p3 §3",
+      "transferable_observation": "两个并列问题拆出验证器与搜索算法；重复输入→输出骨架来定义接口，使后续设计轴可定位。"
+    },
+    {
+      "id": "X13",
+      "title": "Science-T2I: Addressing Scientific Illusions in Image Synthesis",
+      "authors": [
+        "Jialuo Li",
+        "Wenhao Chai",
+        "Xingyu Fu",
+        "Haiyang Xu",
+        "Saining Xie"
+      ],
+      "author_list_basis": "official venue metadata",
+      "target_author": "Saining Xie",
+      "verified_roles": [
+        "last"
+      ],
+      "venue": "CVPR 2025",
+      "status_as_of_2026_10_12": "published",
+      "venue_date_or_month": "2025-06",
+      "official_record_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Li_Science-T2I_Addressing_Scientific_Illusions_in_Image_Synthesis_CVPR_2025_paper.html",
+      "read_version_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Li_Science-T2I_Addressing_Scientific_Illusions_in_Image_Synthesis_CVPR_2025_paper.pdf",
+      "version_note": "Official proceedings PDF; CVF accepted version with watermark",
+      "observation_locations": "p1介绍段；p3 prompt定义",
+      "transferable_observation": "前一产物作为后一动作的工具，串成数据→评分→训练的依赖链；同一个例子固定其余信息以解释三个概念。"
+    },
+    {
+      "id": "X14",
+      "title": "Thinking in Space: How Multimodal Large Language Models See, Remember, and Recall Spaces",
+      "authors": [
+        "Jihan Yang",
+        "Shusheng Yang",
+        "Anjali W. Gupta",
+        "Rilyn Han",
+        "Li Fei-Fei",
+        "Saining Xie"
+      ],
+      "author_list_basis": "official venue metadata",
+      "target_author": "Saining Xie",
+      "verified_roles": [
+        "last"
+      ],
+      "venue": "CVPR 2025",
+      "status_as_of_2026_10_12": "published",
+      "venue_date_or_month": "2025-06",
+      "official_record_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Yang_Thinking_in_Space_How_Multimodal_Large_Language_Models_See_Remember_CVPR_2025_paper.html",
+      "read_version_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Yang_Thinking_in_Space_How_Multimodal_Large_Language_Models_See_Remember_CVPR_2025_paper.pdf",
+      "version_note": "Official proceedings PDF; CVF accepted version with watermark",
+      "observation_locations": "p2 Introduction与§2",
+      "transferable_observation": "从日常例子接到明确空间属性；平行列出语言和视觉两种分析证据；由广义定义到当前输入，再收束研究范围。"
+    },
+    {
+      "id": "X15",
+      "title": "On Scaling Up 3D Gaussian Splatting Training",
+      "authors": [
+        "Hexu Zhao",
+        "Haoyang Weng",
+        "Daohan Lu",
+        "Ang Li",
+        "Jinyang Li",
+        "Aurojit Panda",
+        "Saining Xie"
+      ],
+      "author_list_basis": "official venue metadata",
+      "target_author": "Saining Xie",
+      "verified_roles": [
+        "last"
+      ],
+      "venue": "ICLR 2025",
+      "status_as_of_2026_10_12": "published",
+      "venue_date_or_month": "2025-04-24/2025-04-28",
+      "official_record_url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/57fabaa549352c52d5d312171b16970e-Abstract-Conference.html",
+      "read_version_url": "https://proceedings.iclr.cc/paper_files/paper/2025/file/57fabaa549352c52d5d312171b16970e-Paper-Conference.pdf",
+      "version_note": "Official ICLR proceedings PDF",
+      "observation_locations": "p2关键观察与实现段",
+      "transferable_observation": "并行方式引出数据重排代价，代价变成局部性设计的目标；首次术语用常用动作就地解释，下一阶段保留同样骨架。"
+    }
+  ],
+  "observation_index": "observation-index.json"
+}

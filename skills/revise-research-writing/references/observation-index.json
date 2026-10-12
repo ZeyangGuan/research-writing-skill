@@ -1,0 +1,3352 @@
+{
+  "schema_version": 2,
+  "as_of": "2026-10-12",
+  "purpose": "Qualitative per-paper reading index, not a frequency count or independent statistical validation. Pages refer to the read version in corpus-manifest.json. Only public source IDs, locators, and editing-layer mappings are included.",
+  "papers": {
+    "H01": {
+      "source_id": "01_elf",
+      "dimensions": {
+        "D1": {
+          "location": "p1摘要；p4§3.1",
+          "layers": [
+            "L8",
+            "L6"
+          ]
+        },
+        "D2": {
+          "location": "p1摘要；p5§3.3",
+          "layers": [
+            "L7",
+            "L2"
+          ]
+        },
+        "D3": {
+          "location": "p4§3.1",
+          "layers": [
+            "L6",
+            "L5"
+          ]
+        },
+        "D4": {
+          "location": "p4§3.1；p5推理段",
+          "layers": [
+            "L6",
+            "L7"
+          ]
+        },
+        "D5": {
+          "location": "p1§1；p4§3.1",
+          "layers": [
+            "L6",
+            "L8"
+          ]
+        },
+        "D6": {
+          "location": "p4§3.1三个小段",
+          "layers": [
+            "L5",
+            "L4"
+          ]
+        },
+        "D7": {
+          "location": "p1摘要",
+          "layers": [
+            "L4",
+            "L1"
+          ]
+        },
+        "D8": {
+          "location": "pp1–2§1",
+          "layers": [
+            "L1",
+            "L4"
+          ]
+        },
+        "D9": {
+          "location": "pp2–3§2；附录pp17–18",
+          "layers": [
+            "L4",
+            "L3",
+            "L2"
+          ]
+        },
+        "D10": {
+          "location": "pp4–6§3；Alg1/2 p5",
+          "layers": [
+            "L4"
+          ]
+        },
+        "D11": {
+          "location": "pp6–9§4",
+          "layers": [
+            "L4",
+            "L2"
+          ]
+        },
+        "D12": {
+          "location": "pp7–8；附录pp19–21",
+          "layers": [
+            "L4",
+            "L2"
+          ]
+        },
+        "D13": {
+          "location": "pp7–9；附录pp25–29",
+          "layers": [
+            "L4",
+            "L2"
+          ]
+        },
+        "D14": {
+          "location": "pp3–6与pp17–32",
+          "layers": [
+            "L3",
+            "L1"
+          ]
+        },
+        "D15": {
+          "location": "p3 Fig3；p5 Alg1/2；p9 Fig8",
+          "layers": [
+            "L2",
+            "L3",
+            "L4"
+          ]
+        }
+      }
+    },
+    "H02": {
+      "source_id": "02_drifting",
+      "dimensions": {
+        "D1": {
+          "location": "p1摘要；p3§3.1",
+          "layers": [
+            "L8",
+            "L6"
+          ]
+        },
+        "D2": {
+          "location": "p3命题；p4平衡讨论",
+          "layers": [
+            "L7",
+            "L2"
+          ]
+        },
+        "D3": {
+          "location": "p3§3.1–3.2",
+          "layers": [
+            "L6",
+            "L5"
+          ]
+        },
+        "D4": {
+          "location": "p3§3.2；p4§3.4",
+          "layers": [
+            "L6",
+            "L7"
+          ]
+        },
+        "D5": {
+          "location": "p3§3.2",
+          "layers": [
+            "L6",
+            "L8"
+          ]
+        },
+        "D6": {
+          "location": "p3–5§3",
+          "layers": [
+            "L5",
+            "L4"
+          ]
+        },
+        "D7": {
+          "location": "p1摘要",
+          "layers": [
+            "L4",
+            "L1"
+          ]
+        },
+        "D8": {
+          "location": "pp1–2§1",
+          "layers": [
+            "L1",
+            "L4"
+          ]
+        },
+        "D9": {
+          "location": "p2§2；附录pp18–19",
+          "layers": [
+            "L4",
+            "L3",
+            "L2"
+          ]
+        },
+        "D10": {
+          "location": "pp2–6§3–4",
+          "layers": [
+            "L4"
+          ]
+        },
+        "D11": {
+          "location": "pp6–8实验",
+          "layers": [
+            "L4",
+            "L2"
+          ]
+        },
+        "D12": {
+          "location": "p3–4；pp16–19",
+          "layers": [
+            "L4",
+            "L2"
+          ]
+        },
+        "D13": {
+          "location": "p8讨论；p3理论边界",
+          "layers": [
+            "L4",
+            "L2"
+          ]
+        },
+        "D14": {
+          "location": "§3与§4；附录A/C",
+          "layers": [
+            "L3",
+            "L1"
+          ]
+        },
+        "D15": {
+          "location": "p1 Fig1；p3式6；p8表",
+          "layers": [
+            "L2",
+            "L3",
+            "L4"
+          ]
+        }
+      }
+    },
+    "H03": {
+      "source_id": "03_natural_pretraining",
+      "dimensions": {
+        "D1": {
+          "location": "p1摘要；p6§4.1",
+          "layers": [
+            "L8",
+            "L6"
+          ]
+        },
+        "D2": {
+          "location": "p1摘要；p12–15分析",
+          "layers": [
+            "L7",
+            "L2"
+          ]
+        },
+        "D3": {
+          "location": "pp8–10§4.4–5.2",
+          "layers": [
+            "L6",
+            "L5"
+          ]
+        },
+        "D4": {
+          "location": "p9§5.1",
+          "layers": [
+            "L6",
+            "L7"
+          ]
+        },
+        "D5": {
+          "location": "p1摘要；p9设置",
+          "layers": [
+            "L6",
+            "L8"
+          ]
+        },
+        "D6": {
+          "location": "p9–11实验",
+          "layers": [
+            "L5",
+            "L4"
+          ]
+        },
+        "D7": {
+          "location": "p1摘要",
+          "layers": [
+            "L4",
+            "L1"
+          ]
+        },
+        "D8": {
+          "location": "pp1–3§1",
+          "layers": [
+            "L1",
+            "L4"
+          ]
+        },
+        "D9": {
+          "location": "pp3–5§2–3",
+          "layers": [
+            "L4",
+            "L3",
+            "L2"
+          ]
+        },
+        "D10": {
+          "location": "pp6–9§4",
+          "layers": [
+            "L4"
+          ]
+        },
+        "D11": {
+          "location": "pp9–12§5",
+          "layers": [
+            "L4",
+            "L2"
+          ]
+        },
+        "D12": {
+          "location": "pp12–15§6",
+          "layers": [
+            "L4",
+            "L2"
+          ]
+        },
+        "D13": {
+          "location": "pp9、11、13、15",
+          "layers": [
+            "L4",
+            "L2"
+          ]
+        },
+        "D14": {
+          "location": "背景§3→方法§4→实验§5→分析§6",
+          "layers": [
+            "L3",
+            "L1"
+          ]
+        },
+        "D15": {
+          "location": "p6 Fig3；p12表2；pp14–15例图",
+          "layers": [
+            "L2",
+            "L3",
+            "L4"
+          ]
+        }
+      }
+    },
+    "H04": {
+      "source_id": "04_pixel_meanflows",
+      "dimensions": {
+        "D1": {
+          "location": "p1摘要",
+          "layers": [
+            "L8",
+            "L6"
+          ]
+        },
+        "D2": {
+          "location": "p4§4.2",
+          "layers": [
+            "L7",
+            "L2"
+          ]
+        },
+        "D3": {
+          "location": "p1–2§1",
+          "layers": [
+            "L6",
+            "L5"
+          ]
+        },
+        "D4": {
+          "location": "p4§4.2",
+          "layers": [
+            "L6",
+            "L7"
+          ]
+        },
+        "D5": {
+          "location": "p1摘要；p4方法",
+          "layers": [
+            "L6",
+            "L8"
+          ]
+        },
+        "D6": {
+          "location": "p1–2§1第3–5段",
+          "layers": [
+            "L5",
+            "L4"
+          ]
+        },
+        "D7": {
+          "location": "p1摘要",
+          "layers": [
+            "L4",
+            "L1"
+          ]
+        },
+        "D8": {
+          "location": "pp1–2§1",
+          "layers": [
+            "L1",
+            "L4"
+          ]
+        },
+        "D9": {
+          "location": "p2§2；p5§4.5",
+          "layers": [
+            "L4",
+            "L3",
+            "L2"
+          ]
+        },
+        "D10": {
+          "location": "pp3–5§3–4；表1",
+          "layers": [
+            "L4"
+          ]
+        },
+        "D11": {
+          "location": "pp5–8§5–6",
+          "layers": [
+            "L4",
+            "L2"
+          ]
+        },
+        "D12": {
+          "location": "p6优化器讨论；p4假设",
+          "layers": [
+            "L4",
+            "L2"
+          ]
+        },
+        "D13": {
+          "location": "pp7–8；附录p11",
+          "layers": [
+            "L4",
+            "L2"
+          ]
+        },
+        "D14": {
+          "location": "§4、§5、§6；附录A/B",
+          "layers": [
+            "L3",
+            "L1"
+          ]
+        },
+        "D15": {
+          "location": "p1 Fig1；p7表3及成本表",
+          "layers": [
+            "L2",
+            "L3",
+            "L4"
+          ]
+        }
+      }
+    },
+    "H05": {
+      "source_id": "05_biflow",
+      "dimensions": {
+        "D1": {
+          "location": "p1摘要",
+          "layers": [
+            "L8",
+            "L6"
+          ]
+        },
+        "D2": {
+          "location": "p1–2§1",
+          "layers": [
+            "L7",
+            "L2"
+          ]
+        },
+        "D3": {
+          "location": "p4§4.1",
+          "layers": [
+            "L6",
+            "L5"
+          ]
+        },
+        "D4": {
+          "location": "p4§4.1",
+          "layers": [
+            "L6",
+            "L7"
+          ]
+        },
+        "D5": {
+          "location": "p1摘要；p4§4.1",
+          "layers": [
+            "L6",
+            "L8"
+          ]
+        },
+        "D6": {
+          "location": "p3–5§4",
+          "layers": [
+            "L5",
+            "L4"
+          ]
+        },
+        "D7": {
+          "location": "p1摘要",
+          "layers": [
+            "L4",
+            "L1"
+          ]
+        },
+        "D8": {
+          "location": "pp1–2§1",
+          "layers": [
+            "L1",
+            "L4"
+          ]
+        },
+        "D9": {
+          "location": "pp2–3§2–3",
+          "layers": [
+            "L4",
+            "L3",
+            "L2"
+          ]
+        },
+        "D10": {
+          "location": "pp3–5§4；p4 Fig4",
+          "layers": [
+            "L4"
+          ]
+        },
+        "D11": {
+          "location": "p6–8§5",
+          "layers": [
+            "L4",
+            "L2"
+          ]
+        },
+        "D12": {
+          "location": "p7扩模；补充S3",
+          "layers": [
+            "L4",
+            "L2"
+          ]
+        },
+        "D13": {
+          "location": "p7–8；补充S1/S3",
+          "layers": [
+            "L4",
+            "L2"
+          ]
+        },
+        "D14": {
+          "location": "§3–5；补充A–E",
+          "layers": [
+            "L3",
+            "L1"
+          ]
+        },
+        "D15": {
+          "location": "p1 Fig1；p4 Fig4；p7表3",
+          "layers": [
+            "L2",
+            "L3",
+            "L4"
+          ]
+        }
+      }
+    },
+    "H06": {
+      "source_id": "06_improved_meanflows",
+      "dimensions": {
+        "D1": {
+          "location": "p1摘要；p2§1",
+          "layers": [
+            "L8",
+            "L6"
+          ]
+        },
+        "D2": {
+          "location": "p3–5§4.1",
+          "layers": [
+            "L7",
+            "L2"
+          ]
+        },
+        "D3": {
+          "location": "p4§4.1",
+          "layers": [
+            "L6",
+            "L5"
+          ]
+        },
+        "D4": {
+          "location": "p4算法与文字",
+          "layers": [
+            "L6",
+            "L7"
+          ]
+        },
+        "D5": {
+          "location": "p1摘要；p2引言",
+          "layers": [
+            "L6",
+            "L8"
+          ]
+        },
+        "D6": {
+          "location": "pp3–5§4.1",
+          "layers": [
+            "L5",
+            "L4"
+          ]
+        },
+        "D7": {
+          "location": "p1摘要",
+          "layers": [
+            "L4",
+            "L1"
+          ]
+        },
+        "D8": {
+          "location": "pp1–2§1",
+          "layers": [
+            "L1",
+            "L4"
+          ]
+        },
+        "D9": {
+          "location": "p2§2",
+          "layers": [
+            "L4",
+            "L3",
+            "L2"
+          ]
+        },
+        "D10": {
+          "location": "pp3–6§4",
+          "layers": [
+            "L4"
+          ]
+        },
+        "D11": {
+          "location": "pp6–8§5",
+          "layers": [
+            "L4",
+            "L2"
+          ]
+        },
+        "D12": {
+          "location": "p4 Fig3；p7表1",
+          "layers": [
+            "L4",
+            "L2"
+          ]
+        },
+        "D13": {
+          "location": "p5；p8；arXiv p10",
+          "layers": [
+            "L4",
+            "L2"
+          ]
+        },
+        "D14": {
+          "location": "§4诊断图→§5系统表；附录A",
+          "layers": [
+            "L3",
+            "L1"
+          ]
+        },
+        "D15": {
+          "location": "p1 Fig1；p4 Fig3；p7表1",
+          "layers": [
+            "L2",
+            "L3",
+            "L4"
+          ]
+        }
+      }
+    },
+    "H07": {
+      "source_id": "07_arc_vision",
+      "dimensions": {
+        "D1": {
+          "location": "p3§3.1–3.2",
+          "layers": [
+            "L8",
+            "L6"
+          ]
+        },
+        "D2": {
+          "location": "p1摘要；p7–8分析",
+          "layers": [
+            "L7",
+            "L2"
+          ]
+        },
+        "D3": {
+          "location": "p3–4方法",
+          "layers": [
+            "L6",
+            "L5"
+          ]
+        },
+        "D4": {
+          "location": "p4§3.3",
+          "layers": [
+            "L6",
+            "L7"
+          ]
+        },
+        "D5": {
+          "location": "p1摘要；p3定义",
+          "layers": [
+            "L6",
+            "L8"
+          ]
+        },
+        "D6": {
+          "location": "pp3–5§3",
+          "layers": [
+            "L5",
+            "L4"
+          ]
+        },
+        "D7": {
+          "location": "p1摘要；p2结果",
+          "layers": [
+            "L4",
+            "L1"
+          ]
+        },
+        "D8": {
+          "location": "pp1–2§1",
+          "layers": [
+            "L1",
+            "L4"
+          ]
+        },
+        "D9": {
+          "location": "pp2–3§2",
+          "layers": [
+            "L4",
+            "L3",
+            "L2"
+          ]
+        },
+        "D10": {
+          "location": "pp3–5§3–4",
+          "layers": [
+            "L4"
+          ]
+        },
+        "D11": {
+          "location": "pp6–7§5",
+          "layers": [
+            "L4",
+            "L2"
+          ]
+        },
+        "D12": {
+          "location": "pp7–8§6；补充S2/S6",
+          "layers": [
+            "L4",
+            "L2"
+          ]
+        },
+        "D13": {
+          "location": "pp6–7；补充S4–S6",
+          "layers": [
+            "L4",
+            "L2"
+          ]
+        },
+        "D14": {
+          "location": "§3协议→§4实现→§5实验→§6分析",
+          "layers": [
+            "L3",
+            "L1"
+          ]
+        },
+        "D15": {
+          "location": "p1 Fig1；p6 Fig7；补充S6",
+          "layers": [
+            "L2",
+            "L3",
+            "L4"
+          ]
+        }
+      }
+    },
+    "H08": {
+      "source_id": "08_back_basics",
+      "dimensions": {
+        "D1": {
+          "location": "p1摘要",
+          "layers": [
+            "L8",
+            "L6"
+          ]
+        },
+        "D2": {
+          "location": "p1摘要；p4§3.2",
+          "layers": [
+            "L7",
+            "L2"
+          ]
+        },
+        "D3": {
+          "location": "p1–2§1",
+          "layers": [
+            "L6",
+            "L5"
+          ]
+        },
+        "D4": {
+          "location": "p1摘要；p4表1",
+          "layers": [
+            "L6",
+            "L7"
+          ]
+        },
+        "D5": {
+          "location": "p1摘要；p6结果",
+          "layers": [
+            "L6",
+            "L8"
+          ]
+        },
+        "D6": {
+          "location": "p5–6§4.2",
+          "layers": [
+            "L5",
+            "L4"
+          ]
+        },
+        "D7": {
+          "location": "p1摘要",
+          "layers": [
+            "L4",
+            "L1"
+          ]
+        },
+        "D8": {
+          "location": "pp1–2§1",
+          "layers": [
+            "L1",
+            "L4"
+          ]
+        },
+        "D9": {
+          "location": "pp2–3§2",
+          "layers": [
+            "L4",
+            "L3",
+            "L2"
+          ]
+        },
+        "D10": {
+          "location": "pp3–7§3–4",
+          "layers": [
+            "L4"
+          ]
+        },
+        "D11": {
+          "location": "p4表1；p6表2",
+          "layers": [
+            "L4",
+            "L2"
+          ]
+        },
+        "D12": {
+          "location": "p6§4.2",
+          "layers": [
+            "L4",
+            "L2"
+          ]
+        },
+        "D13": {
+          "location": "p8；补充S1/S3",
+          "layers": [
+            "L4",
+            "L2"
+          ]
+        },
+        "D14": {
+          "location": "§3–4诊断实验→§5比较",
+          "layers": [
+            "L3",
+            "L1"
+          ]
+        },
+        "D15": {
+          "location": "p1 Fig1；p6表2/Fig4；p8表",
+          "layers": [
+            "L2",
+            "L3",
+            "L4"
+          ]
+        }
+      }
+    },
+    "H09": {
+      "source_id": "09_dhn",
+      "dimensions": {
+        "D1": {
+          "location": "p5§3.5",
+          "layers": [
+            "L8",
+            "L6"
+          ]
+        },
+        "D2": {
+          "location": "p1摘要；p8§5",
+          "layers": [
+            "L7",
+            "L2"
+          ]
+        },
+        "D3": {
+          "location": "p3–5§3",
+          "layers": [
+            "L6",
+            "L5"
+          ]
+        },
+        "D4": {
+          "location": "p5§4；p8§4.3",
+          "layers": [
+            "L6",
+            "L7"
+          ]
+        },
+        "D5": {
+          "location": "p1摘要；p8讨论",
+          "layers": [
+            "L6",
+            "L8"
+          ]
+        },
+        "D6": {
+          "location": "p5–8§4.1–4.3",
+          "layers": [
+            "L5",
+            "L4"
+          ]
+        },
+        "D7": {
+          "location": "p1摘要",
+          "layers": [
+            "L4",
+            "L1"
+          ]
+        },
+        "D8": {
+          "location": "pp1–2§1",
+          "layers": [
+            "L1",
+            "L4"
+          ]
+        },
+        "D9": {
+          "location": "p2§2",
+          "layers": [
+            "L4",
+            "L3",
+            "L2"
+          ]
+        },
+        "D10": {
+          "location": "pp2–5§3",
+          "layers": [
+            "L4"
+          ]
+        },
+        "D11": {
+          "location": "pp5–8§4",
+          "layers": [
+            "L4",
+            "L2"
+          ]
+        },
+        "D12": {
+          "location": "p6–8；附录B p11",
+          "layers": [
+            "L4",
+            "L2"
+          ]
+        },
+        "D13": {
+          "location": "p8§5；p11附录B",
+          "layers": [
+            "L4",
+            "L2"
+          ]
+        },
+        "D14": {
+          "location": "§3模型→§4三任务→§5概念问答；附录A–D",
+          "layers": [
+            "L3",
+            "L1"
+          ]
+        },
+        "D15": {
+          "location": "p1 Fig1；p5 Fig7/8；p6 Fig9；p8 Fig14",
+          "layers": [
+            "L2",
+            "L3",
+            "L4"
+          ]
+        }
+      }
+    },
+    "H10": {
+      "source_id": "10_meanflows",
+      "dimensions": {
+        "D1": {
+          "location": "p4–5§4",
+          "layers": [
+            "L8",
+            "L6"
+          ]
+        },
+        "D2": {
+          "location": "p1摘要；p4–5§4",
+          "layers": [
+            "L7",
+            "L2"
+          ]
+        },
+        "D3": {
+          "location": "p4–5§4",
+          "layers": [
+            "L6",
+            "L5"
+          ]
+        },
+        "D4": {
+          "location": "p5 Training with Average Velocity",
+          "layers": [
+            "L6",
+            "L7"
+          ]
+        },
+        "D5": {
+          "location": "p1摘要；p5§4",
+          "layers": [
+            "L6",
+            "L8"
+          ]
+        },
+        "D6": {
+          "location": "p4§4",
+          "layers": [
+            "L5",
+            "L4"
+          ]
+        },
+        "D7": {
+          "location": "p1摘要",
+          "layers": [
+            "L4",
+            "L1"
+          ]
+        },
+        "D8": {
+          "location": "pp1–2§1",
+          "layers": [
+            "L1",
+            "L4"
+          ]
+        },
+        "D9": {
+          "location": "p2§2；p5–6 Relation to Prior Work",
+          "layers": [
+            "L4",
+            "L3",
+            "L2"
+          ]
+        },
+        "D10": {
+          "location": "pp3–7§3–4；Alg1/2 p5",
+          "layers": [
+            "L4"
+          ]
+        },
+        "D11": {
+          "location": "pp7–9§5",
+          "layers": [
+            "L4",
+            "L2"
+          ]
+        },
+        "D12": {
+          "location": "p8–9；附录B pp22–23",
+          "layers": [
+            "L4",
+            "L2"
+          ]
+        },
+        "D13": {
+          "location": "p7；p14/16清单；附录A p21",
+          "layers": [
+            "L4",
+            "L2"
+          ]
+        },
+        "D14": {
+          "location": "§3定义基础→§4推导与实现→§5对照；附录A/B",
+          "layers": [
+            "L3",
+            "L1"
+          ]
+        },
+        "D15": {
+          "location": "p1 Fig1；p4 Fig3；p9表；附录p23",
+          "layers": [
+            "L2",
+            "L3",
+            "L4"
+          ]
+        }
+      }
+    },
+    "H11": {
+      "source_id": "11_fractal",
+      "dimensions": {
+        "D1": {
+          "location": "p1摘要；p6§4.5",
+          "layers": [
+            "L8",
+            "L6"
+          ]
+        },
+        "D2": {
+          "location": "p1–2§1；p7–8结果",
+          "layers": [
+            "L7",
+            "L2"
+          ]
+        },
+        "D3": {
+          "location": "p1摘要；pp3–4§3",
+          "layers": [
+            "L6",
+            "L5"
+          ]
+        },
+        "D4": {
+          "location": "p6§4.5",
+          "layers": [
+            "L6",
+            "L7"
+          ]
+        },
+        "D5": {
+          "location": "p1摘要/§1；p6实现",
+          "layers": [
+            "L6",
+            "L8"
+          ]
+        },
+        "D6": {
+          "location": "pp1–2§1；p6§4.5",
+          "layers": [
+            "L5",
+            "L4"
+          ]
+        },
+        "D7": {
+          "location": "p1摘要",
+          "layers": [
+            "L4",
+            "L1"
+          ]
+        },
+        "D8": {
+          "location": "pp1–2§1",
+          "layers": [
+            "L1",
+            "L4"
+          ]
+        },
+        "D9": {
+          "location": "pp2–3§2；pp5–6§4.3–4.4",
+          "layers": [
+            "L4",
+            "L3",
+            "L2"
+          ]
+        },
+        "D10": {
+          "location": "pp3–6§3–4",
+          "layers": [
+            "L4"
+          ]
+        },
+        "D11": {
+          "location": "pp6–8§5",
+          "layers": [
+            "L4",
+            "L2"
+          ]
+        },
+        "D12": {
+          "location": "p7–8§5；附录B pp11–13",
+          "layers": [
+            "L4",
+            "L2"
+          ]
+        },
+        "D13": {
+          "location": "p7–8；附录A p11",
+          "layers": [
+            "L4",
+            "L2"
+          ]
+        },
+        "D14": {
+          "location": "§3一般框架→§4图像实例→§5多指标；附录A/B",
+          "layers": [
+            "L3",
+            "L1"
+          ]
+        },
+        "D15": {
+          "location": "p1–2 Fig1/2；p5 Fig3；p8 Fig5；附录p13",
+          "layers": [
+            "L2",
+            "L3",
+            "L4"
+          ]
+        }
+      }
+    },
+    "H12": {
+      "source_id": "12_noise_conditioning",
+      "dimensions": {
+        "D1": {
+          "location": "p1摘要；p8§6.2",
+          "layers": [
+            "L8",
+            "L6"
+          ]
+        },
+        "D2": {
+          "location": "p1引言；p5§4.4",
+          "layers": [
+            "L7",
+            "L2"
+          ]
+        },
+        "D3": {
+          "location": "p5§4.4前3句",
+          "layers": [
+            "L6",
+            "L5"
+          ]
+        },
+        "D4": {
+          "location": "p8§6.2；p5§4.4",
+          "layers": [
+            "L6",
+            "L7"
+          ]
+        },
+        "D5": {
+          "location": "p1摘要",
+          "layers": [
+            "L6",
+            "L8"
+          ]
+        },
+        "D6": {
+          "location": "p5§4.4；§5",
+          "layers": [
+            "L5",
+            "L4"
+          ]
+        },
+        "D7": {
+          "location": "p1摘要",
+          "layers": [
+            "L4",
+            "L1"
+          ]
+        },
+        "D8": {
+          "location": "pp1–2§1",
+          "layers": [
+            "L1",
+            "L4"
+          ]
+        },
+        "D9": {
+          "location": "p2§2",
+          "layers": [
+            "L4",
+            "L3",
+            "L2"
+          ]
+        },
+        "D10": {
+          "location": "pp2–5§3–5",
+          "layers": [
+            "L4"
+          ]
+        },
+        "D11": {
+          "location": "pp5–9§6；附录B pp17–20",
+          "layers": [
+            "L4",
+            "L2"
+          ]
+        },
+        "D12": {
+          "location": "p4–7§4/6；附录A p16–17、C p21–24",
+          "layers": [
+            "L4",
+            "L2"
+          ]
+        },
+        "D13": {
+          "location": "p5讨论；p6表2；附录A/B",
+          "layers": [
+            "L4",
+            "L2"
+          ]
+        },
+        "D14": {
+          "location": "§3统一表述→§4分析→§5设计→§6配对实验；附录A–E",
+          "layers": [
+            "L3",
+            "L1"
+          ]
+        },
+        "D15": {
+          "location": "p4 Fig3；p6表2；p7 Fig6；p8 Fig7；p16 Fig9；p33样本",
+          "layers": [
+            "L2",
+            "L3",
+            "L4"
+          ]
+        }
+      }
+    },
+    "H13": {
+      "source_id": "13_tokenizer",
+      "dimensions": {
+        "D1": {
+          "location": "p4§3.3；p9§5.6",
+          "layers": [
+            "L8",
+            "L6"
+          ]
+        },
+        "D2": {
+          "location": "p1–2；p9讨论",
+          "layers": [
+            "L7",
+            "L2"
+          ]
+        },
+        "D3": {
+          "location": "p3–4§3→§4",
+          "layers": [
+            "L6",
+            "L5"
+          ]
+        },
+        "D4": {
+          "location": "p4§4；p6§5",
+          "layers": [
+            "L6",
+            "L7"
+          ]
+        },
+        "D5": {
+          "location": "p4§3.3首句；p9§5.6",
+          "layers": [
+            "L6",
+            "L8"
+          ]
+        },
+        "D6": {
+          "location": "pp3–6§3–4",
+          "layers": [
+            "L5",
+            "L4"
+          ]
+        },
+        "D7": {
+          "location": "p1摘要",
+          "layers": [
+            "L4",
+            "L1"
+          ]
+        },
+        "D8": {
+          "location": "pp1–2§1",
+          "layers": [
+            "L1",
+            "L4"
+          ]
+        },
+        "D9": {
+          "location": "p2§2；p9表6",
+          "layers": [
+            "L4",
+            "L3",
+            "L2"
+          ]
+        },
+        "D10": {
+          "location": "pp2–6§3–4；附录pp12–15",
+          "layers": [
+            "L4"
+          ]
+        },
+        "D11": {
+          "location": "pp6–9§5",
+          "layers": [
+            "L4",
+            "L2"
+          ]
+        },
+        "D12": {
+          "location": "pp7–8；附录p16",
+          "layers": [
+            "L4",
+            "L2"
+          ]
+        },
+        "D13": {
+          "location": "p4 Fig3；p9；附录p18",
+          "layers": [
+            "L4",
+            "L2"
+          ]
+        },
+        "D14": {
+          "location": "§3探索→§4算法→§5多轴评价→§6讨论；附录A–F",
+          "layers": [
+            "L3",
+            "L1"
+          ]
+        },
+        "D15": {
+          "location": "p3 Fig2；p4 Fig3；p5 Fig4；p7表1；p8表3；p16 FigA5；p18 FigA7/8",
+          "layers": [
+            "L2",
+            "L3",
+            "L4"
+          ]
+        }
+      }
+    },
+    "H14": {
+      "source_id": "14_dataset_bias",
+      "dimensions": {
+        "D1": {
+          "location": "pp5–7§4.2",
+          "layers": [
+            "L8",
+            "L6"
+          ]
+        },
+        "D2": {
+          "location": "p4§3；p10§6",
+          "layers": [
+            "L7",
+            "L2"
+          ]
+        },
+        "D3": {
+          "location": "p9–10§5.3–5.4",
+          "layers": [
+            "L6",
+            "L5"
+          ]
+        },
+        "D4": {
+          "location": "p9§5.3",
+          "layers": [
+            "L6",
+            "L7"
+          ]
+        },
+        "D5": {
+          "location": "pp5–7；p10§5.4",
+          "layers": [
+            "L6",
+            "L8"
+          ]
+        },
+        "D6": {
+          "location": "pp7–10§5",
+          "layers": [
+            "L5",
+            "L4"
+          ]
+        },
+        "D7": {
+          "location": "p1摘要",
+          "layers": [
+            "L4",
+            "L1"
+          ]
+        },
+        "D8": {
+          "location": "pp1–2§1",
+          "layers": [
+            "L1",
+            "L4"
+          ]
+        },
+        "D9": {
+          "location": "p3§2；pp3–4§3",
+          "layers": [
+            "L4",
+            "L3",
+            "L2"
+          ]
+        },
+        "D10": {
+          "location": "pp4–5§4.1",
+          "layers": [
+            "L4"
+          ]
+        },
+        "D11": {
+          "location": "pp5–7§4.2；p10表9",
+          "layers": [
+            "L4",
+            "L2"
+          ]
+        },
+        "D12": {
+          "location": "pp7–10§5；p17图7",
+          "layers": [
+            "L4",
+            "L2"
+          ]
+        },
+        "D13": {
+          "location": "p10§5.4/§6；p17附录D",
+          "layers": [
+            "L4",
+            "L2"
+          ]
+        },
+        "D14": {
+          "location": "§2历史→§3概念→§4基础现象→§5解释→§6开放问题",
+          "layers": [
+            "L3",
+            "L1"
+          ]
+        },
+        "D15": {
+          "location": "p2图1；p6图3；p8表5/6；p17图7/表11",
+          "layers": [
+            "L2",
+            "L3",
+            "L4"
+          ]
+        }
+      }
+    },
+    "H15": {
+      "source_id": "15_deconstructing",
+      "dimensions": {
+        "D1": {
+          "location": "p4§4；p7§4.3",
+          "layers": [
+            "L8",
+            "L6"
+          ]
+        },
+        "D2": {
+          "location": "p1摘要；p8§4.3",
+          "layers": [
+            "L7",
+            "L2"
+          ]
+        },
+        "D3": {
+          "location": "p4–8§4",
+          "layers": [
+            "L6",
+            "L5"
+          ]
+        },
+        "D4": {
+          "location": "p4§4；p7–8§4.3",
+          "layers": [
+            "L6",
+            "L7"
+          ]
+        },
+        "D5": {
+          "location": "p1摘要；p7§4.3",
+          "layers": [
+            "L6",
+            "L8"
+          ]
+        },
+        "D6": {
+          "location": "pp4–8§4",
+          "layers": [
+            "L5",
+            "L4"
+          ]
+        },
+        "D7": {
+          "location": "p1摘要",
+          "layers": [
+            "L4",
+            "L1"
+          ]
+        },
+        "D8": {
+          "location": "pp1–2§1",
+          "layers": [
+            "L1",
+            "L4"
+          ]
+        },
+        "D9": {
+          "location": "pp2–3§2",
+          "layers": [
+            "L4",
+            "L3",
+            "L2"
+          ]
+        },
+        "D10": {
+          "location": "pp3–4§3；pp4–8§4",
+          "layers": [
+            "L4"
+          ]
+        },
+        "D11": {
+          "location": "pp4–10表1–5",
+          "layers": [
+            "L4",
+            "L2"
+          ]
+        },
+        "D12": {
+          "location": "pp6–8图3–5；p7脚注4",
+          "layers": [
+            "L4",
+            "L2"
+          ]
+        },
+        "D13": {
+          "location": "p8；p10§5/6",
+          "layers": [
+            "L4",
+            "L2"
+          ]
+        },
+        "D14": {
+          "location": "§3基线→§4拆解→§5系统检查→§6总结；附录A–C",
+          "layers": [
+            "L3",
+            "L1"
+          ]
+        },
+        "D15": {
+          "location": "p4表1；p6图3；p8图5；p10表5",
+          "layers": [
+            "L2",
+            "L3",
+            "L4"
+          ]
+        }
+      }
+    },
+    "X01": {
+      "source_id": "raev2",
+      "dimensions": {
+        "D1": {
+          "location": "pp4–6，聚合/对齐段",
+          "layers": [
+            "L8",
+            "L6"
+          ]
+        },
+        "D2": {
+          "location": "pp7、11及附录p27",
+          "layers": [
+            "L7",
+            "L2"
+          ]
+        },
+        "D3": {
+          "location": "pp4–7，三项洞见",
+          "layers": [
+            "L6",
+            "L5"
+          ]
+        },
+        "D4": {
+          "location": "p7，RAE与REPA比较",
+          "layers": [
+            "L6",
+            "L7"
+          ]
+        },
+        "D5": {
+          "location": "pp3–4与p9",
+          "layers": [
+            "L8",
+            "L6"
+          ]
+        },
+        "D6": {
+          "location": "pp8–11，实验段",
+          "layers": [
+            "L5",
+            "L4"
+          ]
+        },
+        "D7": {
+          "location": "p1，Abstract",
+          "layers": [
+            "L4",
+            "L1"
+          ]
+        },
+        "D8": {
+          "location": "pp3–4，Introduction",
+          "layers": [
+            "L1",
+            "L4"
+          ]
+        },
+        "D9": {
+          "location": "pp13–14、22",
+          "layers": [
+            "L4",
+            "L2",
+            "L3"
+          ]
+        },
+        "D10": {
+          "location": "pp4–7",
+          "layers": [
+            "L4",
+            "L2"
+          ]
+        },
+        "D11": {
+          "location": "pp9–11、附录p25",
+          "layers": [
+            "L2",
+            "L4"
+          ]
+        },
+        "D12": {
+          "location": "pp7、12–13",
+          "layers": [
+            "L2",
+            "L4"
+          ]
+        },
+        "D13": {
+          "location": "附录p27；pp9–11",
+          "layers": [
+            "L2",
+            "L4"
+          ]
+        },
+        "D14": {
+          "location": "正文pp3–14，附录pp19–34",
+          "layers": [
+            "L3",
+            "L1"
+          ]
+        },
+        "D15": {
+          "location": "实际目视pp7、9",
+          "layers": [
+            "L2",
+            "L3",
+            "L4"
+          ]
+        }
+      }
+    },
+    "X02": {
+      "source_id": "repfusion",
+      "dimensions": {
+        "D1": {
+          "location": "p4，§3.1及Fig3图注",
+          "layers": [
+            "L8",
+            "L6"
+          ]
+        },
+        "D2": {
+          "location": "pp4、6、10",
+          "layers": [
+            "L7",
+            "L2"
+          ]
+        },
+        "D3": {
+          "location": "pp1、4–5",
+          "layers": [
+            "L6",
+            "L5"
+          ]
+        },
+        "D4": {
+          "location": "pp5–6，输入消融",
+          "layers": [
+            "L6",
+            "L7"
+          ]
+        },
+        "D5": {
+          "location": "p4，路线段及定义段",
+          "layers": [
+            "L8",
+            "L6"
+          ]
+        },
+        "D6": {
+          "location": "pp5–7，§3.3–3.5",
+          "layers": [
+            "L5",
+            "L4"
+          ]
+        },
+        "D7": {
+          "location": "p1，Abstract",
+          "layers": [
+            "L4",
+            "L1"
+          ]
+        },
+        "D8": {
+          "location": "pp1–3，Introduction",
+          "layers": [
+            "L1",
+            "L4"
+          ]
+        },
+        "D9": {
+          "location": "p3，Related Work",
+          "layers": [
+            "L4",
+            "L2",
+            "L3"
+          ]
+        },
+        "D10": {
+          "location": "pp4–5",
+          "layers": [
+            "L4",
+            "L2"
+          ]
+        },
+        "D11": {
+          "location": "pp8–11，主结果",
+          "layers": [
+            "L2",
+            "L4"
+          ]
+        },
+        "D12": {
+          "location": "p6；附录p15",
+          "layers": [
+            "L2",
+            "L4"
+          ]
+        },
+        "D13": {
+          "location": "p8、p10及附录p15",
+          "layers": [
+            "L2",
+            "L4"
+          ]
+        },
+        "D14": {
+          "location": "pp4–11",
+          "layers": [
+            "L3",
+            "L1"
+          ]
+        },
+        "D15": {
+          "location": "实际目视pp2、6",
+          "layers": [
+            "L2",
+            "L3",
+            "L4"
+          ]
+        }
+      }
+    },
+    "X03": {
+      "source_id": "cambrian_p",
+      "dimensions": {
+        "D1": {
+          "location": "p3，架构段",
+          "layers": [
+            "L8",
+            "L6"
+          ]
+        },
+        "D2": {
+          "location": "pp1、3、13",
+          "layers": [
+            "L7",
+            "L2"
+          ]
+        },
+        "D3": {
+          "location": "p3前3段",
+          "layers": [
+            "L6",
+            "L5"
+          ]
+        },
+        "D4": {
+          "location": "p3，训练冲突段",
+          "layers": [
+            "L6",
+            "L7"
+          ]
+        },
+        "D5": {
+          "location": "pp1、3",
+          "layers": [
+            "L8",
+            "L6"
+          ]
+        },
+        "D6": {
+          "location": "p3末两段",
+          "layers": [
+            "L5",
+            "L4"
+          ]
+        },
+        "D7": {
+          "location": "p1，Abstract",
+          "layers": [
+            "L4",
+            "L1"
+          ]
+        },
+        "D8": {
+          "location": "p3，Introduction",
+          "layers": [
+            "L1",
+            "L4"
+          ]
+        },
+        "D9": {
+          "location": "pp4–5",
+          "layers": [
+            "L4",
+            "L2",
+            "L3"
+          ]
+        },
+        "D10": {
+          "location": "pp5–8",
+          "layers": [
+            "L4",
+            "L2"
+          ]
+        },
+        "D11": {
+          "location": "pp11–14",
+          "layers": [
+            "L2",
+            "L4"
+          ]
+        },
+        "D12": {
+          "location": "pp13–14",
+          "layers": [
+            "L2",
+            "L4"
+          ]
+        },
+        "D13": {
+          "location": "pp12–14及附录pp26–36",
+          "layers": [
+            "L2",
+            "L4"
+          ]
+        },
+        "D14": {
+          "location": "pp3–15",
+          "layers": [
+            "L3",
+            "L1"
+          ]
+        },
+        "D15": {
+          "location": "实际目视pp11、14",
+          "layers": [
+            "L2",
+            "L3",
+            "L4"
+          ]
+        }
+      }
+    },
+    "X04": {
+      "source_id": "beyond_language",
+      "dimensions": {
+        "D1": {
+          "location": "pp2–4，设置/数据段",
+          "layers": [
+            "L8",
+            "L6"
+          ]
+        },
+        "D2": {
+          "location": "pp2–3、8",
+          "layers": [
+            "L7",
+            "L2"
+          ]
+        },
+        "D3": {
+          "location": "p4，§4.3",
+          "layers": [
+            "L6",
+            "L5"
+          ]
+        },
+        "D4": {
+          "location": "p4，协同解释",
+          "layers": [
+            "L6",
+            "L7"
+          ]
+        },
+        "D5": {
+          "location": "pp3–4",
+          "layers": [
+            "L8",
+            "L6"
+          ]
+        },
+        "D6": {
+          "location": "p4，数据来源与协同段",
+          "layers": [
+            "L5",
+            "L4"
+          ]
+        },
+        "D7": {
+          "location": "p1，Abstract",
+          "layers": [
+            "L4",
+            "L1"
+          ]
+        },
+        "D8": {
+          "location": "pp1–2",
+          "layers": [
+            "L1",
+            "L4"
+          ]
+        },
+        "D9": {
+          "location": "pp8–9及pp3、5、7行内",
+          "layers": [
+            "L4",
+            "L2",
+            "L3"
+          ]
+        },
+        "D10": {
+          "location": "pp2–3、5–7",
+          "layers": [
+            "L4",
+            "L2"
+          ]
+        },
+        "D11": {
+          "location": "pp3–8",
+          "layers": [
+            "L2",
+            "L4"
+          ]
+        },
+        "D12": {
+          "location": "pp3–4；附录pp18、23",
+          "layers": [
+            "L2",
+            "L4"
+          ]
+        },
+        "D13": {
+          "location": "附录p15",
+          "layers": [
+            "L2",
+            "L4"
+          ]
+        },
+        "D14": {
+          "location": "pp2–9，附录pp15–28",
+          "layers": [
+            "L3",
+            "L1"
+          ]
+        },
+        "D15": {
+          "location": "实际目视pp4、8；另pp3、7为文字版面",
+          "layers": [
+            "L2",
+            "L3",
+            "L4"
+          ]
+        }
+      }
+    },
+    "X05": {
+      "source_id": "cambrian_s_official",
+      "dimensions": {
+        "D1": {
+          "location": "p1，视频定义/范围句",
+          "layers": [
+            "L8",
+            "L6"
+          ]
+        },
+        "D2": {
+          "location": "pp1–2、8",
+          "layers": [
+            "L7",
+            "L2"
+          ]
+        },
+        "D3": {
+          "location": "p2三段路线",
+          "layers": [
+            "L6",
+            "L5"
+          ]
+        },
+        "D4": {
+          "location": "p2，Second/third段",
+          "layers": [
+            "L6",
+            "L7"
+          ]
+        },
+        "D5": {
+          "location": "pp1–2",
+          "layers": [
+            "L8",
+            "L6"
+          ]
+        },
+        "D6": {
+          "location": "p2路线段",
+          "layers": [
+            "L5",
+            "L4"
+          ]
+        },
+        "D7": {
+          "location": "p1，Abstract",
+          "layers": [
+            "L4",
+            "L1"
+          ]
+        },
+        "D8": {
+          "location": "pp1–2",
+          "layers": [
+            "L1",
+            "L4"
+          ]
+        },
+        "D9": {
+          "location": "pp4、9；附录pp21–22",
+          "layers": [
+            "L4",
+            "L2",
+            "L3"
+          ]
+        },
+        "D10": {
+          "location": "pp3–5、8–10",
+          "layers": [
+            "L4",
+            "L2"
+          ]
+        },
+        "D11": {
+          "location": "pp6–8；附录协议",
+          "layers": [
+            "L2",
+            "L4"
+          ]
+        },
+        "D12": {
+          "location": "pp8–10",
+          "layers": [
+            "L2",
+            "L4"
+          ]
+        },
+        "D13": {
+          "location": "附录p20、p33",
+          "layers": [
+            "L2",
+            "L4"
+          ]
+        },
+        "D14": {
+          "location": "pp2–10",
+          "layers": [
+            "L3",
+            "L1"
+          ]
+        },
+        "D15": {
+          "location": "实际目视pp2、8",
+          "layers": [
+            "L2",
+            "L3",
+            "L4"
+          ]
+        }
+      }
+    },
+    "X06": {
+      "source_id": "rae_official",
+      "dimensions": {
+        "D1": {
+          "location": "p2，三项难点",
+          "layers": [
+            "L8",
+            "L6"
+          ]
+        },
+        "D2": {
+          "location": "pp1–2、5–6",
+          "layers": [
+            "L7",
+            "L2"
+          ]
+        },
+        "D3": {
+          "location": "pp1–2",
+          "layers": [
+            "L6",
+            "L5"
+          ]
+        },
+        "D4": {
+          "location": "p2，让步段",
+          "layers": [
+            "L6",
+            "L7"
+          ]
+        },
+        "D5": {
+          "location": "p2，设计总结",
+          "layers": [
+            "L8",
+            "L6"
+          ]
+        },
+        "D6": {
+          "location": "pp2、5–6",
+          "layers": [
+            "L5",
+            "L4"
+          ]
+        },
+        "D7": {
+          "location": "p1，Abstract",
+          "layers": [
+            "L4",
+            "L1"
+          ]
+        },
+        "D8": {
+          "location": "pp1–2",
+          "layers": [
+            "L1",
+            "L4"
+          ]
+        },
+        "D9": {
+          "location": "pp1–2、7，附录相关讨论",
+          "layers": [
+            "L4",
+            "L2",
+            "L3"
+          ]
+        },
+        "D10": {
+          "location": "pp3–7",
+          "layers": [
+            "L4",
+            "L2"
+          ]
+        },
+        "D11": {
+          "location": "pp8–10",
+          "layers": [
+            "L2",
+            "L4"
+          ]
+        },
+        "D12": {
+          "location": "pp5–6、10",
+          "layers": [
+            "L2",
+            "L4"
+          ]
+        },
+        "D13": {
+          "location": "pp6、9–10；附录p25",
+          "layers": [
+            "L2",
+            "L4"
+          ]
+        },
+        "D14": {
+          "location": "pp3–10",
+          "layers": [
+            "L3",
+            "L1"
+          ]
+        },
+        "D15": {
+          "location": "实际目视pp2、8",
+          "layers": [
+            "L2",
+            "L3",
+            "L4"
+          ]
+        }
+      }
+    },
+    "X07": {
+      "source_id": "irepa_official",
+      "dimensions": {
+        "D1": {
+          "location": "p1，问题定义",
+          "layers": [
+            "L8",
+            "L6"
+          ]
+        },
+        "D2": {
+          "location": "pp1–2、5",
+          "layers": [
+            "L7",
+            "L2"
+          ]
+        },
+        "D3": {
+          "location": "pp1–2",
+          "layers": [
+            "L6",
+            "L5"
+          ]
+        },
+        "D4": {
+          "location": "p2，动机例子",
+          "layers": [
+            "L6",
+            "L7"
+          ]
+        },
+        "D5": {
+          "location": "p1摘要、p2例子",
+          "layers": [
+            "L8",
+            "L6"
+          ]
+        },
+        "D6": {
+          "location": "p2，三项发现段",
+          "layers": [
+            "L5",
+            "L4"
+          ]
+        },
+        "D7": {
+          "location": "p1，Abstract",
+          "layers": [
+            "L4",
+            "L1"
+          ]
+        },
+        "D8": {
+          "location": "pp1–2",
+          "layers": [
+            "L1",
+            "L4"
+          ]
+        },
+        "D9": {
+          "location": "p9及附录pp25–26",
+          "layers": [
+            "L4",
+            "L2",
+            "L3"
+          ]
+        },
+        "D10": {
+          "location": "pp4–7",
+          "layers": [
+            "L4",
+            "L2"
+          ]
+        },
+        "D11": {
+          "location": "pp7–9；附录p37",
+          "layers": [
+            "L2",
+            "L4"
+          ]
+        },
+        "D12": {
+          "location": "pp3–7",
+          "layers": [
+            "L2",
+            "L4"
+          ]
+        },
+        "D13": {
+          "location": "p5、pp7–9及附录p37",
+          "layers": [
+            "L2",
+            "L4"
+          ]
+        },
+        "D14": {
+          "location": "pp3–10",
+          "layers": [
+            "L3",
+            "L1"
+          ]
+        },
+        "D15": {
+          "location": "实际目视pp1、7",
+          "layers": [
+            "L2",
+            "L3",
+            "L4"
+          ]
+        }
+      }
+    },
+    "X08": {
+      "source_id": "livecodebench_pro",
+      "dimensions": {
+        "D1": {
+          "location": "p2，注释与评估段",
+          "layers": [
+            "L8",
+            "L6"
+          ]
+        },
+        "D2": {
+          "location": "pp1、9、23",
+          "layers": [
+            "L7",
+            "L2"
+          ]
+        },
+        "D3": {
+          "location": "p2，metadata句链",
+          "layers": [
+            "L6",
+            "L5"
+          ]
+        },
+        "D4": {
+          "location": "p2，三问与对比",
+          "layers": [
+            "L6",
+            "L7"
+          ]
+        },
+        "D5": {
+          "location": "pp1–2",
+          "layers": [
+            "L8",
+            "L6"
+          ]
+        },
+        "D6": {
+          "location": "p2，三问之后",
+          "layers": [
+            "L5",
+            "L4"
+          ]
+        },
+        "D7": {
+          "location": "p1，Abstract",
+          "layers": [
+            "L4",
+            "L1"
+          ]
+        },
+        "D8": {
+          "location": "pp1–2",
+          "layers": [
+            "L1",
+            "L4"
+          ]
+        },
+        "D9": {
+          "location": "p2及相关评测讨论",
+          "layers": [
+            "L4",
+            "L2",
+            "L3"
+          ]
+        },
+        "D10": {
+          "location": "pp3–5",
+          "layers": [
+            "L4",
+            "L2"
+          ]
+        },
+        "D11": {
+          "location": "pp6–9、附录p16",
+          "layers": [
+            "L2",
+            "L4"
+          ]
+        },
+        "D12": {
+          "location": "p7及附录pp42–56",
+          "layers": [
+            "L2",
+            "L4"
+          ]
+        },
+        "D13": {
+          "location": "p23及p8",
+          "layers": [
+            "L2",
+            "L4"
+          ]
+        },
+        "D14": {
+          "location": "pp3–9，附录pp13–56",
+          "layers": [
+            "L3",
+            "L1"
+          ]
+        },
+        "D15": {
+          "location": "实际目视pp2、7",
+          "layers": [
+            "L2",
+            "L3",
+            "L4"
+          ]
+        }
+      }
+    },
+    "X09": {
+      "source_id": "webssl",
+      "dimensions": {
+        "D1": {
+          "location": "p2，§2.1",
+          "layers": [
+            "L8",
+            "L6"
+          ]
+        },
+        "D2": {
+          "location": "pp1–2、4",
+          "layers": [
+            "L7",
+            "L2"
+          ]
+        },
+        "D3": {
+          "location": "pp1–2",
+          "layers": [
+            "L6",
+            "L5"
+          ]
+        },
+        "D4": {
+          "location": "pp1–2",
+          "layers": [
+            "L6",
+            "L7"
+          ]
+        },
+        "D5": {
+          "location": "p2，设置段",
+          "layers": [
+            "L8",
+            "L6"
+          ]
+        },
+        "D6": {
+          "location": "p1，动机段",
+          "layers": [
+            "L5",
+            "L4"
+          ]
+        },
+        "D7": {
+          "location": "p1，Abstract",
+          "layers": [
+            "L4",
+            "L1"
+          ]
+        },
+        "D8": {
+          "location": "pp1–2",
+          "layers": [
+            "L1",
+            "L4"
+          ]
+        },
+        "D9": {
+          "location": "pp1–2、7–8",
+          "layers": [
+            "L4",
+            "L2",
+            "L3"
+          ]
+        },
+        "D10": {
+          "location": "pp2–3",
+          "layers": [
+            "L4",
+            "L2"
+          ]
+        },
+        "D11": {
+          "location": "pp3–6",
+          "layers": [
+            "L2",
+            "L4"
+          ]
+        },
+        "D12": {
+          "location": "p7及supp p4",
+          "layers": [
+            "L2",
+            "L4"
+          ]
+        },
+        "D13": {
+          "location": "supp §G p3",
+          "layers": [
+            "L2",
+            "L4"
+          ]
+        },
+        "D14": {
+          "location": "pp2–8",
+          "layers": [
+            "L3",
+            "L1"
+          ]
+        },
+        "D15": {
+          "location": "实际目视pp3、6",
+          "layers": [
+            "L2",
+            "L3",
+            "L4"
+          ]
+        }
+      }
+    },
+    "X10": {
+      "source_id": "pisa",
+      "dimensions": {
+        "D1": {
+          "location": "pp1–2，范围/资源段",
+          "layers": [
+            "L8",
+            "L6"
+          ]
+        },
+        "D2": {
+          "location": "pp1–2、8",
+          "layers": [
+            "L7",
+            "L2"
+          ]
+        },
+        "D3": {
+          "location": "pp1–2",
+          "layers": [
+            "L6",
+            "L5"
+          ]
+        },
+        "D4": {
+          "location": "p1、p2有限结果段",
+          "layers": [
+            "L6",
+            "L7"
+          ]
+        },
+        "D5": {
+          "location": "p1，单任务理由",
+          "layers": [
+            "L8",
+            "L6"
+          ]
+        },
+        "D6": {
+          "location": "p2，研究发现与有限结果两段",
+          "layers": [
+            "L5",
+            "L4"
+          ]
+        },
+        "D7": {
+          "location": "p1，Abstract",
+          "layers": [
+            "L4",
+            "L1"
+          ]
+        },
+        "D8": {
+          "location": "pp1–2",
+          "layers": [
+            "L1",
+            "L4"
+          ]
+        },
+        "D9": {
+          "location": "pp2–3",
+          "layers": [
+            "L4",
+            "L2",
+            "L3"
+          ]
+        },
+        "D10": {
+          "location": "pp3–5",
+          "layers": [
+            "L4",
+            "L2"
+          ]
+        },
+        "D11": {
+          "location": "pp6–8",
+          "layers": [
+            "L2",
+            "L4"
+          ]
+        },
+        "D12": {
+          "location": "pp7–8",
+          "layers": [
+            "L2",
+            "L4"
+          ]
+        },
+        "D13": {
+          "location": "附录p15、p25",
+          "layers": [
+            "L2",
+            "L4"
+          ]
+        },
+        "D14": {
+          "location": "pp3–8",
+          "layers": [
+            "L3",
+            "L1"
+          ]
+        },
+        "D15": {
+          "location": "实际目视pp6、8",
+          "layers": [
+            "L2",
+            "L3",
+            "L4"
+          ]
+        }
+      }
+    },
+    "X11": {
+      "source_id": "deep_fusion",
+      "dimensions": {
+        "D1": {
+          "location": "pp2–3，§3.1",
+          "layers": [
+            "L8",
+            "L6"
+          ]
+        },
+        "D2": {
+          "location": "pp1、4–6",
+          "layers": [
+            "L7",
+            "L2"
+          ]
+        },
+        "D3": {
+          "location": "pp2–3，缓存句链",
+          "layers": [
+            "L6",
+            "L5"
+          ]
+        },
+        "D4": {
+          "location": "p1摘要；p3 Evaluation",
+          "layers": [
+            "L6",
+            "L7"
+          ]
+        },
+        "D5": {
+          "location": "pp2–3，架构与协议",
+          "layers": [
+            "L8",
+            "L6"
+          ]
+        },
+        "D6": {
+          "location": "pp4–6，设计小节",
+          "layers": [
+            "L5",
+            "L4"
+          ]
+        },
+        "D7": {
+          "location": "p1，Abstract",
+          "layers": [
+            "L4",
+            "L1"
+          ]
+        },
+        "D8": {
+          "location": "pp1–2",
+          "layers": [
+            "L1",
+            "L4"
+          ]
+        },
+        "D9": {
+          "location": "p2",
+          "layers": [
+            "L4",
+            "L2",
+            "L3"
+          ]
+        },
+        "D10": {
+          "location": "pp2–3",
+          "layers": [
+            "L4",
+            "L2"
+          ]
+        },
+        "D11": {
+          "location": "pp4–7，Tables1/3/6",
+          "layers": [
+            "L2",
+            "L4"
+          ]
+        },
+        "D12": {
+          "location": "pp6–8",
+          "layers": [
+            "L2",
+            "L4"
+          ]
+        },
+        "D13": {
+          "location": "pp4–8",
+          "layers": [
+            "L2",
+            "L4"
+          ]
+        },
+        "D14": {
+          "location": "pp2–8",
+          "layers": [
+            "L3",
+            "L1"
+          ]
+        },
+        "D15": {
+          "location": "实际目视pp4–5",
+          "layers": [
+            "L2",
+            "L3",
+            "L4"
+          ]
+        }
+      }
+    },
+    "X12": {
+      "source_id": "inference_scaling",
+      "dimensions": {
+        "D1": {
+          "location": "p3，函数定义",
+          "layers": [
+            "L8",
+            "L6"
+          ]
+        },
+        "D2": {
+          "location": "pp3、6、8及supp §D",
+          "layers": [
+            "L7",
+            "L2"
+          ]
+        },
+        "D3": {
+          "location": "pp1、3",
+          "layers": [
+            "L6",
+            "L5"
+          ]
+        },
+        "D4": {
+          "location": "p3，噪声与oracle段",
+          "layers": [
+            "L6",
+            "L7"
+          ]
+        },
+        "D5": {
+          "location": "p1摘要末句、p3定义",
+          "layers": [
+            "L8",
+            "L6"
+          ]
+        },
+        "D6": {
+          "location": "pp3–5",
+          "layers": [
+            "L5",
+            "L4"
+          ]
+        },
+        "D7": {
+          "location": "p1，Abstract",
+          "layers": [
+            "L4",
+            "L1"
+          ]
+        },
+        "D8": {
+          "location": "pp1–3",
+          "layers": [
+            "L1",
+            "L4"
+          ]
+        },
+        "D9": {
+          "location": "supp §A p1及主文行内",
+          "layers": [
+            "L4",
+            "L2",
+            "L3"
+          ]
+        },
+        "D10": {
+          "location": "pp3–5，supp §B",
+          "layers": [
+            "L4",
+            "L2"
+          ]
+        },
+        "D11": {
+          "location": "pp6–8",
+          "layers": [
+            "L2",
+            "L4"
+          ]
+        },
+        "D12": {
+          "location": "p4、p7；supp §§C/E",
+          "layers": [
+            "L2",
+            "L4"
+          ]
+        },
+        "D13": {
+          "location": "supp §§D/E；主文p7",
+          "layers": [
+            "L2",
+            "L4"
+          ]
+        },
+        "D14": {
+          "location": "pp3–8与supp",
+          "layers": [
+            "L3",
+            "L1"
+          ]
+        },
+        "D15": {
+          "location": "实际目视pp3、6",
+          "layers": [
+            "L2",
+            "L3",
+            "L4"
+          ]
+        }
+      }
+    },
+    "X13": {
+      "source_id": "science_t2i",
+      "dimensions": {
+        "D1": {
+          "location": "p1，工具链段",
+          "layers": [
+            "L8",
+            "L6"
+          ]
+        },
+        "D2": {
+          "location": "pp1、6–7",
+          "layers": [
+            "L7",
+            "L2"
+          ]
+        },
+        "D3": {
+          "location": "pp1、3",
+          "layers": [
+            "L6",
+            "L5"
+          ]
+        },
+        "D4": {
+          "location": "p5，ODE到SDE训练推导",
+          "layers": [
+            "L6",
+            "L7"
+          ]
+        },
+        "D5": {
+          "location": "pp1、4–5",
+          "layers": [
+            "L8",
+            "L6"
+          ]
+        },
+        "D6": {
+          "location": "p1，三项介绍段",
+          "layers": [
+            "L5",
+            "L4"
+          ]
+        },
+        "D7": {
+          "location": "p1，Abstract",
+          "layers": [
+            "L4",
+            "L1"
+          ]
+        },
+        "D8": {
+          "location": "pp1–3",
+          "layers": [
+            "L1",
+            "L4"
+          ]
+        },
+        "D9": {
+          "location": "pp2–3",
+          "layers": [
+            "L4",
+            "L2",
+            "L3"
+          ]
+        },
+        "D10": {
+          "location": "pp3–5；supp §M pp8–9",
+          "layers": [
+            "L4",
+            "L2"
+          ]
+        },
+        "D11": {
+          "location": "pp6–7，Tables1/3/4",
+          "layers": [
+            "L2",
+            "L4"
+          ]
+        },
+        "D12": {
+          "location": "pp7–8；supp §§G/H",
+          "layers": [
+            "L2",
+            "L4"
+          ]
+        },
+        "D13": {
+          "location": "supp §A p1、§Q p10",
+          "layers": [
+            "L2",
+            "L4"
+          ]
+        },
+        "D14": {
+          "location": "pp3–8及supp A–R",
+          "layers": [
+            "L3",
+            "L1"
+          ]
+        },
+        "D15": {
+          "location": "实际目视pp3、5",
+          "layers": [
+            "L2",
+            "L3",
+            "L4"
+          ]
+        }
+      }
+    },
+    "X14": {
+      "source_id": "thinking_space",
+      "dimensions": {
+        "D1": {
+          "location": "p2，定义与诊断段",
+          "layers": [
+            "L8",
+            "L6"
+          ]
+        },
+        "D2": {
+          "location": "pp1–2、6–8",
+          "layers": [
+            "L7",
+            "L2"
+          ]
+        },
+        "D3": {
+          "location": "p2，开篇与术语节",
+          "layers": [
+            "L6",
+            "L5"
+          ]
+        },
+        "D4": {
+          "location": "p2，诊断段",
+          "layers": [
+            "L6",
+            "L7"
+          ]
+        },
+        "D5": {
+          "location": "p2，目的与定义句",
+          "layers": [
+            "L8",
+            "L6"
+          ]
+        },
+        "D6": {
+          "location": "p2，Introduction段落",
+          "layers": [
+            "L5",
+            "L4"
+          ]
+        },
+        "D7": {
+          "location": "p1，Abstract",
+          "layers": [
+            "L4",
+            "L1"
+          ]
+        },
+        "D8": {
+          "location": "pp1–2",
+          "layers": [
+            "L1",
+            "L4"
+          ]
+        },
+        "D9": {
+          "location": "p2基础；p8 Related Work",
+          "layers": [
+            "L4",
+            "L2",
+            "L3"
+          ]
+        },
+        "D10": {
+          "location": "pp3–4，supp B/C",
+          "layers": [
+            "L4",
+            "L2"
+          ]
+        },
+        "D11": {
+          "location": "pp5–8，supp B5/C",
+          "layers": [
+            "L2",
+            "L4"
+          ]
+        },
+        "D12": {
+          "location": "pp5–8",
+          "layers": [
+            "L2",
+            "L4"
+          ]
+        },
+        "D13": {
+          "location": "p7–8及supp B5/C",
+          "layers": [
+            "L2",
+            "L4"
+          ]
+        },
+        "D14": {
+          "location": "pp2–8",
+          "layers": [
+            "L3",
+            "L1"
+          ]
+        },
+        "D15": {
+          "location": "实际目视pp3、7",
+          "layers": [
+            "L2",
+            "L3",
+            "L4"
+          ]
+        }
+      }
+    },
+    "X15": {
+      "source_id": "grendel",
+      "dimensions": {
+        "D1": {
+          "location": "pp2–4",
+          "layers": [
+            "L8",
+            "L6"
+          ]
+        },
+        "D2": {
+          "location": "pp2、6–8",
+          "layers": [
+            "L7",
+            "L2"
+          ]
+        },
+        "D3": {
+          "location": "p2观察/设计段",
+          "layers": [
+            "L6",
+            "L5"
+          ]
+        },
+        "D4": {
+          "location": "p2，DNN框架比较",
+          "layers": [
+            "L6",
+            "L7"
+          ]
+        },
+        "D5": {
+          "location": "pp2、5",
+          "layers": [
+            "L8",
+            "L6"
+          ]
+        },
+        "D6": {
+          "location": "p2，两段观察与实现",
+          "layers": [
+            "L5",
+            "L4"
+          ]
+        },
+        "D7": {
+          "location": "p1，Abstract",
+          "layers": [
+            "L4",
+            "L1"
+          ]
+        },
+        "D8": {
+          "location": "pp1–2",
+          "layers": [
+            "L1",
+            "L4"
+          ]
+        },
+        "D9": {
+          "location": "p2、p10；附录D",
+          "layers": [
+            "L4",
+            "L2",
+            "L3"
+          ]
+        },
+        "D10": {
+          "location": "pp3–6",
+          "layers": [
+            "L4",
+            "L2"
+          ]
+        },
+        "D11": {
+          "location": "pp7–10，附录C",
+          "layers": [
+            "L2",
+            "L4"
+          ]
+        },
+        "D12": {
+          "location": "pp6–7；附录B3",
+          "layers": [
+            "L2",
+            "L4"
+          ]
+        },
+        "D13": {
+          "location": "pp6–7；附录B2/C",
+          "layers": [
+            "L2",
+            "L4"
+          ]
+        },
+        "D14": {
+          "location": "pp3–10、附录pp14–20",
+          "layers": [
+            "L3",
+            "L1"
+          ]
+        },
+        "D15": {
+          "location": "实际目视pp3、8",
+          "layers": [
+            "L2",
+            "L3",
+            "L4"
+          ]
+        }
+      }
+    }
+  }
+}
