@@ -10,6 +10,12 @@
 
 语料观察包含正文与实质附录的章节分析和句子近读；逐篇维度定位见[观察索引](observation-index.json)，维度含义见[维度映射](dimension-map.md)。页码指所读PDF物理页。图面核验是有记录的抽样，不等于所有图逐张检查。作者身份用于选文，不能据此归因个人执笔。以下都是对合作论文的写作分析。
 
+### 本轮独立复读与取优（2026-10-13）
+
+两组各自分析既定15篇，再各选6篇作局部细读，最后按编辑任务取优。He组为H01/H03/H05/H06/H08/H14，Xie组为X02/X03/X08/X10/X11/X15；细读聚焦句子、对象交接和段际接口。
+
+本轮主要细化已有机制，加入少量原创写法示例；分阶段的原创对照未显示稳定的整体优势。样本受研究题材、合作团队和可取得版本影响，各篇材料范围见下方书目及[语料清单](corpus-manifest.json)。
+
 ## 一、先看三组最有用的具体机制
 
 ### 1. 同一个对象，承担不同角色
@@ -85,16 +91,16 @@ After: “The system refines continuous states until the final step, when a shar
 | 运行卡 | 组内归纳 | 跨组模式 | 直接机制来源 |
 |---|---|---|---|
 | S1 主体与动作 | H-B、X-B | P1/P9 | H01、X12 |
-| S2 对象接力 | H-A、X-C | P2 | X08、H11 |
+| S2 对象接力 | H-A、H-B、X-C | P2 | X08、X03、H11；扩展示例H01、H03 |
 | S3 关系名词回指 | H-A、X-A | P2/P5 | X02、X06、X11 |
 | S4 平行对照 | H-B、X-B | P3 | H04、X10、X12 |
 | S5 阶段与限定 | H-B、X-B | P3/P7 | H09、H03 |
 | S6 前置堆叠 | H-B、X-B | P4 | H13、X03 |
 | S7 完整条件 | H-B、X-B | P4/P7 | H01、H10、X06 |
-| S8 局部让步 | H-C、X-C | P5/P8 | H13、X07、H15 |
+| S8 局部让步 | H-C、X-C | P5/P8 | H13、X07、X11、H15 |
 | S9 信息单位与节奏 | H-B、X-B | P2/P4/P9 | X02、H12 |
 
-九张卡的22条机制条目来自17篇；这些数目仅说明覆盖。其余论文仍支持章节、故事、图面和论证指导。原创教学例属于独立表达示范，不能倒推为来源论文的实验事实。
+九张卡只收录与具体编辑动作直接有关的来源定位。其余论文仍支持章节、故事、图面和论证指导。原创教学例属于独立表达示范，不能倒推为来源论文的实验事实。
 
 ## 三、跨组反复模式与有用的反例
 
@@ -170,7 +176,7 @@ Venue：NeurIPS 2026；状态：accepted/forthcoming。
 
 版本：arXiv v2, 2026-06-26; accepted venue confirmed separately
 
-观察定位：p1摘要；p4 §3.1。
+观察定位：p1摘要；p4 §3.1；p6 §3.3自条件到CFG的两句短桥，将同一中间预测命名为后续引导的条件 c。
 
 可迁移动作：主句给连续空间中的主要动作，until/where从句给末步例外；具体名词回收一套关系，再引出新用途。被动语态可突出模块使用阶段。
 
@@ -206,7 +212,7 @@ Venue：ECCV 2026；状态：conference paper。
 
 版本：Official ECCV conference-hosted PDF; 18 pages; separate supplement mentioned in text not linked on verified poster page
 
-观察定位：p6 §4.1与Fig3；p9 §5.1。
+观察定位：p6 Fig3与p7–8 §4.3的阶段和模块比较；p9 §5.1第一段的适配→单模型分数→跨模型汇总。两处承担不同写作机制；p9不是冻结模块的主要证据。
 
 可迁移动作：先说在既有流程中新增什么，再展开完整阶段；重复模块名来比较初始化、更新和冻结，比换近义词清楚。
 
@@ -242,7 +248,7 @@ Venue：CVPR 2026；状态：published proceedings。
 
 版本：CVF accepted version plus official separate supplement
 
-观察定位：p1摘要；p4 §4.1。
+观察定位：p1摘要；p4 §4.1。局部细读包括旧方案段尾与下一方案段首：先定位尚待解决的关系，再给继承对象及实际改动。
 
 可迁移动作：冒号后的同构分句解释两个反向过程；先界定旧选择的具体限制，再让新操作解除同一限制。
 
@@ -260,7 +266,7 @@ Venue：CVPR 2026；状态：published proceedings。
 
 版本：CVF accepted main text; verified CVF page has no supplement link; arXiv 13-page version additionally downloaded for appendix
 
-观察定位：p1摘要；p4 §4.1。
+观察定位：p1摘要；p4 §4.1。局部细读包括旧方案段尾与下一方案段首：先定位尚待解决的关系，再给继承对象及实际改动。
 
 可迁移动作：问题与解法一一对应；一次改写的结果又成为下一问题的主语，使方法不是技巧清单。
 
@@ -458,7 +464,7 @@ Venue：NeurIPS 2026；状态：accepted_upcoming。
 
 版本：arXiv v1, 2026-06-12; author version lists 6 authors, while official venue lists 5. Both end with Saining Xie.
 
-观察定位：p1 Introduction；p5 §3.2。
+观察定位：p1 Introduction；p5 §3.2。定点句法补读：p1引言第一段末句→第二段首句的分工回指；p5 §3.2式2后动态依赖与不变约束。
 
 可迁移动作：用具体名词回指两方分工，再解释前提如何变化；先概括条件输入差别，再落到token接口，长动态句后接短的不变约束。
 
@@ -478,7 +484,7 @@ Venue：ECCV 2026；状态：published。
 
 版本：arXiv v2, 2026-07-23; author version has Bingyi Kang additional to publisher list. Both end with Saining Xie.
 
-观察定位：p1摘要；p3 Introduction。
+观察定位：p1摘要；p3 Introduction；p6 §3.1。定点句法补读：p1摘要前两句的判断→关系定义；p6 token→hidden state→projection→head的对象与接口链。
 
 可迁移动作：短句提出关键判断，后一句用坐标关系解释其含义；简单接口与真实训练冲突分开，解决动作对应冲突。
 
@@ -606,7 +612,7 @@ Venue：ICML 2025；状态：published。
 
 版本：PMLR 267 official PDF with appendices.
 
-观察定位：p1–2 Introduction。
+观察定位：p1–2 Introduction；p3 §3.1假设及其分组用途；p7–8 §5.2双判准与对应测试。
 
 可迁移动作：以受控研究的理由解释任务选择；真实和模拟数据用平行主语说明分工；单轨迹可行与分布正确是两种成功标准。
 
@@ -624,7 +630,7 @@ Venue：CVPR 2025；状态：published。
 
 版本：Official proceedings PDF; CVF accepted version with watermark
 
-观察定位：p1摘要；pp2–3 §3.1；p3 Evaluation。
+观察定位：p1摘要；pp2–3 §3.1；p3 Evaluation；p5 §6.1第二问题、四候选及表3后讨论。末句以让步从句交代代价，以主句选择动词和理由承载取舍。
 
 可迁移动作：诚实标明经验研究的贡献类型；两种不变状态作为短代词的明确先行词，随后推出缓存用途；评估段提前说明指标权衡的读法。
 
@@ -696,7 +702,7 @@ Venue：ICLR 2025；状态：published。
 
 版本：Official ICLR proceedings PDF
 
-观察定位：p2关键观察与实现段。
+观察定位：p2关键观察与实现段。定点句法补读：按页内正文自然段计P4（观察）和P5（系统设计），二者以同一顺序连接并行方式、重排／通信、局部性与动态负载。
 
 可迁移动作：并行方式引出数据重排代价，代价变成局部性设计的目标；首次术语用常用动作就地解释，下一阶段保留同样骨架。
 

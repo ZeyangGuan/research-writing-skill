@@ -40,6 +40,8 @@ Abstract压缩论证；Introduction建立设计理由；Methods展开对象与�
 
 接不顺时，检查相邻句是补条件、给证据、解释还是对照，再选择共同对象或必要连接词。若一句没有支持本段中心，也没有承担必要铺垫，才考虑移动或删除；不用给每段硬凑五个功能。完整例见[Analysis段落](section-patterns.md#analysis)，跨段接续见[Introduction](section-patterns.md#introduction)。
 
+跨段时，先接住**尚未回答的具体问题**：上段完成一项，下一段转向既有任务的另一项。前段若依次建立几项性质或困难，后段沿同序展开设计响应，让段尾的问题落到下一段的操作。来源：[X10](sources-and-patterns.md#x10) p7–8 §5.2的双重判准；[X15](sources-and-patterns.md#x15) p2的性质与设计呼应；[H05](sources-and-patterns.md#h05) p4 §4.1的表示约束与替代操作；[H06](sources-and-patterns.md#h06) p4 §4.1的输入诊断与函数改动。
+
 交付：更清楚的段落中心与递进；只改L6–L8时仍保留原段落功能和推进次序。观察索引D6；语料例X04从兼容性推进主动收益、X15从并行方式推进通信代价。主题—支持工具另有[社区写作参考](reference-integration.md#nature)，与语料观察分开。
 
 ## L6 Sentence Flow：让信息逐句接力

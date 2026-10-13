@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.4.2 — 2026-10-13
+
+- Refine sentence and paragraph guidance after separate reviews of both 15-paper groups, with six focused close readings per group.
+- Clarify clause focus for an existing choice, introduce objects before use, and connect paragraph questions to the next operation.
+- Add optional, source-linked examples of cross-section role handoffs and nested aggregation.
+- Keep the short entrypoint, nine sentence cards, existing review guidance, and bilingual visual design.
+
 ## 1.4.1 — 2026-10-13
 
 - Rewrite the public guide around practical editing tasks and add a complete Chinese README.

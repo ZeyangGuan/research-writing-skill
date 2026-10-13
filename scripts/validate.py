@@ -99,7 +99,7 @@ def main() -> int:
         check('dimension-map.md' in card, 'Each card needs a D-dimension pointer')
         source = card.split('**源语境**', 1)[-1]
         evidence_refs.extend(re.findall(r'\[([HX]\d{2})\]', source))
-    check(len(evidence_refs) == 22, f'Expected 22 direct card mechanisms, found {len(evidence_refs)}')
+    check(len(evidence_refs) == 24, f'Expected 24 direct card mechanisms, found {len(evidence_refs)}')
     check(len(set(evidence_refs)) == 17, 'Expected 17 distinct direct card sources')
     check(set(evidence_refs) <= expected, 'Unknown card source ID')
 

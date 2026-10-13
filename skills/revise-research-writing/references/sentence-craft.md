@@ -46,6 +46,10 @@ After: The encoder normalizes each input vector before it enters the prediction 
 
 **怎么写**：先判断后句是在接输入、补条件、给证据还是解释。对于输入—输出关系，标记前句产物，在后句用this/these加稳定术语接住它。论证关系不必写成数据流：解释句可以回指已有difference或finding，对照句可以沿同一比较轴展开。连接词只表达已存在的关系。
 
+**先让对象可用**：给新对象命名时，可用短同位语或关系从句把已有的角色、构成或用途一并交清，再让后句消费它。需要调整句序时，遵循本次编辑范围。定义本来清楚可得时，直接使用对象。
+
+跨节时，同一对象还可能从“上一步产物”变成“下一步条件”；把旧名与新角色在一句中绑定。嵌套汇总时，让每次汇总的产物成为下一次的输入。需要具体示例时，再读[跨节短桥与统计接力](object-handoff-examples.md)。
+
 Before: The encoder produces a confidence map. For the selector, this map is the input used to choose pixels.
 
 After: The encoder produces a confidence map. The selector uses this map to choose pixels.
@@ -68,6 +72,7 @@ After: The perturbed-calibration setting has a higher average error. This differ
 
 **源语境**（物理页；详情按ID追溯）：
 - [X08](sources-and-patterns.md#x08) p2 数据构建段：专家标注任务技能和认知类型；随后产物被用于模型表现切片。可学标注动作产出metadata，metadata支持后续分析。[所读版](https://proceedings.neurips.cc/paper_files/paper/2025/file/9712b78386cebdc3db7f1a48c2d20edb-Paper-Datasets_and_Benchmarks_Track.pdf)。
+- [X03](sources-and-patterns.md#x03) p1摘要前两句、p6 §3.1 token→hidden state→projection→head接口：新对象先与角色绑定，再被后续动作使用；定义后的小关系从句可以就地交代用途。[所读版](https://arxiv.org/pdf/2605.22819v2)。
 - [H11](sources-and-patterns.md#h11) p6 §4.5 Training：递归模块向下传递输出，直至像素层；this process回收整个传递动作。可学上一层输出成为下一层输入，同层级词保持稳定。[所读版](https://arxiv.org/pdf/2502.17437)。
 
 <a id="s3"></a>
@@ -211,7 +216,7 @@ if/were/would把假设状态与条件后果绑定。缩为The estimate satisfies
 
 **何时用**：句子要说“有效但不够”，却把两半写成笼统正负评价；或在压缩时只剩失败结论。
 
-**怎么写**：分别找仍成立的收益与明确未覆盖的范围。 当段落当前焦点是限制，用although从句保留收益，主句直接命名限制。 若段落焦点是收益，可保留but并列；让步句不是固定优于并列句。
+**怎么写**：先确定本句要交付的是收益、限制，还是已有的选择。把当前答案放在主句，已知取舍放在让步从句：讨论限制时，主句命名限制；解释选择时，主句说清选谁及原文给出的理由。需要两面同等权重时保留but并列，不为句式变化另造代价或偏好。
 
 Before: A reduction in repeated reads is obtained with the shared cache, but no reduction in the cost of a first request is obtained.
 
@@ -225,11 +230,20 @@ After: Although the shared cache reduces repeated reads, it does not reduce the 
 
 若两面需要同等权重，这句已直接清楚；不要只为出现although而改它。
 
+解释选择的原创等义例（允许合句）：
+
+Before: The tiled solver uses more memory than the streaming solver. We use the tiled solver because it avoids repeated disk access.
+
+After: Although the tiled solver uses more memory than the streaming solver, we use it because it avoids repeated disk access.
+
+**改在哪里**：内存代价成为让步，主句落在已有的选择，because保留原文的采用理由。若两句已清楚服务各自任务，保留原句；合句本身不是收益。
+
 真实让步不是“无效反转”或禁词。能否删让步，要看它是否保留结论有效范围。
 
 **源语境**（物理页；详情按ID追溯）：
 - [H13](sources-and-patterns.md#h13) p4 §4开头：原有编辑可控制部分属性，但复杂属性和灵活性有限；让步没有否定全部编辑能力。可学承认粗粒度编辑能力后指出局部限制。[所读版](https://raw.githubusercontent.com/mlresearch/v267/main/assets/beyer25a/beyer25a.pdf)。
 - [X07](sources-and-patterns.md#x07) p2 Higher validation accuracy段：分类准确率更低与生成表现更好同时成立；让步用于校准默认预期，不意味着数学矛盾。可学对照同一目标编码器的两个评价维度。[所读版](https://proceedings.iclr.cc/paper_files/paper/2026/file/3929a7785bd56f57edcff0152ab41289-Paper-Conference.pdf)。
+- [X11](sources-and-patterns.md#x11) p5 §6.1第二问题、表3后讨论末句：让步从句保留对齐代价，主句以选择动词及参数效率／结构简洁理由收束。可学把采用决定与经验结果分清，并让句法重心落在当前决定上。[所读版](https://openaccess.thecvf.com/content/CVPR2025/papers/Tang_Exploring_the_Deep_Fusion_of_Large_Language_Models_and_Diffusion_CVPR_2025_paper.pdf)。
 - [H15](sources-and-patterns.md#h15) p7 §4.3 Predict clean data：保留一个性能下降步骤是因为拆解目标；迁移句法时不能把该研究目的当成本稿目的。可学承认精度下降，同时保留不同研究目标。[所读版](https://proceedings.iclr.cc/paper_files/paper/2025/file/8b52c29d1a77e3fcc6c8f90fa0ac0e8e-Paper-Conference.pdf)。
 
 <a id="s9"></a>
