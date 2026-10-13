@@ -115,11 +115,11 @@ def main() -> int:
     link_count = 0
     external_urls: set[str] = set()
     for path in ROOT.rglob('*.md'):
-        if '.git' in path.parts:
+        if '.git' in path.parts or path.relative_to(ROOT).parts[0] == 'build':
             continue
         content = path.read_text(encoding='utf-8')
         targets = re.findall(r'\]\(([^\s)]+)(?:\s+[^)]*)?\)', content)
-        targets += re.findall(r'(?:href|src)=[\"\']([^\"\']+)', content)
+        targets += re.findall(r'(?:href|src|srcset)=[\"\']([^\"\']+)', content)
         for raw in targets:
             url = urlsplit(raw)
             if url.scheme in {'https', 'http', 'mailto'}:
@@ -133,13 +133,30 @@ def main() -> int:
                 check(unquote(url.fragment) in anchors(dest.read_text(encoding='utf-8')),
                       f'{path.relative_to(ROOT)}: missing anchor: {raw}')
 
-    # Keep the package text-only apart from original editable SVG artwork.
+    # Original homepage GIFs have editable sources and static SVG counterparts.
     allowed = {'.md', '.json', '.py', '.svg', '.yaml', '.yml'}
+    animation_sizes = {
+        'assets/workflow/desktop.gif': (1120, 800),
+        'assets/workflow/mobile.gif': (640, 1180),
+    }
+    artwork_sources = {'assets/workflow/source.html', 'scripts/render-workflow.cjs'}
     for path in ROOT.rglob('*'):
         if not path.is_file() or '.git' in path.parts or '__pycache__' in path.parts:
             continue
         relative = path.relative_to(ROOT)
-        check(path.suffix in allowed or path.name in {'LICENSE', '.gitignore'}, f'Unexpected artifact: {relative}')
+        if relative.parts[0] == 'build':
+            continue  # Local render frames are ignored build output.
+        name = relative.as_posix()
+        if name in animation_sizes:
+            data = path.read_bytes()
+            check(len(data) >= 10 and data[:6] in {b'GIF87a', b'GIF89a'}, f'{relative}: invalid GIF header')
+            if len(data) >= 10:
+                size = (int.from_bytes(data[6:8], 'little'), int.from_bytes(data[8:10], 'little'))
+                check(size == animation_sizes[name], f'{relative}: unexpected GIF dimensions')
+            check(len(data) <= 5 * 1024 * 1024, f'{relative}: GIF exceeds the artwork size budget')
+            continue
+        check(path.suffix in allowed or path.name in {'LICENSE', '.gitignore'} or name in artwork_sources,
+              f'Unexpected artifact: {relative}')
         if path.name == 'validate.py':
             continue  # The scanner's patterns are not secrets or leaked paths.
         content = path.read_text(encoding='utf-8')
@@ -161,7 +178,7 @@ def main() -> int:
             print(f'FAIL: {error}', file=sys.stderr)
         print(f'{len(ERRORS)} check(s) failed.', file=sys.stderr)
         return 1
-    print(f'PASS: {len(papers)} papers (15 + 15); {observations} dimension locators; L1–L8 coverage.')
+    print('PASS: corpus IDs, author-group structure, dimension locators, and L1–L8 coverage.')
     print(f'PASS: {len(card_ids)} cards; {len(evidence_refs)} mechanisms from {len(set(evidence_refs))} papers; {len(examples)} behavioral cases.')
     print(f'PASS: {link_count} local links/anchors; package boundary and SVG checks.')
     print(f'NOTE: {len(external_urls)} external URLs found, not fetched by this offline validator.')

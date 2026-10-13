@@ -1,8 +1,14 @@
 # Changelog
 
+## 1.4.3 - 2026-10-13
+
+- Add an original workflow animation that shows local edits and explains which sentences stay.
+- Provide desktop and mobile layouts, reduced-motion static views, and editable animation source.
+- Remove corpus-size promotion from public copy while preserving the bibliography and source boundaries.
+
 ## 1.4.2 — 2026-10-13
 
-- Refine sentence and paragraph guidance after separate reviews of both 15-paper groups, with six focused close readings per group.
+- Refine sentence and paragraph guidance through paper-level review and focused close readings.
 - Clarify clause focus for an existing choice, introduce objects before use, and connect paragraph questions to the next operation.
 - Add optional, source-linked examples of cross-section role handoffs and nested aggregation.
 - Keep the short entrypoint, nine sentence cards, existing review guidance, and bilingual visual design.
@@ -17,7 +23,7 @@
 ## 1.4.0 — 2026-10-12
 
 - Package the skill as a standalone public repository with an English entrypoint, English quick start, and Chinese reference guidance.
-- Retain the 30-paper corpus and all nine source-linked sentence cards.
+- Retain the source corpus and all nine source-linked sentence cards.
 - Add an explicit D1–D15 definition table, L/D/S map, and per-paper observation locator index.
 - Add original before/after examples, behavioral cases, offline validation, and editable SVG artwork.
 - Separate public provenance from internal working records; distribute no source PDFs or paper figures.
@@ -40,6 +46,6 @@
 
 ## 1.0.0 — 2026-10-12
 
-- Establish the 30-paper, two-group writing corpus and the eight-layer research-writing toolkit.
+- Establish the source corpus and the eight-layer research-writing toolkit.
 
 Earlier entries describe the skill's development history. They do not assert that separate public Git tags or releases existed.

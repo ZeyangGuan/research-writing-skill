@@ -2,13 +2,13 @@
 
 ## Original work in this repository
 
-The skill instructions, source analyses, teaching examples, validator, and SVG banner are independently written or drawn for this project. They are covered by the repository's [MIT License](LICENSE).
+The skill instructions, source analyses, teaching examples, validator, SVG artwork, and workflow animation are independently written or drawn for this project. They are covered by the repository's [MIT License](LICENSE).
 
 The examples use hypothetical methods and results. The repository contains original teaching material and source links; paper PDFs, figures, long excerpts, user manuscripts, and experimental datasets are excluded.
 
 ## Research-paper corpus
 
-The [manifest](skills/revise-research-writing/references/corpus-manifest.json) identifies 30 collaborative papers and the particular public versions used for writing observations. The [source guide](skills/revise-research-writing/references/sources-and-patterns.md) gives short mechanism descriptions and locations. H01–H15 select papers with Kaiming He; X01–X15 select papers with Saining Xie. Author position is a selection criterion, not evidence of who composed any sentence.
+The [manifest](skills/revise-research-writing/references/corpus-manifest.json) identifies the collaborative papers and particular public versions used for writing observations. The [source guide](skills/revise-research-writing/references/sources-and-patterns.md) gives short mechanism descriptions and locations. H01–H15 select papers with Kaiming He; X01–X15 select papers with Saining Xie. Author position is a selection criterion, not evidence of who composed any sentence.
 
 Paper copyrights remain with their respective rights holders. This independent project is unaffiliated with the authors, their institutions, publishers, or conference organizers and carries no endorsement from them.
 
@@ -23,6 +23,8 @@ Those projects are credited for editorial ideas; their code, examples, and subst
 ## Visual references
 
 The [Nature](https://www.nature.com/) and [eLife](https://elifesciences.org/) homepages were consulted on 2026-10-13 for editorial hierarchy: clear headlines, short explanatory text, and distinct source metadata. The banner uses original typography and layout. No journal logos, page assets, or article imagery are reproduced.
+
+The workflow animation also draws on presentation principles observed on [Linear](https://linear.app/), [Zed](https://zed.dev/), and [VHS](https://github.com/charmbracelet/vhs): a stable workspace, local emphasis, and time to read the result. The [animation notes](assets/workflow/README.md) record these references. The teaching paragraph and all animation assets are original.
 
 ## Why MIT
 

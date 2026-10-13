@@ -1,17 +1,21 @@
-<picture>
-  <source media="(max-width: 600px)" srcset="assets/banner-mobile.svg">
-  <img src="assets/banner.svg" alt="Research Writing Skill — 把研究写清楚" width="100%">
-</picture>
-
 # Research Writing Skill
 
 一个帮助你修改英文论文的 skill：把句子写顺，把比较讲清楚，让读者更容易跟上论证。
 
 [开始使用](#开始使用) · [修改示例](#修改示例) · [来源](#来源) · [English](README.md)
 
+<picture>
+  <source media="(prefers-reduced-motion: no-preference) and (max-width: 600px)" type="image/gif" srcset="assets/workflow/mobile.gif">
+  <source media="(prefers-reduced-motion: no-preference)" type="image/gif" srcset="assets/workflow/desktop.gif">
+  <source media="(max-width: 600px)" type="image/svg+xml" srcset="assets/workflow/mobile-still.svg">
+  <img src="assets/workflow/desktop-still.svg" alt="同一段文字的修改过程：确定句级范围，写清主谓和衔接，删除冗余套话，保留有用的重复与真实转折。" width="100%">
+</picture>
+
+看一段文字怎样改得更自然：删掉空泛套话，写清动作与衔接；连续的“We”、准确的技术名词和有实际内容的转折，按各自作用保留。[完整示例与中文说明](examples/workflow.md) · [静态版](assets/workflow/mobile-still.svg)
+
 贴入一段文字，说明你想改哪里，它会给出修订稿，并简要解释关键改动。修改时保留原文的技术含义、数字和限定条件。如果问题出在结构上，也可以请它调整摘要、章节或整篇论文的论证。
 
-这套方法整理自 **30 篇论文**。日常润色可用 **9 张句子修改卡**；需要较大调整时，可按 **8 个层次**确定修改范围。参考说明主要用中文，示例和论文改写用英文。
+日常润色可以从句子修改卡中选择合适的方法；需要较大调整时，先用范围指南确定改到哪一层。参考说明主要用中文，示例和论文改写用英文。
 
 ## 可以帮你改什么
 
@@ -142,10 +146,10 @@ if (Test-Path -LiteralPath $target) {
 
 ## 来源
 
-语料包括 **何恺明为末位作者的 15 篇论文，以及谢赛宁为末位作者的 15 篇论文**，快照日期为 **2026-10-12**。这些都是合作论文；作者顺序用于分组选篇，具体观察对应所读版本中的写法。项目由独立整理者维护，与论文作者和出版方无隶属或背书关系。
+来源笔记研究何恺明或谢赛宁为末位作者的合作论文，快照日期为 **2026-10-12**。这些都是合作论文；作者顺序用于分组选篇，具体观察对应所读版本中的写法。项目由独立整理者维护，与论文作者和出版方无隶属或背书关系。
 
 - [来源说明与书目](skills/revise-research-writing/references/sources-and-patterns.md)：各篇论文的具体观察，以及跨论文归纳。
-- [语料清单](skills/revise-research-writing/references/corpus-manifest.json)：完整的 30 篇题名、作者、链接、版本及来源说明，包含所用公开作者稿的情况。
+- [语料清单](skills/revise-research-writing/references/corpus-manifest.json)：论文题名、作者、链接、版本及来源说明，包含所用公开作者稿的情况。
 - [观察索引](skills/revise-research-writing/references/observation-index.json)：每篇论文对应的页码与章节。
 - [维度映射](skills/revise-research-writing/references/dimension-map.md)：修改层次 L1–L8、观察维度 D1–D15 与句子卡 S1–S9 的关系。
 

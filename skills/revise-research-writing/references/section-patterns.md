@@ -157,4 +157,4 @@ After: “The comparison shows that memory use can be reduced on the evaluated d
 
 ## 外部写法来源
 
-摘要的信息功能另参考[Nature官方摘要指南](https://www.nature.com/documents/nature-summary-paragraph.pdf)（2019），段落与引言推进另参考[社区Nature类写作模块](reference-integration.md#nature)。它们是外部编辑思路，不是30篇语料的新增统计。只取对当前论文有用的功能关系；目标会议、用户范围和已有科学内容决定最终写法。
+摘要的信息功能另参考[Nature官方摘要指南](https://www.nature.com/documents/nature-summary-paragraph.pdf)（2019），段落与引言推进另参考[社区Nature类写作模块](reference-integration.md#nature)。它们是外部编辑思路，不作为源论文的新增统计。只取对当前论文有用的功能关系；目标会议、用户范围和已有科学内容决定最终写法。

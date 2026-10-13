@@ -279,6 +279,6 @@ Before: Latency is reduced by 12% at a fixed memory budget.
 
 After: At a fixed memory budget, latency is reduced by 12%.
 
-已有预算条件和12%降幅都保留。若本段重在强调预算公平，原句把budget留在句尾更合适，直接Keep。这是[Orchestra写作指南](https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/main/20-ml-paper-writing/ml-paper-writing/references/writing-guide.md)提供的可选焦点工具，经独立原创示例适配；未当作30篇语料的频率结论。
+已有预算条件和12%降幅都保留。若本段重在强调预算公平，原句把budget留在句尾更合适，直接Keep。这是[Orchestra写作指南](https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/main/20-ml-paper-writing/ml-paper-writing/references/writing-guide.md)提供的可选焦点工具，经独立原创示例适配；未当作源论文的频率结论。
 
 完成正向改写后，再做[定点语言清理](final-language-pass.md)。不要为轮换句型而破坏清楚的平行关系，也不要用更短或改得更多来判断优劣。

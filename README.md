@@ -1,17 +1,21 @@
-<picture>
-  <source media="(max-width: 600px)" srcset="assets/banner-mobile.svg">
-  <img src="assets/banner.svg" alt="Research Writing Skill — Make the research clear." width="100%">
-</picture>
-
 # Research Writing Skill
 
 A skill for revising English research papers: clearer sentences, easier comparisons, and a better path through the argument.
 
 [Quick start](#quick-start) · [Examples](#before-and-after) · [Sources](#sources) · [中文](README.zh-CN.md)
 
+<picture>
+  <source media="(prefers-reduced-motion: no-preference) and (max-width: 600px)" type="image/gif" srcset="assets/workflow/mobile.gif">
+  <source media="(prefers-reduced-motion: no-preference)" type="image/gif" srcset="assets/workflow/desktop.gif">
+  <source media="(max-width: 600px)" type="image/svg+xml" srcset="assets/workflow/mobile-still.svg">
+  <img src="assets/workflow/desktop-still.svg" alt="A paragraph revised in place: set sentence-level scope, clarify actions and connections, remove stock phrasing, and keep useful repetition and a real trade-off." width="100%">
+</picture>
+
+Watch a sentence-level edit unfold. Stock phrasing goes; repeated “We,” precise technical terms, and a real contrast stay where they help. [Read the full example](examples/workflow.md) · [Static view](assets/workflow/desktop-still.svg)
+
 Give it a paragraph and say what you want to improve. It returns a revision with brief reasons for the edits, preserving the technical meaning, numbers, and conditions. For a larger revision, ask it to work on an abstract, section, or argument.
 
-The guidance draws on **30 papers**, with **9 sentence cards** for everyday editing and **8 layers** for choosing how much to revise. Detailed reference notes are mainly in Chinese; the examples and revised prose are in English.
+The skill offers sentence cards for everyday editing and a guide to choosing the right scope for larger revisions. Detailed reference notes are mainly in Chinese; the examples and revised prose are in English.
 
 ## What it helps with
 
@@ -145,10 +149,10 @@ For larger revisions, the [eight-layer toolkit](skills/revise-research-writing/r
 
 ## Sources
 
-The corpus contains **15 papers with Kaiming He and 15 with Saining Xie as last-listed authors**, using a snapshot dated **2026-10-12**. These are collaborative papers. The observations describe techniques in the selected versions; author position identifies the groups, not who wrote a particular sentence. This is an independent project, unaffiliated with the authors or publishers.
+The source notes study papers with Kaiming He or Saining Xie as last-listed authors, using a snapshot dated **2026-10-12**. These are collaborative papers. The observations describe techniques in the selected versions; author position identifies the groups, not who wrote a particular sentence. This is an independent project, unaffiliated with the authors or publishers.
 
 - [Source guide and bibliography](skills/revise-research-writing/references/sources-and-patterns.md): paper-level observations and patterns across papers.
-- [Corpus manifest](skills/revise-research-writing/references/corpus-manifest.json): all 30 titles, author lists, links, version notes, and source limitations, including public author manuscripts.
+- [Corpus manifest](skills/revise-research-writing/references/corpus-manifest.json): titles, author lists, links, version notes, and source limitations, including public author manuscripts.
 - [Observation index](skills/revise-research-writing/references/observation-index.json): page and section locations for each paper.
 - [Dimension map](skills/revise-research-writing/references/dimension-map.md): editing layers (L1–L8), observation dimensions (D1–D15), and sentence cards (S1–S9).
 

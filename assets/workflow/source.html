@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Research Writing — editable workflow animation</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#e6e7e3;color:#263338;font-family:Arial,Helvetica,sans-serif}#stage{max-width:1120px;margin:0 auto}svg{display:block;width:100%;height:auto}nav{max-width:1120px;margin:20px auto;padding:0 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap}button,select,input{font:inherit}button,select{padding:9px 14px}input{flex:1;min-width:100px}#time{font-variant-numeric:tabular-nums}body.capture{background:#f4f1e9}body.capture nav{display:none}body.capture #stage{max-width:none}
+</style></head><body><div id="stage" aria-label="An original paragraph revised step by step"></div><nav aria-label="Animation preview controls"><button id="toggle">Pause</button><button id="restart">Restart</button><label>Layout <select id="layout"><option value="desktop">Desktop</option><option value="mobile">Mobile</option></select></label><input id="seek" type="range" min="0" max="42" step="0.1" value="0" aria-label="Animation time"><span id="time">0.0 / 42 s</span></nav>
+<script>
+// Original teaching example. Edit the sentences, stage labels, and timings here.
+const DRAFT = [
+ 'We use a shared encoder to perform the extraction of a feature map.',
+ 'For the scoring head, this map is the input used to assign a score to each region.',
+ 'It is important to note that the encoder is frozen.',
+ 'We train the head on labeled regions.',
+ 'We evaluate the head on held-out regions.',
+ 'The head improves accuracy, but it increases latency.'
+];
+const FINAL = [
+ 'We use a shared encoder to extract a feature map.',
+ 'The scoring head uses this map to assign a score to each region.',
+ 'The encoder is frozen.',
+ ...DRAFT.slice(3)
+];
+const scenes = [
+ {at:0, end:4, key:'input', title:'Edit precisely. Keep what works.', sub:'Watch one research paragraph take shape.', label:'INPUT', note:'Read the whole passage first.', detail:'The method, the experiment, and the trade-off.'},
+ {at:4, end:8, key:'scope', title:'Set the scope.', sub:'Polish the wording. Keep the order and claims.', label:'SCOPE', note:'Sentence-level editing.', detail:'The argument stays in place.'},
+ {at:8, end:13, key:'action', title:'Let the verb do the work.', sub:'Make the action easy to find.', label:'REVISE', note:'perform the extraction of  →  extract', detail:'The encoder and its output stay the same.', change:0},
+ {at:13, end:18, key:'handoff', title:'Connect the two sentences.', sub:'Follow the feature map into the scoring head.', label:'REVISE', note:'The scoring head uses this map…', detail:'An explicit subject. A clear connection.', change:1},
+ {at:18, end:23, key:'filler', title:'Drop the stock phrase.', sub:'Keep the information the reader needs.', label:'REMOVE', note:'It is important to note that…', detail:'The encoder is frozen. That is the point.', change:2},
+ {at:23, end:27, key:'we', title:'Keep the repeated “We”.', sub:'Training and evaluation are different actions.', label:'KEEP', note:'We train…  We evaluate…', detail:'Both sentences earn their place.'},
+ {at:27, end:31, key:'term', title:'Keep the technical repetition.', sub:'“The head” names the same component.', label:'KEEP', note:'A stable name helps the reader.', detail:'There is no need to invent a synonym.'},
+ {at:31, end:35, key:'contrast', title:'Keep the real contrast.', sub:'The benefit and the cost both matter.', label:'KEEP', note:'…improves accuracy, but…', detail:'The latency cost remains in the sentence.'},
+ {at:35, end:42, key:'final', title:'The paragraph, ready to use.', sub:'Three local edits. The useful sentences stay.', label:'FINAL', note:'Clear actions. Clear connections.', detail:'Every claim and condition is retained.'}
+];
+const COLOR={paper:'#fffefa',bg:'#f4f1e9',ink:'#263338',muted:'#5c676b',rule:'#d1d3ca',edit:'#216b68',editBg:'#e0eeea',cut:'#a34331',cutBg:'#f3e4dc',keep:'#3c6550',keepBg:'#e3ebdf'};
+const measure=document.createElement('canvas').getContext('2d');
+const escape=s=>s.replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');
+const clamp=n=>Math.max(0,Math.min(1,n)); const ease=n=>{n=clamp(n);return n*n*(3-2*n)};
+const text=(x,y,s,size=22,fill=COLOR.ink,extra='')=>`<text x="${x}" y="${y}" font-family="Arial,Helvetica,sans-serif" font-size="${size}" fill="${fill}" ${extra}>${escape(s)}</text>`;
+const line=(x1,y1,x2,y2,color=COLOR.rule,width=1,extra='')=>`<path d="M${x1} ${y1}L${x2} ${y2}" fill="none" stroke="${color}" stroke-width="${width}" ${extra}/>`;
+function wrap(s,width,size,font='Arial'){
+ measure.font=`${size}px ${font}`;const result=[];let row='';
+ for(const w of s.split(' ')){const trial=row?row+' '+w:w;if(row&&measure.measureText(trial).width>width){result.push(row);row=w}else row=trial}
+ if(row)result.push(row);return result;
+}
+function lcs(a,b){
+ const dp=Array.from({length:a.length+1},()=>Array(b.length+1).fill(0));
+ for(let i=a.length-1;i>=0;i--)for(let j=b.length-1;j>=0;j--)dp[i][j]=a[i]===b[j]?dp[i+1][j+1]+1:Math.max(dp[i+1][j],dp[i][j+1]);
+ let i=0,j=0;const pairs=[];while(i<a.length&&j<b.length){if(a[i]===b[j]){pairs.push([i,j]);i++;j++}else if(dp[i+1][j]>=dp[i][j+1])i++;else j++}return pairs;
+}
+let unique=0;
+const initial=DRAFT.map((s,si)=>s.split(' ').map((word,wi)=>({word,id:'w'+unique++,si,wi})));
+const versions=[initial];
+for(let changed=0;changed<3;changed++){
+ const prev=versions.at(-1);const next=prev.map(a=>a.map(w=>({...w})));
+ const words=FINAL[changed].split(' ');const pairs=lcs(prev[changed].map(w=>w.word),words);const map=new Map(pairs.map(([a,b])=>[b,a]));
+ next[changed]=words.map((word,wi)=>({word,id:map.has(wi)?prev[changed][map.get(wi)].id:'w'+unique++,si:changed,wi}));versions.push(next);
+}
+function positions(version,g){
+ measure.font=`${g.font}px Georgia`;const sp=measure.measureText(' ').width;let x=g.x,y=g.y;const arr=[];
+ for(const sentence of version)for(const token of sentence){const w=measure.measureText(token.word).width;if(x+w>g.x+g.width){x=g.x;y+=g.leading}arr.push({...token,x,y,w});x+=w+sp}return arr;
+}
+function token(t,opacity=1,fill=COLOR.ink,highlight=null,strike=0,font=32){
+ const r=highlight?`<rect x="${t.x-2}" y="${t.y-font+2}" width="${t.w+4}" height="${font+7}" rx="3" fill="${highlight}"/>`:'';
+ return `<g opacity="${opacity}">${r}<text x="${t.x}" y="${t.y}" font-family="Georgia,'Times New Roman',serif" font-size="${font}" fill="${fill}">${escape(t.word)}</text>${strike?line(t.x,t.y-font*.29,t.x+t.w*strike,t.y-font*.29,COLOR.cut,2):''}</g>`;
+}
+function isFocus(w,scene){
+ if(scene.key==='action')return w.si===0&&w.wi>=6&&w.wi<=9;
+ if(scene.key==='handoff')return w.si===1&&w.wi<=5;
+ if(scene.key==='filler')return w.si===2&&w.wi<7;
+ if(scene.key==='we')return (w.si===3||w.si===4)&&w.wi<2;
+ if(scene.key==='term')return [1,3,4,5].includes(w.si)&&/^head[,.]?$/.test(w.word);
+ if(scene.key==='contrast')return w.si===5;
+ return false;
+}
+function draw(t,layout='desktop'){
+ t=Math.max(0,Math.min(41.999,t));const mobile=layout==='mobile';
+ const W=mobile?640:1120,H=mobile?1180:800;
+ const g=mobile?{x:48,y:331,width:544,font:34,leading:48}:{x:72,y:293,width:976,font:32,leading:45};
+ const index=scenes.findIndex(s=>t>=s.at&&t<s.end);const scene=scenes[Math.max(0,index)],local=t-scene.at;
+ const headingSize=mobile?43:46, titleLines=wrap(scene.title,W-88,headingSize);
+ let out=`<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-labelledby="title desc"><title id="title">Research Writing — ${escape(scene.title)}</title><desc id="desc">Original teaching example. A paragraph is revised at sentence level; useful repetition and a real trade-off are kept.</desc><rect width="${W}" height="${H}" fill="${COLOR.bg}"/>`;
+ out+=text(44,40,'RESEARCH WRITING / A WORKED EXAMPLE',mobile?19:18,COLOR.muted,'letter-spacing="1.3"');
+ titleLines.forEach((s,i)=>out+=text(44,(mobile?98:108)+i*(headingSize+7),s,headingSize));
+ const sy=mobile?194:149;
+ wrap(scene.sub,W-88,mobile?25:24).forEach((s,i)=>out+=text(44,sy+i*33,s,mobile?25:24,COLOR.muted));
+ const py=mobile?258:199,ph=mobile?698:439;
+ out+=`<rect x="${mobile?24:32}" y="${py}" width="${W-(mobile?48:64)}" height="${ph}" fill="${COLOR.paper}" stroke="${COLOR.rule}"/>`;
+ out+=text(g.x,py+35,scene.key==='final'?'REVISED PARAGRAPH':'DRAFT / SENTENCE-LEVEL EDIT',mobile?19:17,COLOR.muted,'letter-spacing="1.2"');
+ // A continuous editorial rule shows progress, without a row of step cards.
+ const progress=clamp(t/35),trackY=mobile?239:182;
+ out+=line(44,trackY,W-44,trackY,COLOR.rule,2);
+ out+=line(44,trackY,44+(W-88)*progress,trackY,COLOR.edit,3);
+ for(let k=0;k<9;k++)out+=`<circle cx="${44+(W-88)*(scenes[k].at/35)}" cy="${trackY}" r="${k===index?4.5:2.5}" fill="${t>=scenes[k].at?COLOR.edit:COLOR.rule}"/>`;
+ let level=t<9.6?0:t<14.6?1:t<19.6?2:3;
+ const transition=[9.6,14.6,19.6].findIndex(start=>t>=start&&t<start+.75);
+ let items=positions(versions[level],g),layer='';
+ if(transition>=0){
+   const start=[9.6,14.6,19.6][transition],p=ease((t-start)/.75);
+   const before=positions(versions[transition],g),after=positions(versions[transition+1],g);
+   const a=new Map(before.map(w=>[w.id,w])),b=new Map(after.map(w=>[w.id,w]));
+   for(const old of before){const nw=b.get(old.id);if(nw)layer+=token({...nw,x:old.x+(nw.x-old.x)*p,y:old.y+(nw.y-old.y)*p},1,COLOR.ink,null,0,g.font);else layer+=token({...old,y:old.y-10*p},1-p,COLOR.cut,COLOR.cutBg,1,g.font)}
+   for(const nw of after)if(!a.has(nw.id))layer+=token({...nw,y:nw.y+12*(1-p)},p,COLOR.edit,COLOR.editBg,0,g.font);
+   items=after;
+ }else{
+   const beforeChange=scene.change!==undefined&&t<[9.6,14.6,19.6][scene.change];
+   for(const w of items){
+     const focus=isFocus(w,scene),keep=scene.label==='KEEP';
+     let bg=focus?(keep?COLOR.keepBg:beforeChange?COLOR.cutBg:COLOR.editBg):null;
+     if(scene.key==='scope')bg=null;
+     const strike=focus&&beforeChange&&scene.key!=='handoff'?ease((local-.4)/.65):0;
+     // After a revision, highlight only the affected sentence, never unrelated prose.
+     if(scene.change!==undefined&&!beforeChange)bg=w.si===scene.change?COLOR.editBg:null;
+     layer+=token(w,1,focus&&keep?COLOR.keep:COLOR.ink,bg,strike,g.font);
+   }
+ }
+ out+=layer;
+ // The feature map is visibly carried into the next sentence.
+ if(scene.key==='handoff'&&t>=15){
+   const from=items.find(w=>w.si===0&&w.word==='map.');
+   const to=items.find(w=>w.si===1&&w.word==='map');
+   if(from&&to){const p=ease((t-15)/.8);out+=line(from.x,from.y+7,from.x+from.w,from.y+7,COLOR.edit,3);out+=line(to.x,to.y+7,to.x+to.w*p,to.y+7,COLOR.edit,3);}
+ }
+ if(scene.key==='scope'){
+   const last=items.at(-1);out+=line(g.x-13,g.y-g.font,g.x-13,last.y+8,COLOR.edit,2);out+=line(g.x-13,g.y-g.font,g.x-5,g.y-g.font,COLOR.edit,2);out+=line(g.x-13,last.y+8,g.x-5,last.y+8,COLOR.edit,2);
+ }
+ const fy=mobile?1000:684,labelColor=scene.label==='KEEP'?COLOR.keep:scene.label==='REMOVE'?COLOR.cut:COLOR.edit;
+ out+=text(44,fy,scene.label,mobile?21:18,labelColor,'font-weight="700" letter-spacing="2"');
+ const ny=mobile?1046:720,ns=mobile?28:27;
+ wrap(scene.note,W-88,ns).forEach((s,i)=>out+=text(44,ny+i*35,s,ns,scene.key==='filler'?COLOR.cut:COLOR.ink));
+ const dy=mobile?1138:762;
+ wrap(scene.detail,W-88,mobile?22:21).forEach((s,i)=>out+=text(44,dy+i*28,s,mobile?22:21,COLOR.muted));
+ out+='</svg>';
+ document.getElementById('stage').innerHTML=out;
+ window.lastFrame={time:t,layout,scene:scene.key,width:W,height:H,lastTextBaseline:items.at(-1).y,paperBottom:py+ph,paragraph:versions[level].map(s=>s.map(w=>w.word).join(' ')).join(' ')};
+ return out;
+}
+window.workflow={draw,scenes,draft:DRAFT,final:FINAL,duration:42};
+const params=new URLSearchParams(location.search);let layout=params.get('layout')||'desktop';
+if(params.has('capture'))document.body.classList.add('capture');
+const select=document.getElementById('layout');select.value=layout;
+let playing=!params.has('capture')&&!matchMedia('(prefers-reduced-motion: reduce)').matches,t=playing?0:35.8,last=performance.now();
+const button=document.getElementById('toggle');button.textContent=playing?'Pause':'Play';
+function frame(now){if(playing)t=(t+(now-last)/1000)%42;last=now;draw(t,layout);document.getElementById('seek').value=t;document.getElementById('time').textContent=t.toFixed(1)+' / 42 s';requestAnimationFrame(frame)}
+if(!params.has('capture'))requestAnimationFrame(frame);else draw(Number(params.get('t')||0),layout);
+button.onclick=()=>{playing=!playing;last=performance.now();button.textContent=playing?'Pause':'Play'};
+document.getElementById('restart').onclick=()=>{t=0;playing=true;last=performance.now();button.textContent='Pause'};
+select.onchange=()=>{layout=select.value;draw(t,layout)};
+document.getElementById('seek').oninput=e=>{t=Number(e.target.value);playing=false;button.textContent='Play';draw(t,layout)};
+</script></body></html>
