@@ -1,8 +1,19 @@
+<picture>
+  <source media="(max-width: 600px)" srcset="assets/banner-mobile.svg">
+  <img src="assets/banner.svg" alt="Research Writing Skill — Make the research clear." width="100%">
+</picture>
+
 # Research Writing Skill
 
 A skill for revising English research papers: clearer sentences, easier comparisons, and a better path through the argument.
 
 [Quick start](#quick-start) · [Examples](#before-and-after) · [Sources](#sources) · [中文](README.zh-CN.md)
+
+Give it a paragraph and say what you want to improve. It returns a revision with brief reasons for the edits, preserving the technical meaning, numbers, and conditions. For a larger revision, ask it to work on an abstract, section, or argument.
+
+The skill offers sentence cards for everyday editing and a guide to choosing the right scope for larger revisions. Detailed reference notes are mainly in Chinese; the examples and revised prose are in English.
+
+## How it works
 
 <picture>
   <source media="(max-width: 600px)" srcset="assets/workflow/mobile.gif">
@@ -12,10 +23,6 @@ A skill for revising English research papers: clearer sentences, easier comparis
 Follow one paragraph from method to protocol to result. Five edits group related facts, improve the handoffs, and vary the rhythm while preserving the claims and conditions. [Read the full example](examples/workflow.md)
 
 [Static view](assets/workflow/desktop-still.svg)
-
-Give it a paragraph and say what you want to improve. It returns a revision with brief reasons for the edits, preserving the technical meaning, numbers, and conditions. For a larger revision, ask it to work on an abstract, section, or argument.
-
-The skill offers sentence cards for everyday editing and a guide to choosing the right scope for larger revisions. Detailed reference notes are mainly in Chinese; the examples and revised prose are in English.
 
 ## What it helps with
 

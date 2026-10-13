@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.4.5 - 2026-10-13
+
+- Restore the static editorial banner at the top of both READMEs and place the workflow animation after the introduction.
+- Shorten the animation to 24 seconds while retaining visible transitions and a final reading pause.
+- Simplify each editing frame to an action title, the paragraph, and a progress line; finish with a five-second Before/After comparison.
+
 ## 1.4.4 - 2026-10-13
 
 - Rework the writing example and animation around complete relationships, information handoffs, and sentence rhythm.

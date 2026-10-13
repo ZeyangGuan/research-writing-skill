@@ -136,8 +136,8 @@ def main() -> int:
     # Original homepage GIFs have editable sources and static SVG counterparts.
     allowed = {'.md', '.json', '.py', '.svg', '.yaml', '.yml'}
     animation_sizes = {
-        'assets/workflow/desktop.gif': (1120, 800),
-        'assets/workflow/mobile.gif': (640, 1180),
+        'assets/workflow/desktop.gif': (1120, 480),
+        'assets/workflow/mobile.gif': (640, 850),
     }
     artwork_sources = {'assets/workflow/source.html', 'scripts/render-workflow.cjs'}
     for path in ROOT.rglob('*'):

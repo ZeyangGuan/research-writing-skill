@@ -10,7 +10,7 @@ fs.mkdirSync(output,{recursive:true});
 (async()=>{
  const browser=await chromium.launch({headless:true,...(process.env.WORKFLOW_BROWSER?{executablePath:process.env.WORKFLOW_BROWSER}:{})});
  const checks=[];let settings;
- for(const [layout,width,height] of [['desktop',1120,800],['mobile',640,1180]]){
+ for(const [layout,width,height] of [['desktop',1120,480],['mobile',640,850]]){
   const p=await browser.newPage({viewport:{width,height},deviceScaleFactor:1});
   await p.goto(pathToFileURL(source).href+'?capture=1&layout='+layout);
   await p.evaluate(()=>document.fonts.ready);
