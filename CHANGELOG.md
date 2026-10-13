@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.4.1 — 2026-10-13
+
+- Rewrite the public guide around practical editing tasks and add a complete Chinese README.
+- Simplify repeated caveats and example explanations while preserving scope, attribution, and licenses.
+- Add responsive, editable editorial-style banners for desktop and mobile.
+- Preserve the current corpus and editing mechanisms; the new per-paper review is ongoing.
+
 ## 1.4.0 — 2026-10-12
 
 - Package the skill as a standalone public repository with an English entrypoint, English quick start, and Chinese reference guidance.

@@ -1,14 +1,14 @@
 # Contributing
 
-Useful contributions improve a specific editing decision. More rules or shorter prose are not automatically better.
+Start with a passage that is difficult to read and show how an editing choice helps.
 
-1. State the difficulty and the authorized editing scope.
+1. Describe the difficulty and the requested scope of revision.
 2. Show an original or appropriately licensed input, a proposed revision, and the facts that must remain unchanged.
 3. Include a case where keeping the original is better.
 4. For source-derived guidance, link the exact public version and locate the relevant page or section. Distinguish a single-paper observation from a cross-paper pattern.
-5. Keep instructions progressive: put universal scope rules in the entrypoint and conditional detail in a relevant reference.
+5. Keep shared rules in the entrypoint and task-specific detail in the relevant reference.
 6. Run `python3 scripts/validate.py` and review semantic fidelity separately.
 
-Do not submit private manuscripts, unpublished experimental results, credentials, source PDFs, paper screenshots, or long copyrighted passages. Do not attribute collaborative prose to an individual author without evidence. Any copied or substantively adapted third-party material needs compatible permission, notices, and an explicit attribution record.
+Use original examples or material you have permission to share. Keep private manuscripts, unpublished results, credentials, source PDFs, paper screenshots, and long copyrighted passages out of submissions. Credit collaborative papers as such; attributing a sentence to an individual author requires evidence. For copied or substantially adapted material, document permission and provenance and retain the required notices.
 
-Behavioral test cases may have multiple good answers, including no edit. Evaluate the preservation of facts and conditions first, then reader effort. Do not turn word count, edit count, passive-voice frequency, or an AI-detection score into a quality target.
+Behavioral cases can have several good answers, including keeping the original. Review factual meaning and conditions first, then how easily a reader can follow the text. Word counts, numbers of edits, and AI-detection scores are not measures of writing quality.

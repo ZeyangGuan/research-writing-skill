@@ -1,22 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
-  <title id="title">Research Writing Skill — Clear prose. Intact science.</title>
-  <desc id="desc">An editorial-style banner with a dark navy background and three linked concepts: object, relation, and next question. Thirty papers, eight layers, nine sentence cards.</desc>
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#101b2b"/><stop offset="1" stop-color="#182b3d"/></linearGradient>
-    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#8edac7"/><stop offset="1" stop-color="#b6b8f2"/></linearGradient>
-  </defs>
-  <rect width="1200" height="420" rx="24" fill="url(#bg)"/>
-  <path d="M38 42H1162M38 378H1162" stroke="#344658" stroke-width="1"/>
-  <circle cx="64" cy="76" r="5" fill="#8edac7"/>
-  <text x="81" y="82" font-family="DejaVu Sans, sans-serif" font-size="14" letter-spacing="3" fill="#c7d4df">RESEARCH WRITING SKILL</text>
-  <text x="62" y="167" font-family="DejaVu Sans, sans-serif" font-size="54" font-weight="700" fill="#f8f6ef">Clear prose.</text>
-  <text x="62" y="231" font-family="DejaVu Sans, sans-serif" font-size="54" font-weight="700" fill="#8edac7">Intact science.</text>
-  <text x="65" y="278" font-family="DejaVu Sans, sans-serif" font-size="17" fill="#b9cad8">Small editing moves. Traceable sources.</text>
-  <text x="65" y="342" font-family="DejaVu Sans, sans-serif" font-size="14" fill="#d6e0e7">30 PAPERS<tspan dx="24" fill="#728b9f">/</tspan><tspan dx="24" fill="#d6e0e7">8 LAYERS</tspan><tspan dx="24" fill="#728b9f">/</tspan><tspan dx="24" fill="#d6e0e7">9 CARDS</tspan></text>
-  <g transform="translate(700 95)" font-family="DejaVu Sans, sans-serif">
-    <path d="M30 37V190" stroke="url(#line)" stroke-width="2"/>
-    <g transform="translate(0 0)"><rect width="423" height="64" rx="12" fill="#203447" stroke="#3c5669"/><circle cx="30" cy="32" r="7" fill="#8edac7"/><text x="56" y="28" font-size="12" fill="#a8c5c4" letter-spacing="1.5">START WITH AN OBJECT</text><text x="56" y="49" font-size="17" fill="#f0f5f7">The encoder produces a map.</text></g>
-    <g transform="translate(0 80)"><rect width="423" height="64" rx="12" fill="#203447" stroke="#3c5669"/><circle cx="30" cy="32" r="7" fill="#a3cfd9"/><text x="56" y="28" font-size="12" fill="#a8c5c4" letter-spacing="1.5">ADD A RELATION</text><text x="56" y="49" font-size="17" fill="#f0f5f7">The head uses this map.</text></g>
-    <g transform="translate(0 160)"><rect width="423" height="64" rx="12" fill="#203447" stroke="#3c5669"/><circle cx="30" cy="32" r="7" fill="#b6b8f2"/><text x="56" y="28" font-size="12" fill="#bcc1e5" letter-spacing="1.5">KEEP THE NEXT STEP CLEAR</text><text x="56" y="49" font-size="17" fill="#f0f5f7">One score for each region.</text></g>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" role="img" aria-labelledby="title desc">
+  <title id="title">Research Writing Skill — Make the research clear.</title>
+  <desc id="desc">An original editorial banner on warm ivory. A large serif headline is followed by three areas of revision: sentences, structure, and wording.</desc>
+  <rect width="1200" height="440" fill="#f7f4ed"/>
+  <path d="M52 44H1148" stroke="#233036" stroke-width="2"/>
+  <path d="M52 44H140" stroke="#a43d2d" stroke-width="6"/>
+  <text x="52" y="85" fill="#233036" font-family="Arial, Helvetica, sans-serif" font-size="22" letter-spacing="3">RESEARCH WRITING SKILL</text>
+  <g font-family="Georgia, 'Times New Roman', serif" font-size="100" letter-spacing="-3">
+    <text x="47" y="211" fill="#233036">Make the research</text>
+    <text x="47" y="311" fill="#a43d2d">clear.</text>
   </g>
+  <text x="373" y="291" fill="#4b565b" font-family="Arial, Helvetica, sans-serif" font-size="26">A practical guide to revising English papers.</text>
+  <path d="M52 355H1148" stroke="#c6c9c5"/>
+  <g fill="#233036" font-family="Arial, Helvetica, sans-serif" font-size="23">
+    <text x="52" y="399">Sentences</text>
+    <text x="222" y="399">Structure</text>
+    <text x="378" y="399">Wording</text>
+  </g>
+  <g fill="#a43d2d"><circle cx="194" cy="391" r="2.5"/><circle cx="350" cy="391" r="2.5"/></g>
+  <text x="1148" y="399" text-anchor="end" fill="#4b565b" font-family="Arial, Helvetica, sans-serif" font-size="22">30 papers · 9 sentence cards</text>
 </svg>
