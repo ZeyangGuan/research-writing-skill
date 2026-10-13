@@ -7,7 +7,7 @@
 
 一个帮助你修改英文论文的 skill：把句子写顺，把比较讲清楚，让读者更容易跟上论证。
 
-[开始使用](#开始使用) · [修改示例](#修改示例) · [来源](#来源) · [English](README.md)
+[开始使用](#开始使用) · [修改过程](#看一段修改过程) · [来源](#来源) · [English](README.md)
 
 贴入一段文字，说明你想改哪里，它会给出修订稿，并简要解释关键改动。修改时保留原文的技术含义、数字和限定条件。如果问题出在结构上，也可以请它调整摘要、章节或整篇论文的论证。
 
@@ -100,38 +100,6 @@ if (Test-Path -LiteralPath $target) {
 提供 [SKILL.md](skills/revise-research-writing/SKILL.md) 和同目录下的 `references/` 文件夹，请助手按照 skill 修改，并按需读取参考文件。两者都需要作为文件提供，助手才能沿链接查阅。
 
 仓库内容是指令和示例，使用它无需额外 API 密钥、模型下载或运行依赖。可选的检查脚本只使用 Python 标准库。
-
-## 修改示例
-
-以下是原创教学示例，方法和结果均为假设情境。
-
-### 用动词直接写出动作
-
-**修改前**
-> The encoder performs the extraction of a feature map. For the scoring head, this map is the input used to assign one score to each region.
-
-**修改后**
-> The encoder extracts a feature map. The scoring head uses this map to assign one score to each region.
-
-“Extracts”和“uses”直接写出两个动作；同一张特征图把前后两句连起来。[S1 与 S2](skills/revise-research-writing/references/sentence-craft.md#s1)
-
-### 让比较更容易读
-
-**修改前**
-> Adding text improves image accuracy, whereas for text accuracy, the addition of images produces no change.
-
-**修改后**
-> Adding text improves image accuracy, whereas adding images leaves text accuracy unchanged.
-
-两个分句采用对应的结构，读者更容易看出结果的差别：一个方向有提升，另一个没有变化。[S4](skills/revise-research-writing/references/sentence-craft.md#s4)
-
-### 已经清楚的句子可以保留
-
-> The encoder is frozen during adaptation. Only the region head is updated.
-
-这里的阶段和参数状态都很清楚，两句原样保留即可。
-
-[查看全部七个示例 →](examples/before-after.md)
 
 ## 怎么选择修改方法
 

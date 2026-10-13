@@ -7,7 +7,7 @@
 
 A skill for revising English research papers: clearer sentences, easier comparisons, and a better path through the argument.
 
-[Quick start](#quick-start) · [Examples](#before-and-after) · [Sources](#sources) · [中文](README.zh-CN.md)
+[Quick start](#quick-start) · [How it works](#how-it-works) · [Sources](#sources) · [中文](README.zh-CN.md)
 
 Give it a paragraph and say what you want to improve. It returns a revision with brief reasons for the edits, preserving the technical meaning, numbers, and conditions. For a larger revision, ask it to work on an abstract, section, or argument.
 
@@ -99,40 +99,6 @@ You may reorder sentences; keep all claims tied to the results I provide.
 Provide [SKILL.md](skills/revise-research-writing/SKILL.md) and its `references/` folder, then ask the assistant to follow the skill and consult the relevant references. Make both available as files so the links can be followed.
 
 This package consists of instructions and examples. It needs no additional API key, model download, or runtime dependency; the optional validator uses Python's standard library.
-
-<a id="before--after"></a>
-
-## Before and after
-
-These original teaching examples use hypothetical methods and results.
-
-### Put the action in the verb
-
-**Before**
-> The encoder performs the extraction of a feature map. For the scoring head, this map is the input used to assign one score to each region.
-
-**After**
-> The encoder extracts a feature map. The scoring head uses this map to assign one score to each region.
-
-“Extracts” and “uses” make the two actions easy to follow. The feature map connects the sentences. [S1 and S2](skills/revise-research-writing/references/sentence-craft.md#s1)
-
-### Make a comparison easier to read
-
-**Before**
-> Adding text improves image accuracy, whereas for text accuracy, the addition of images produces no change.
-
-**After**
-> Adding text improves image accuracy, whereas adding images leaves text accuracy unchanged.
-
-Matching the clause structure brings out the finding: one direction improves; the other stays unchanged. [S4](skills/revise-research-writing/references/sentence-craft.md#s4)
-
-### Keep a sentence that already works
-
-> The encoder is frozen during adaptation. Only the region head is updated.
-
-The stage and parameter states are clear. Both sentences can stay as they are.
-
-[Read all seven worked examples →](examples/before-after.md)
 
 ## Inside the skill
 
