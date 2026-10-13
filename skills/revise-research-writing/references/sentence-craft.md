@@ -251,15 +251,15 @@ After: Although the tiled solver uses more memory than the streaming solver, we 
 
 [观察维度：D3/D4/D5](dimension-map.md)；日常使用不必打开映射。
 
-**何时用**：一串同长度短句反复报告同一变化，或不变约束埋在长过程句里，读者分不清什么在变、什么保持不变。
+**何时用**：相邻短句虽各有信息，却把一项定义、过程或对照切碎；或句子负担相近、重音单调，使读者难辨主要动作、条件与落点。不变约束埋在过程里也是一种情形。
 
-**怎么写**：将同一过程的变化与已给出的直接后果放在一起。 删除同一原因的重复表达，不删独立条件。 另起短句交代未变化的约束；不要把每句都改成相同长度。
+**怎么写**：先确定本句要交付的一项完整关系，再决定哪些事实共同承载它。用并列谓语对齐同一对象的不同动作，用关系从句就近交代新对象的用途，或将状态放到它限定的对象旁；主句仍须容易找到。已有的因果、时序和让步才用相应连接词。短句适合单独突出一个判断或约束，也可让条件留在同一句中；取决于当前重点，而非长短交替公式。合句后读相邻句：前句建立了什么，后句从哪里继续？
 
 Before: At each step, the state changes. The score is recomputed because the state changes. The scorer uses the same weights at every step.
 
 After: At each step, the state changes, so the score is recomputed. The scorer uses the same weights at every step.
 
-**改在哪里**：第一句是一条动态关系；第二句是一条稳定约束。节奏差来自信息功能，而非规定平均句长。
+**改在哪里**：第一句是一条动态关系；第二句在此需要单独突出稳定约束。这是当前信息分工的一种选择，不是每个状态都应独立成短句。
 
 **等义核对**：状态变化导致score重算，scorer各步用相同weights；未把同权重改成训练期间冻结。
 
@@ -267,9 +267,11 @@ After: At each step, the state changes, so the score is recomputed. The scorer u
 
 一句已经把变化与不变量清楚分工，拆句并不会自动更好。
 
+不同动作也可组成一个信息单位：We train the head on labeled regions and evaluate it on held-out regions. 两个谓语和各自的数据条件都在，句界不必为每个动作单独保留。反过来，若两项各需展开不同证据，独立成句更便于推进。
+
 **源语境**（物理页；详情按ID追溯）：
 - [X02](sources-and-patterns.md#x02) p5 §3.2式2后：采样中噪声表示随步骤变化，conditioning随之重算；随后单独说明LLM保持causal。可学较长动态过程后接极短不变条件。[所读版](https://arxiv.org/pdf/2606.14700)。
-- 保留例 [H12](sources-and-patterns.md#h12) p1 Abstract连续We句：连续We分别进行调查、理论解释、设计与期望；有功能差异的重复不需要为节奏而删除。可学相同主语仍可承担不同信息动作。[所读版](https://raw.githubusercontent.com/mlresearch/v267/main/assets/sun25g/sun25g.pdf)。
+- 保留例 [H12](sources-and-patterns.md#h12) p1 Abstract全段：连续We句承担理论解释、设计与期望，但句内仍用并列谓语把分析与经验检验相连，用关系从句及结果分词结构交代新模型的表现与意义。可学相同主语承载不同信息工作，同时把属于同一关系的事实组织在一句中；不是每个动作各占一句。[所读版](https://raw.githubusercontent.com/mlresearch/v267/main/assets/sun25g/sun25g.pdf)。
 
 ## 可选微调：把本句重点留在句尾
 

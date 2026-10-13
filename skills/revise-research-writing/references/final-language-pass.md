@@ -1,6 +1,6 @@
 # 成稿定点清理
 
-完成指定层级的修改后，只清理下列可定位的问题。没命中就原样保留，不再次润色全部文字，不重开故事。保持标题、段落数量和顺序、公式、图表与引用；句子拆合服从用户要求。
+完成指定层级的修改、检查句间承接与信息分组后，只清理下列可定位的问题。本轮没命中就原样保留，不再次润色全部文字，不重开故事。保持标题、段落数量和顺序、公式、图表与引用；句子拆合服从用户要求。
 
 这一步改善表达，不检测AI作者身份，也不承诺改变检测分数。全部英文例句为原创教学文本，前后实质信息相同。
 
@@ -14,9 +14,9 @@ Before: “We use one fixed threshold to score all predictions. All predictions 
 
 After: “We score all predictions with one fixed threshold.”
 
-**保留**：“We measure accuracy on the validation set. We measure latency on the deployment device.” 两句测量对象与条件不同，整齐有助比较。
+**保留信息**：“We measure accuracy on the validation set. We measure latency on the deployment device.” 两项测量及各自条件都应保留，不能当重复命题删掉；它们也可以用并列谓语组织。是否保留句界由前面的句间衔接与节奏修改决定，不由F1未命中决定。
 
-依据：H12 p1连续We承担不同研究动作；X12 p3重复输入—输出骨架定义不同接口。
+依据：H12 p1连续We承担不同研究动作，句内也用并列与从属结构组织完整关系；X12 p3重复输入—输出骨架定义不同接口。
 
 ## F2 没有信息的提示或总结
 
@@ -80,7 +80,7 @@ After: “The same linear projection computes each score.”
 
 ## 交付前四个判断
 
-- 能指出每次修改解决F1–F5中的哪个问题；未命中句逐字保持。
+- 能指出本轮每次修改解决F1–F5中的哪个问题；本轮未命中句逐字保持。
 - 对象、动作、数字、算法、量词、条件、否定/让步、引用与结果状态没变。
 - 没有把两档比较写成趋势，或新增主体、因果、实验目的。
 - 原句更好就恢复；内容疑点单列。较宽的旧新比较另用[review-and-verify.md](review-and-verify.md)。

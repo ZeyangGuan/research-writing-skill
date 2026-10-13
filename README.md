@@ -5,13 +5,13 @@ A skill for revising English research papers: clearer sentences, easier comparis
 [Quick start](#quick-start) · [Examples](#before-and-after) · [Sources](#sources) · [中文](README.zh-CN.md)
 
 <picture>
-  <source media="(prefers-reduced-motion: no-preference) and (max-width: 600px)" type="image/gif" srcset="assets/workflow/mobile.gif">
-  <source media="(prefers-reduced-motion: no-preference)" type="image/gif" srcset="assets/workflow/desktop.gif">
-  <source media="(max-width: 600px)" type="image/svg+xml" srcset="assets/workflow/mobile-still.svg">
-  <img src="assets/workflow/desktop-still.svg" alt="A paragraph revised in place: set sentence-level scope, clarify actions and connections, remove stock phrasing, and keep useful repetition and a real trade-off." width="100%">
+  <source media="(max-width: 600px)" srcset="assets/workflow/mobile.gif">
+  <img src="assets/workflow/desktop.gif" alt="A paragraph revised in place: clarify actions, complete the method interface, pair the protocol, and close on the result while preserving the claims." width="100%">
 </picture>
 
-Watch a sentence-level edit unfold. Stock phrasing goes; repeated “We,” precise technical terms, and a real contrast stay where they help. [Read the full example](examples/workflow.md) · [Static view](assets/workflow/desktop-still.svg)
+Follow one paragraph from method to protocol to result. Five edits group related facts, improve the handoffs, and vary the rhythm while preserving the claims and conditions. [Read the full example](examples/workflow.md)
+
+[Static view](assets/workflow/desktop-still.svg)
 
 Give it a paragraph and say what you want to improve. It returns a revision with brief reasons for the edits, preserving the technical meaning, numbers, and conditions. For a larger revision, ask it to work on an abstract, section, or argument.
 

@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.4.4 - 2026-10-13
+
+- Rework the writing example and animation around complete relationships, information handoffs, and sentence rhythm.
+- Clarify that preserving distinct facts permits sentence combining when the requested scope allows it.
+- Make GIF playback the default, with a simple mobile layout switch and separate static-view links.
+
 ## 1.4.3 - 2026-10-13
 
 - Add an original workflow animation that shows local edits and explains which sentences stay.

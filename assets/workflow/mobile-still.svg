@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="640" height="1180" viewBox="0 0 640 1180" role="img" aria-labelledby="title desc">
 <title id="title">Research Writing — The paragraph, ready to use.</title>
-<desc id="desc">Original teaching example. A paragraph is revised at sentence level; useful repetition and a real trade-off are kept.</desc>
+<desc id="desc">Original teaching example. Five edits organize a method, protocol, and result into a coherent paragraph while retaining the claims and conditions.</desc>
 <rect width="640" height="1180" fill="#f4f1e9">
 </rect>
 <text x="44" y="40" font-family="Arial,Helvetica,sans-serif" font-size="19" fill="#5c676b" letter-spacing="1.3" textLength="450.90625" lengthAdjust="spacingAndGlyphs">RESEARCH WRITING / A WORKED EXAMPLE</text>
 <text x="44" y="98" font-family="Arial,Helvetica,sans-serif" font-size="43" fill="#263338" textLength="461.359375" lengthAdjust="spacingAndGlyphs">The paragraph, ready to</text>
 <text x="44" y="148" font-family="Arial,Helvetica,sans-serif" font-size="43" fill="#263338" textLength="81.28125" lengthAdjust="spacingAndGlyphs">use.</text>
-<text x="44" y="194" font-family="Arial,Helvetica,sans-serif" font-size="25" fill="#5c676b" textLength="492.40625" lengthAdjust="spacingAndGlyphs">Three local edits. The useful sentences stay.</text>
+<text x="44" y="194" font-family="Arial,Helvetica,sans-serif" font-size="25" fill="#5c676b" textLength="415.515625" lengthAdjust="spacingAndGlyphs">An interface, a protocol, then a result.</text>
 <rect x="24" y="258" width="592" height="698" fill="#fffefa" stroke="#d1d3ca">
 </rect>
 <text x="48" y="293" font-family="Arial,Helvetica,sans-serif" font-size="19" fill="#5c676b" letter-spacing="1.2" textLength="227" lengthAdjust="spacingAndGlyphs">REVISED PARAGRAPH</text>
@@ -16,170 +16,139 @@
 </path>
 <circle cx="44" cy="239" r="2.5" fill="#216b68">
 </circle>
-<circle cx="107.08571428571429" cy="239" r="2.5" fill="#216b68">
+<circle cx="76.47058823529412" cy="239" r="2.5" fill="#216b68">
 </circle>
-<circle cx="170.17142857142858" cy="239" r="2.5" fill="#216b68">
+<circle cx="157.6470588235294" cy="239" r="2.5" fill="#216b68">
 </circle>
-<circle cx="249.02857142857144" cy="239" r="2.5" fill="#216b68">
+<circle cx="255.05882352941174" cy="239" r="2.5" fill="#216b68">
 </circle>
-<circle cx="327.88571428571424" cy="239" r="2.5" fill="#216b68">
+<circle cx="384.94117647058823" cy="239" r="2.5" fill="#216b68">
 </circle>
-<circle cx="406.74285714285713" cy="239" r="2.5" fill="#216b68">
-</circle>
-<circle cx="469.8285714285714" cy="239" r="2.5" fill="#216b68">
-</circle>
-<circle cx="532.9142857142857" cy="239" r="2.5" fill="#216b68">
+<circle cx="514.8235294117646" cy="239" r="2.5" fill="#216b68">
 </circle>
 <circle cx="596" cy="239" r="4.5" fill="#216b68">
 </circle>
 <g opacity="1">
-<text x="48" y="331" font-family="Georgia,'Times New Roman',serif" font-size="34" fill="#263338" textLength="49.609375" lengthAdjust="spacingAndGlyphs">We</text>
+<text x="48" y="331" font-family="Georgia,'Times New Roman',serif" font-size="34" fill="#263338" textLength="22.8125" lengthAdjust="spacingAndGlyphs">A</text>
 </g>
 <g opacity="1">
-<text x="105.806640625" y="331" font-family="Georgia,'Times New Roman',serif" font-size="34" fill="#263338" textLength="50.6875" lengthAdjust="spacingAndGlyphs">use</text>
+<text x="79.01171875" y="331" font-family="Georgia,'Times New Roman',serif" font-size="34" fill="#263338" textLength="110.671875" lengthAdjust="spacingAndGlyphs">shared,</text>
 </g>
 <g opacity="1">
-<text x="164.6923828125" y="331" font-family="Georgia,'Times New Roman',serif" font-size="34" fill="#263338" textLength="17.140625" lengthAdjust="spacingAndGlyphs">a</text>
+<text x="197.87890625" y="331" font-family="Georgia,'Times New Roman',serif" font-size="34" fill="#263338" textLength="94.9375" lengthAdjust="spacingAndGlyphs">frozen</text>
 </g>
 <g opacity="1">
-<text x="190.0263671875" y="331" font-family="Georgia,'Times New Roman',serif" font-size="34" fill="#263338" textLength="101.515625" lengthAdjust="spacingAndGlyphs">shared</text>
+<text x="301.0078125" y="331" font-family="Georgia,'Times New Roman',serif" font-size="34" fill="#263338" textLength="120.1875" lengthAdjust="spacingAndGlyphs">encoder</text>
 </g>
 <g opacity="1">
-<text x="299.7294921875" y="331" font-family="Georgia,'Times New Roman',serif" font-size="34" fill="#263338" textLength="120.1875" lengthAdjust="spacingAndGlyphs">encoder</text>
+<text x="429.3876953125" y="331" font-family="Georgia,'Times New Roman',serif" font-size="34" fill="#263338" textLength="118.28125" lengthAdjust="spacingAndGlyphs">extracts</text>
 </g>
 <g opacity="1">
-<text x="428.109375" y="331" font-family="Georgia,'Times New Roman',serif" font-size="34" fill="#263338" textLength="30.078125" lengthAdjust="spacingAndGlyphs">to</text>
+<text x="555.8583984375" y="331" font-family="Georgia,'Times New Roman',serif" font-size="34" fill="#263338" textLength="17.140625" lengthAdjust="spacingAndGlyphs">a</text>
 </g>
 <g opacity="1">
-<text x="466.3759765625" y="331" font-family="Georgia,'Times New Roman',serif" font-size="34" fill="#263338" textLength="103.578125" lengthAdjust="spacingAndGlyphs">extract</text>
+<text x="48" y="379" font-family="Georgia,'Times New Roman',serif" font-size="34" fill="#263338" textLength="106.296875" lengthAdjust="spacingAndGlyphs">feature</text>
 </g>
 <g opacity="1">
-<text x="48" y="379" font-family="Georgia,'Times New Roman',serif" font-size="34" fill="#263338" textLength="17.140625" lengthAdjust="spacingAndGlyphs">a</text>
+<text x="162.484375" y="379" font-family="Georgia,'Times New Roman',serif" font-size="34" fill="#263338" textLength="66.515625" lengthAdjust="spacingAndGlyphs">map</text>
 </g>
 <g opacity="1">
-<text x="73.333984375" y="379" font-family="Georgia,'Times New Roman',serif" font-size="34" fill="#263338" textLength="106.296875" lengthAdjust="spacingAndGlyphs">feature</text>
+<text x="237.19140625" y="379" font-family="Georgia,'Times New Roman',serif" font-size="34" fill="#263338" textLength="60.40625" lengthAdjust="spacingAndGlyphs">that</text>
 </g>
 <g opacity="1">
-<text x="187.818359375" y="379" font-family="Georgia,'Times New Roman',serif" font-size="34" fill="#263338" textLength="75.671875" lengthAdjust="spacingAndGlyphs">map.</text>
+<text x="305.7890625" y="379" font-family="Georgia,'Times New Roman',serif" font-size="34" fill="#263338" textLength="47.96875" lengthAdjust="spacingAndGlyphs">the</text>
 </g>
 <g opacity="1">
-<text x="271.689453125" y="379" font-family="Georgia,'Times New Roman',serif" font-size="34" fill="#263338" textLength="57.265625" lengthAdjust="spacingAndGlyphs">The</text>
+<text x="361.9521484375" y="379" font-family="Georgia,'Times New Roman',serif" font-size="34" fill="#263338" textLength="109.765625" lengthAdjust="spacingAndGlyphs">scoring</text>
 </g>
 <g opacity="1">
-<text x="337.1494140625" y="379" font-family="Georgia,'Times New Roman',serif" font-size="34" fill="#263338" textLength="109.765625" lengthAdjust="spacingAndGlyphs">scoring</text>
-</g>
-<g opacity="1">
-<text x="455.103515625" y="379" font-family="Georgia,'Times New Roman',serif" font-size="34" fill="#263338" textLength="72.890625" lengthAdjust="spacingAndGlyphs">head</text>
+<text x="479.90625" y="379" font-family="Georgia,'Times New Roman',serif" font-size="34" fill="#263338" textLength="72.890625" lengthAdjust="spacingAndGlyphs">head</text>
 </g>
 <g opacity="1">
 <text x="48" y="427" font-family="Georgia,'Times New Roman',serif" font-size="34" fill="#263338" textLength="65.390625" lengthAdjust="spacingAndGlyphs">uses</text>
 </g>
 <g opacity="1">
-<text x="121.578125" y="427" font-family="Georgia,'Times New Roman',serif" font-size="34" fill="#263338" textLength="56.1875" lengthAdjust="spacingAndGlyphs">this</text>
+<text x="121.578125" y="427" font-family="Georgia,'Times New Roman',serif" font-size="34" fill="#263338" textLength="30.078125" lengthAdjust="spacingAndGlyphs">to</text>
 </g>
 <g opacity="1">
-<text x="185.958984375" y="427" font-family="Georgia,'Times New Roman',serif" font-size="34" fill="#263338" textLength="66.515625" lengthAdjust="spacingAndGlyphs">map</text>
+<text x="159.8447265625" y="427" font-family="Georgia,'Times New Roman',serif" font-size="34" fill="#263338" textLength="93.890625" lengthAdjust="spacingAndGlyphs">assign</text>
 </g>
 <g opacity="1">
-<text x="260.666015625" y="427" font-family="Georgia,'Times New Roman',serif" font-size="34" fill="#263338" textLength="30.078125" lengthAdjust="spacingAndGlyphs">to</text>
+<text x="261.927734375" y="427" font-family="Georgia,'Times New Roman',serif" font-size="34" fill="#263338" textLength="17.140625" lengthAdjust="spacingAndGlyphs">a</text>
 </g>
 <g opacity="1">
-<text x="298.9326171875" y="427" font-family="Georgia,'Times New Roman',serif" font-size="34" fill="#263338" textLength="93.890625" lengthAdjust="spacingAndGlyphs">assign</text>
+<text x="287.26171875" y="427" font-family="Georgia,'Times New Roman',serif" font-size="34" fill="#263338" textLength="78.828125" lengthAdjust="spacingAndGlyphs">score</text>
 </g>
 <g opacity="1">
-<text x="401.015625" y="427" font-family="Georgia,'Times New Roman',serif" font-size="34" fill="#263338" textLength="17.140625" lengthAdjust="spacingAndGlyphs">a</text>
+<text x="374.287109375" y="427" font-family="Georgia,'Times New Roman',serif" font-size="34" fill="#263338" textLength="30.078125" lengthAdjust="spacingAndGlyphs">to</text>
 </g>
 <g opacity="1">
-<text x="426.349609375" y="427" font-family="Georgia,'Times New Roman',serif" font-size="34" fill="#263338" textLength="78.828125" lengthAdjust="spacingAndGlyphs">score</text>
+<text x="412.5537109375" y="427" font-family="Georgia,'Times New Roman',serif" font-size="34" fill="#263338" textLength="68.796875" lengthAdjust="spacingAndGlyphs">each</text>
 </g>
 <g opacity="1">
-<text x="513.375" y="427" font-family="Georgia,'Times New Roman',serif" font-size="34" fill="#263338" textLength="30.078125" lengthAdjust="spacingAndGlyphs">to</text>
+<text x="48" y="475" font-family="Georgia,'Times New Roman',serif" font-size="34" fill="#263338" textLength="105.234375" lengthAdjust="spacingAndGlyphs">region.</text>
 </g>
 <g opacity="1">
-<text x="48" y="475" font-family="Georgia,'Times New Roman',serif" font-size="34" fill="#263338" textLength="68.796875" lengthAdjust="spacingAndGlyphs">each</text>
+<text x="161.421875" y="475" font-family="Georgia,'Times New Roman',serif" font-size="34" fill="#263338" textLength="49.609375" lengthAdjust="spacingAndGlyphs">We</text>
 </g>
 <g opacity="1">
-<text x="124.998046875" y="475" font-family="Georgia,'Times New Roman',serif" font-size="34" fill="#263338" textLength="105.234375" lengthAdjust="spacingAndGlyphs">region.</text>
+<text x="219.228515625" y="475" font-family="Georgia,'Times New Roman',serif" font-size="34" fill="#263338" textLength="72.859375" lengthAdjust="spacingAndGlyphs">train</text>
 </g>
 <g opacity="1">
-<text x="238.419921875" y="475" font-family="Georgia,'Times New Roman',serif" font-size="34" fill="#263338" textLength="57.265625" lengthAdjust="spacingAndGlyphs">The</text>
+<text x="300.27734375" y="475" font-family="Georgia,'Times New Roman',serif" font-size="34" fill="#263338" textLength="47.96875" lengthAdjust="spacingAndGlyphs">the</text>
 </g>
 <g opacity="1">
-<text x="303.8798828125" y="475" font-family="Georgia,'Times New Roman',serif" font-size="34" fill="#263338" textLength="120.1875" lengthAdjust="spacingAndGlyphs">encoder</text>
+<text x="356.4404296875" y="475" font-family="Georgia,'Times New Roman',serif" font-size="34" fill="#263338" textLength="72.890625" lengthAdjust="spacingAndGlyphs">head</text>
 </g>
 <g opacity="1">
-<text x="432.259765625" y="475" font-family="Georgia,'Times New Roman',serif" font-size="34" fill="#263338" textLength="24.65625" lengthAdjust="spacingAndGlyphs">is</text>
+<text x="437.5224609375" y="475" font-family="Georgia,'Times New Roman',serif" font-size="34" fill="#263338" textLength="38.421875" lengthAdjust="spacingAndGlyphs">on</text>
 </g>
 <g opacity="1">
-<text x="465.1142578125" y="475" font-family="Georgia,'Times New Roman',serif" font-size="34" fill="#263338" textLength="104.09375" lengthAdjust="spacingAndGlyphs">frozen.</text>
+<text x="48" y="523" font-family="Georgia,'Times New Roman',serif" font-size="34" fill="#263338" textLength="108.03125" lengthAdjust="spacingAndGlyphs">labeled</text>
 </g>
 <g opacity="1">
-<text x="48" y="523" font-family="Georgia,'Times New Roman',serif" font-size="34" fill="#263338" textLength="49.609375" lengthAdjust="spacingAndGlyphs">We</text>
+<text x="164.2275390625" y="523" font-family="Georgia,'Times New Roman',serif" font-size="34" fill="#263338" textLength="110.75" lengthAdjust="spacingAndGlyphs">regions</text>
 </g>
 <g opacity="1">
-<text x="105.806640625" y="523" font-family="Georgia,'Times New Roman',serif" font-size="34" fill="#263338" textLength="72.859375" lengthAdjust="spacingAndGlyphs">train</text>
+<text x="283.177734375" y="523" font-family="Georgia,'Times New Roman',serif" font-size="34" fill="#263338" textLength="56.75" lengthAdjust="spacingAndGlyphs">and</text>
 </g>
 <g opacity="1">
-<text x="186.85546875" y="523" font-family="Georgia,'Times New Roman',serif" font-size="34" fill="#263338" textLength="47.96875" lengthAdjust="spacingAndGlyphs">the</text>
+<text x="348.123046875" y="523" font-family="Georgia,'Times New Roman',serif" font-size="34" fill="#263338" textLength="125.046875" lengthAdjust="spacingAndGlyphs">evaluate</text>
 </g>
 <g opacity="1">
-<text x="243.0185546875" y="523" font-family="Georgia,'Times New Roman',serif" font-size="34" fill="#263338" textLength="72.890625" lengthAdjust="spacingAndGlyphs">head</text>
+<text x="481.3671875" y="523" font-family="Georgia,'Times New Roman',serif" font-size="34" fill="#263338" textLength="21.703125" lengthAdjust="spacingAndGlyphs">it</text>
 </g>
 <g opacity="1">
-<text x="324.1005859375" y="523" font-family="Georgia,'Times New Roman',serif" font-size="34" fill="#263338" textLength="38.421875" lengthAdjust="spacingAndGlyphs">on</text>
+<text x="511.2666015625" y="523" font-family="Georgia,'Times New Roman',serif" font-size="34" fill="#263338" textLength="38.421875" lengthAdjust="spacingAndGlyphs">on</text>
 </g>
 <g opacity="1">
-<text x="370.7177734375" y="523" font-family="Georgia,'Times New Roman',serif" font-size="34" fill="#263338" textLength="108.03125" lengthAdjust="spacingAndGlyphs">labeled</text>
+<text x="48" y="571" font-family="Georgia,'Times New Roman',serif" font-size="34" fill="#263338" textLength="127.828125" lengthAdjust="spacingAndGlyphs">held-out</text>
 </g>
 <g opacity="1">
-<text x="48" y="571" font-family="Georgia,'Times New Roman',serif" font-size="34" fill="#263338" textLength="119.921875" lengthAdjust="spacingAndGlyphs">regions.</text>
+<text x="184.0166015625" y="571" font-family="Georgia,'Times New Roman',serif" font-size="34" fill="#263338" textLength="119.921875" lengthAdjust="spacingAndGlyphs">regions.</text>
 </g>
 <g opacity="1">
-<text x="176.1142578125" y="571" font-family="Georgia,'Times New Roman',serif" font-size="34" fill="#263338" textLength="49.609375" lengthAdjust="spacingAndGlyphs">We</text>
+<text x="312.130859375" y="571" font-family="Georgia,'Times New Roman',serif" font-size="34" fill="#263338" textLength="57.265625" lengthAdjust="spacingAndGlyphs">The</text>
 </g>
 <g opacity="1">
-<text x="233.9208984375" y="571" font-family="Georgia,'Times New Roman',serif" font-size="34" fill="#263338" textLength="125.046875" lengthAdjust="spacingAndGlyphs">evaluate</text>
+<text x="377.5908203125" y="571" font-family="Georgia,'Times New Roman',serif" font-size="34" fill="#263338" textLength="72.890625" lengthAdjust="spacingAndGlyphs">head</text>
 </g>
 <g opacity="1">
-<text x="367.1650390625" y="571" font-family="Georgia,'Times New Roman',serif" font-size="34" fill="#263338" textLength="47.96875" lengthAdjust="spacingAndGlyphs">the</text>
+<text x="48" y="619" font-family="Georgia,'Times New Roman',serif" font-size="34" fill="#263338" textLength="139.609375" lengthAdjust="spacingAndGlyphs">improves</text>
 </g>
 <g opacity="1">
-<text x="423.328125" y="571" font-family="Georgia,'Times New Roman',serif" font-size="34" fill="#263338" textLength="72.890625" lengthAdjust="spacingAndGlyphs">head</text>
+<text x="195.8037109375" y="619" font-family="Georgia,'Times New Roman',serif" font-size="34" fill="#263338" textLength="130.8125" lengthAdjust="spacingAndGlyphs">accuracy</text>
 </g>
 <g opacity="1">
-<text x="504.41015625" y="571" font-family="Georgia,'Times New Roman',serif" font-size="34" fill="#263338" textLength="38.421875" lengthAdjust="spacingAndGlyphs">on</text>
+<text x="334.80859375" y="619" font-family="Georgia,'Times New Roman',serif" font-size="34" fill="#263338" textLength="50.34375" lengthAdjust="spacingAndGlyphs">but</text>
 </g>
 <g opacity="1">
-<text x="48" y="619" font-family="Georgia,'Times New Roman',serif" font-size="34" fill="#263338" textLength="127.828125" lengthAdjust="spacingAndGlyphs">held-out</text>
+<text x="393.345703125" y="619" font-family="Georgia,'Times New Roman',serif" font-size="34" fill="#263338" textLength="138.8125" lengthAdjust="spacingAndGlyphs">increases</text>
 </g>
 <g opacity="1">
-<text x="184.0166015625" y="619" font-family="Georgia,'Times New Roman',serif" font-size="34" fill="#263338" textLength="119.921875" lengthAdjust="spacingAndGlyphs">regions.</text>
-</g>
-<g opacity="1">
-<text x="312.130859375" y="619" font-family="Georgia,'Times New Roman',serif" font-size="34" fill="#263338" textLength="57.265625" lengthAdjust="spacingAndGlyphs">The</text>
-</g>
-<g opacity="1">
-<text x="377.5908203125" y="619" font-family="Georgia,'Times New Roman',serif" font-size="34" fill="#263338" textLength="72.890625" lengthAdjust="spacingAndGlyphs">head</text>
-</g>
-<g opacity="1">
-<text x="48" y="667" font-family="Georgia,'Times New Roman',serif" font-size="34" fill="#263338" textLength="139.609375" lengthAdjust="spacingAndGlyphs">improves</text>
-</g>
-<g opacity="1">
-<text x="195.8037109375" y="667" font-family="Georgia,'Times New Roman',serif" font-size="34" fill="#263338" textLength="139.96875" lengthAdjust="spacingAndGlyphs">accuracy,</text>
-</g>
-<g opacity="1">
-<text x="343.97265625" y="667" font-family="Georgia,'Times New Roman',serif" font-size="34" fill="#263338" textLength="50.34375" lengthAdjust="spacingAndGlyphs">but</text>
-</g>
-<g opacity="1">
-<text x="402.509765625" y="667" font-family="Georgia,'Times New Roman',serif" font-size="34" fill="#263338" textLength="21.703125" lengthAdjust="spacingAndGlyphs">it</text>
-</g>
-<g opacity="1">
-<text x="432.4091796875" y="667" font-family="Georgia,'Times New Roman',serif" font-size="34" fill="#263338" textLength="138.8125" lengthAdjust="spacingAndGlyphs">increases</text>
-</g>
-<g opacity="1">
-<text x="48" y="715" font-family="Georgia,'Times New Roman',serif" font-size="34" fill="#263338" textLength="116.46875" lengthAdjust="spacingAndGlyphs">latency.</text>
+<text x="48" y="667" font-family="Georgia,'Times New Roman',serif" font-size="34" fill="#263338" textLength="116.46875" lengthAdjust="spacingAndGlyphs">latency.</text>
 </g>
 <text x="44" y="1000" font-family="Arial,Helvetica,sans-serif" font-size="21" fill="#216b68" font-weight="700" letter-spacing="2" textLength="71.828125" lengthAdjust="spacingAndGlyphs">FINAL</text>
-<text x="44" y="1046" font-family="Arial,Helvetica,sans-serif" font-size="28" fill="#263338" textLength="410.875" lengthAdjust="spacingAndGlyphs">Clear actions. Clear connections.</text>
-<text x="44" y="1138" font-family="Arial,Helvetica,sans-serif" font-size="22" fill="#5c676b" textLength="364.421875" lengthAdjust="spacingAndGlyphs">Every claim and condition is retained.</text>
+<text x="44" y="1046" font-family="Arial,Helvetica,sans-serif" font-size="28" fill="#263338" textLength="471.578125" lengthAdjust="spacingAndGlyphs">Related facts form complete thoughts.</text>
+<text x="44" y="1138" font-family="Arial,Helvetica,sans-serif" font-size="22" fill="#5c676b" textLength="511.203125" lengthAdjust="spacingAndGlyphs">Meaning preserved. Sentence boundaries improved.</text>
 </svg>

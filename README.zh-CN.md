@@ -5,13 +5,13 @@
 [开始使用](#开始使用) · [修改示例](#修改示例) · [来源](#来源) · [English](README.md)
 
 <picture>
-  <source media="(prefers-reduced-motion: no-preference) and (max-width: 600px)" type="image/gif" srcset="assets/workflow/mobile.gif">
-  <source media="(prefers-reduced-motion: no-preference)" type="image/gif" srcset="assets/workflow/desktop.gif">
-  <source media="(max-width: 600px)" type="image/svg+xml" srcset="assets/workflow/mobile-still.svg">
-  <img src="assets/workflow/desktop-still.svg" alt="同一段文字的修改过程：确定句级范围，写清主谓和衔接，删除冗余套话，保留有用的重复与真实转折。" width="100%">
+  <source media="(max-width: 600px)" srcset="assets/workflow/mobile.gif">
+  <img src="assets/workflow/desktop.gif" alt="同一段文字原位修改：明确动作，整合方法关系，连接训练与评估，并以结果收束，保留原意与条件。" width="100%">
 </picture>
 
-看一段文字怎样改得更自然：删掉空泛套话，写清动作与衔接；连续的“We”、准确的技术名词和有实际内容的转折，按各自作用保留。[完整示例与中文说明](examples/workflow.md) · [静态版](assets/workflow/mobile-still.svg)
+看一段文字如何从方法说明推进到训练与评估，再以结果收束。五步修改调整句界和修饰位置，让关系完整、衔接自然，同时保留原意与条件。[完整示例与中文说明](examples/workflow.md)
+
+[静态版](assets/workflow/mobile-still.svg)
 
 贴入一段文字，说明你想改哪里，它会给出修订稿，并简要解释关键改动。修改时保留原文的技术含义、数字和限定条件。如果问题出在结构上，也可以请它调整摘要、章节或整篇论文的论证。
 

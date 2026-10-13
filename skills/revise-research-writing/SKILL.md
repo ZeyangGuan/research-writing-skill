@@ -9,7 +9,7 @@ Make the existing research easier to understand. Start with the current writing 
 
 ## Choose the authorized scale
 
-“Polish,” “improve flow,” or “language only” defaults to **L6–L8**: preserve the story, paragraph functions, facts, and reasoning order. Respect fixed sentence counts and order. Enter higher layers only when the user requests paragraph, section, or story changes. Consult the [eight-layer toolkit](references/eight-layer-toolkit.md) when the scope needs clarification; do not output an eight-layer audit for routine edits.
+“Polish,” “improve flow,” or “language only” defaults to **L6–L8**: preserve the story, paragraph functions, facts, and reasoning order. Respect sentence counts and order when the user explicitly fixes them. Otherwise, combining or splitting neighboring sentences to clarify an existing relation is within L6–L8; preserve the reasoning, not every sentence boundary. Enter higher layers only when the user requests paragraph, section, or story changes. Consult the [eight-layer toolkit](references/eight-layer-toolkit.md) when the scope needs clarification; do not output an eight-layer audit for routine edits.
 
 ## Choose a small tool
 
@@ -37,7 +37,7 @@ Other requests use their own branch, not every reference:
 
 ## Improve the prose, then clean selectively
 
-Use positive editing actions first: clear objects and verbs, forward information flow, aligned comparisons, and nearby conditions. Judge We, passive voice, long sentences, and technical repetition by their function.
+Use positive editing actions first: clear objects and verbs, forward information flow, aligned comparisons, and nearby conditions. Read the passage as a whole: group related facts into complete relations and give each sentence a clear handoff to the next. Judge We, passive voice, long sentences, and technical repetition by their function.
 
 Then use the [final language pass](references/final-language-pass.md) only on a specific remaining redundancy. Leave unmatched sentences alone; do not rewrite the whole passage again. Usually deliver the revision and only the reasons the user needs.
 

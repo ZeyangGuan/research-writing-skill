@@ -8,10 +8,11 @@ parser = argparse.ArgumentParser()
 parser.add_argument('--frames', type=Path, default=root / 'build' / 'workflow')
 args = parser.parse_args()
 report = []
+settings = json.loads((args.frames / 'render-settings.json').read_text(encoding='utf-8'))
 for layout in ('desktop', 'mobile'):
     paths = sorted((args.frames / layout / 'frames').glob('*.png'))
-    if len(paths) != 525:
-        raise SystemExit(f'{layout}: expected 525 frames, found {len(paths)}')
+    if len(paths) != settings['frame_count']:
+        raise SystemExit(f"{layout}: expected {settings['frame_count']} frames, found {len(paths)}")
     # One palette across the whole sequence keeps type and highlights consistent.
     samples = []
     for p in sorted((args.frames / layout).glob('key-*.png')):
@@ -33,14 +34,14 @@ for layout in ('desktop', 'mobile'):
         with Image.open(p) as im:
             frames.append(im.convert('RGB').quantize(palette=palette, dither=Image.Dither.NONE))
     target = root / 'assets' / 'workflow' / (layout + '.gif')
-    frames[0].save(target, save_all=True, append_images=frames[1:], duration=80,
+    frames[0].save(target, save_all=True, append_images=frames[1:], duration=settings['frame_ms'],
                    loop=0, optimize=False, disposal=1, interlace=False)
     del frames
     with Image.open(target) as im:
         duration = 0
         for frame in range(im.n_frames):
             im.seek(frame); duration += im.info.get('duration', 0)
-        assert duration == 42000, (layout, duration)
+        assert duration == settings['duration_ms'], (layout, duration)
         report.append({'file':target.name, 'bytes':target.stat().st_size,
                        'dimensions':im.size, 'frames':im.n_frames, 'duration_ms':duration})
     print(json.dumps(report[-1]), flush=True)
