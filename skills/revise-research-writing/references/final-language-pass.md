@@ -8,7 +8,7 @@
 
 **看什么**：相邻句在相同条件下重复同一命题，后句没有新增信息或必要解释。相同主语、相同骨架不算命中。
 
-**怎么改**：合并重复命题，留下全部不同信息。
+**怎么改**：合并重复命题，留下全部不同信息。正文、图注和补充材料若需独立阅读，可以重复关键比较范围与输入条件；优先处理同段中没有增加信息的复述。
 
 Before: “We use one fixed threshold to score all predictions. All predictions are scored with this single fixed threshold.”
 

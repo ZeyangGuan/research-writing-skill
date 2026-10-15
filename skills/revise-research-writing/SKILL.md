@@ -39,6 +39,8 @@ Other requests use their own branch, not every reference:
 
 Use positive editing actions first: clear objects and verbs, forward information flow, aligned comparisons, and nearby conditions. Read the passage as a whole: group related facts into complete relations and give each sentence a clear handoff to the next. Judge We, passive voice, long sentences, and technical repetition by their function.
 
+For an abstract or introduction, check why the proposed work follows from the preceding text. When a resource leads into a method, make the relevant information or capability visible at the opening's level of detail. Recover the link from the supplied research; a generic challenge, a forced contrast, or a list of technical terms is not a substitute. Keep openings that already work.
+
 Then use the [final language pass](references/final-language-pass.md) only on a specific remaining redundancy. Leave unmatched sentences alone; do not rewrite the whole passage again. Usually deliver the revision and only the reasons the user needs.
 
 Check meaning where an edit touches numbers, negation, quantifiers, algorithms, technical roles, causality, comparison conditions, or completion status. Flag missing facts locally and continue independent language work. Keep a baseline for file edits and modify only the authorized scope. Report only the validation actually performed.

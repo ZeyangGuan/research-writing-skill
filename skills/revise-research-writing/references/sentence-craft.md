@@ -96,6 +96,8 @@ After: The extractor computes features, and the scorer ranks the candidates. Thi
 
 it只有decoder这一合理先行词；扩成the proposed decoding architecture只会加重。
 
+公式附近的“平均值”“分母”“该项”也需要唯一指代。例如先对每组有效测量取均值、再对各组取平均时，应说明缺失测量影响哪一层。原材料未交代时，标记内容待确认，不自行选择计算规则。
+
 不要把有歧义的this直接换成猜测的原因；先标出歧义，仍可润色其他部分。
 
 **源语境**（物理页；详情按ID追溯）：
@@ -137,6 +139,8 @@ After: The vector stores a single summary of the image, whereas the grid retains
 **何时用**：一句同时包含训练、适应、推理以及多组参数，读者需要回读才能知道何时更新谁。
 
 **怎么写**：以During/After等时间框架限定本句。 让同一参数名称跨阶段稳定重复；更新与冻结分别有宾语或受事。 让only就近限定实际可更新对象，jointly继续约束原来的两个对象。
+
+多设置并列时，将预算、初始化或日程限制放在实际适用的设置旁边；不要把局部配方扩成全局条件。
 
 Before: Joint optimization of the backbone and the codes is performed during training. For each new sequence after training, optimization is restricted to its code, with the backbone kept fixed.
 
