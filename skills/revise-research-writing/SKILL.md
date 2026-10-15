@@ -33,7 +33,7 @@ Other requests use their own branch, not every reference:
 - A particular section: only that part of [section patterns](references/section-patterns.md).
 - Explicit story or argument revision: [story revision](references/story-revision.md).
 - Captions: Captions in the section guide; [figures and captions](references/figures-and-captions.md) only when the figure or editable source is involved.
-- Old/new comparison or a sentence-by-sentence review: [review and verification](references/review-and-verify.md).
+- Old/new comparison, sentence-level review, or a requested paragraph-by-paragraph pass: [review and verification](references/review-and-verify.md). For a paragraph pass, finish one focused unit before taking the next; chapter-level coverage notes alone do not establish that this was done.
 
 ## Improve the prose, then clean selectively
 
